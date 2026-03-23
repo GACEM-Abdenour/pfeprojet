@@ -1,55 +1,70 @@
-# Technical Glossary — Cheat Sheet for Non‑CS Students (GIA)
+# Glossaire technique — Aide‑mémoire pour non‑informaticiens (GIA)
 
-Short definitions you can use **as‑is** or paraphrase during the defense.
 
----
+Courtes définitions que vous pouvez utiliser **telles quelles** ou reformuler pendant la soutenance.
 
-## Application & data
-
-| Term | Simple explanation |
-|------|---------------------|
-| **CRUD** | **C**reate, **R**ead, **U**pdate, **D**elete — the four basic things an app does with data. GIA creates tickets, reads them, updates status, and may delete only where the design allows. |
-| **Session** | After login, the **server** remembers who you are for a while using a **session** (PHP `$_SESSION`). Like a wristband at an event: the site knows you without asking password on every click. |
-| **Cookie** | Small piece of data the browser stores; can hold a **session id** so the server recognizes your session. |
-| **PDO** | **PHP Data Objects** — a **safe, standard way** for PHP to connect to SQL Server (or other databases) and run queries, especially with **parameters** (placeholders) to limit SQL injection risk. |
-| **SQL** | Language for **querying** relational databases (`SELECT`, `INSERT`, `UPDATE`). |
-| **SQL Server** | Microsoft’s **relational database** product used in this project to store users, tickets, and logs. |
-| **Primary Key (PK)** | The column (or columns) that **uniquely identifies** one row in a table (e.g. `users.id`). |
-| **Foreign Key (FK)** | A column that **points to** another table’s primary key (e.g. `incidents.user_id` → `users.id`), enforcing **relationships**. |
-| **Transaction** | A **bundle of database operations** that either **all succeed** or **all roll back** — used so a ticket update and its log line stay consistent. |
 
 ---
 
-## Web & security
 
-| Term | Simple explanation |
-|------|---------------------|
-| **HTTP** | Protocol for the browser to **request** pages and **send** forms to the server. |
-| **POST** | A type of request used to **submit data** (e.g. forms), often for actions that change something on the server. |
-| **Redirect** | After an action, the server tells the browser **“go to this URL”** (e.g. back to the ticket with `?success=` or `?error=`). |
-| **Middleware** (concept) | Code that runs **before** the main page logic. In GIA, **`requireLogin()`** and **`requireRole(...)`** act like a **security guard**: if you’re not allowed, you’re sent to login or an error — **before** sensitive code runs. |
-| **SQL injection** | An attack where malicious input is interpreted as SQL. **Parameterized queries** (PDO placeholders) reduce this risk. |
-| **Password hash** | Storing a **derived** string from the password, not the password itself, so a database leak doesn’t expose raw passwords easily. |
+## Application & données
+
+
+| Terme | Explication simple |
+|-------|---------------------|
+| **CRUD** | **C**reate, **R**ead, **U**pdate, **D**elete — les quatre opérations de base qu’une application effectue sur les données. GIA crée des tickets, les lit, met à jour les statuts et peut les supprimer uniquement là où la conception l’autorise. |
+| **Session** | Après la connexion, le **serveur** se souvient de qui vous êtes pendant un certain temps grâce à une **session** (PHP `$_SESSION`). Comme un bracelet à un événement : le site vous reconnaît sans redemander le mot de passe à chaque clic. |
+| **Cookie** | Petit morceau de donnée stocké par le navigateur ; peut contenir un **identifiant de session** pour que le serveur reconnaisse votre session. |
+| **PDO** | **PHP Data Objects** — une **façon standard et sécurisée** pour PHP de se connecter à SQL Server (ou d’autres bases) et d’exécuter des requêtes, en particulier avec des **paramètres** (placeholders) pour limiter les risques d’injection SQL. |
+| **SQL** | Langage pour **interroger** les bases de données relationnelles (`SELECT`, `INSERT`, `UPDATE`). |
+| **SQL Server** | SGBD relationnel de Microsoft utilisé dans ce projet pour stocker utilisateurs, tickets et journaux. |
+| **Primary Key (PK)** | Colonne (ou ensemble de colonnes) qui **identifie de manière unique** une ligne dans une table (par ex. `users.id`). |
+| **Foreign Key (FK)** | Colonne qui **pointe vers** la clé primaire d’une autre table (par ex. `incidents.user_id` → `users.id`), ce qui impose des **relations**. |
+| **Transaction** | **Groupe d’opérations** sur la base qui **réussissent toutes** ou sont **toutes annulées** — utilisé pour que la mise à jour d’un ticket et sa ligne de journal restent cohérentes. |
+
 
 ---
+
+
+## Web & sécurité
+
+
+| Terme | Explication simple |
+|-------|---------------------|
+| **HTTP** | Protocole que le navigateur utilise pour **demander** des pages et **envoyer** des formulaires au serveur. |
+| **POST** | Type de requête utilisé pour **soumettre des données** (par ex. formulaires), souvent pour des actions qui modifient quelque chose sur le serveur. |
+| **Redirect** | Après une action, le serveur dit au navigateur **« va à cette URL »** (par ex. retour à la page du ticket avec `?success=` ou `?error=`). |
+| **Middleware** (concept) | Code qui s’exécute **avant** la logique principale de la page. Dans GIA, **`requireLogin()`** et **`requireRole(...)`** jouent le rôle de **vigile** : si vous n’êtes pas autorisé, vous êtes renvoyé vers la connexion ou une erreur — **avant** l’exécution de code sensible. |
+| **SQL injection** | Attaque où une saisie malveillante est interprétée comme du SQL. Les **requêtes paramétrées** (placeholders PDO) réduisent ce risque. |
+| **Password hash** | Stocker une chaîne **dérivée** du mot de passe, et non le mot de passe lui‑même, pour qu’une fuite de base ne révèle pas facilement les mots de passe bruts. |
+
+
+---
+
 
 ## Frontend
 
-| Term | Simple explanation |
-|------|---------------------|
-| **HTML** | Structure of web pages (headings, tables, forms). |
-| **CSS** | Styling (colors, spacing, fonts). |
-| **Bootstrap** | A **CSS framework** with ready‑made components (buttons, grids, tables) for a consistent UI. |
-| **JavaScript** | Runs in the browser for **interactive** behavior (e.g. sortable tables, charts). |
+
+| Terme | Explication simple |
+|-------|---------------------|
+| **HTML** | Structure des pages web (titres, tableaux, formulaires). |
+| **CSS** | Mise en forme (couleurs, espacements, polices). |
+| **Bootstrap** | **Framework CSS** avec des composants prêts à l’emploi (boutons, grilles, tableaux) pour une interface cohérente. |
+| **JavaScript** | S’exécute dans le navigateur pour des comportements **interactifs** (par ex. tableaux triables, graphiques). |
+
 
 ---
 
-## Thesis‑friendly one‑liners
 
-- **“We use a three‑tier architecture: presentation in the browser, business rules in PHP, persistence in SQL Server.”**
-- **“The incident row holds the current state; incident_logs holds the history for auditing.”**
-- **“Sessions identify the user after login; requireRole enforces permissions per page.”**
+## Phrases prêtes pour la soutenance
+
+
+- **« Nous utilisons une architecture en trois couches : présentation dans le navigateur, règles métier en PHP, persistance dans SQL Server. »**
+- **« La ligne d’incident contient l’état courant ; `incident_logs` contient l’historique pour l’audit. »**
+- **« Les sessions identifient l’utilisateur après connexion ; `requireRole` applique les permissions par page. »**
+
 
 ---
 
-*Tailored to the GIA / Plateforme GIA project.*
+
+*Adapté au projet GIA / Plateforme GIA.*

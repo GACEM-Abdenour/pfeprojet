@@ -1,102 +1,134 @@
 # Database Schema & Data Dictionary — GIA
 
-**Purpose:** Describe the **skeleton** of the system: tables, columns, keys, and how they link. Use the **Markdown tables** below in your thesis; use the **dbdiagram.io** block at the end to generate a visual ERD.
+# Schéma de base de données & dictionnaire de données — GIA
 
-**Database:** Microsoft SQL Server (e.g. `GIA_IncidentDB`).
 
----
+**Objectif :** Décrire le **squelette** du système : tables, colonnes, clés et liens entre elles. Utilisez les **tables Markdown** ci‑dessous dans la thèse ; utilisez le bloc **dbdiagram.io** à la fin pour générer un MCD/ERD visuel.
 
-## 1. Entity Relationship (conceptual)
 
-- One **user** can create many **incidents** (`incidents.user_id` → `users.id`).
-- One **user** (technician) can be assigned to many **incidents** (`incidents.assigned_to` → `users.id`, nullable).
-- One **incident** has many **log lines** (`incident_logs.incident_id` → `incidents.id`).
-- One **incident** can have many **attachments** (`attachments.incident_id` → `incidents.id`).
+**Base de données :** Microsoft SQL Server (par ex. `GIA_IncidentDB`).
+
 
 ---
 
-## 2. Table: `users`
 
-Stores accounts and roles.
+## 1. Modèle Entité‑Association (conceptuel)
 
-| Column | Data type | Key | Description |
-|--------|-----------|-----|-------------|
-| `id` | INT IDENTITY | **PK** | Unique identifier for each user. |
-| `username` | NVARCHAR(100) | UNIQUE | Login / display name. |
-| `email` | NVARCHAR(255) | UNIQUE | Email address. |
-| `password_hash` | NVARCHAR(255) | | Stored hash of the password (not plain text). |
-| `role` | VARCHAR(20) | | One of: `Reporter`, `Technician`, `Admin`. |
-| `department` | NVARCHAR(100) | | Optional organizational info. |
-| `created_at` | DATETIME | | When the account was created. |
+
+- Un **utilisateur** peut créer plusieurs **incidents** (`incidents.user_id` → `users.id`).
+- Un **utilisateur** (technicien) peut être assigné à plusieurs **incidents** (`incidents.assigned_to` → `users.id`, nullable).
+- Un **incident** possède plusieurs **lignes de journal** (`incident_logs.incident_id` → `incidents.id`).
+- Un **incident** peut avoir plusieurs **pièces jointes** (`attachments.incident_id` → `incidents.id`).
+
 
 ---
 
-## 3. Table: `incidents`
 
-Stores each ticket (incident) — the core business object.
+## 2. Table : `users`
 
-| Column | Data type | Key | Description |
-|--------|-----------|-----|-------------|
-| `id` | INT IDENTITY | **PK** | Unique ticket number. |
-| `user_id` | INT | **FK → users.id** | Reporter / creator of the ticket. |
-| `assigned_to` | INT NULL | **FK → users.id** | Technician assigned (NULL if unassigned). |
-| `title` | NVARCHAR(255) | | Short title of the incident. |
-| `description` | NTEXT | | Full description. |
-| `category` | NVARCHAR(50) | | Category (e.g. application area). |
-| `priority` | VARCHAR(20) | | `Critical`, `Major`, or `Minor`. |
-| `status` | VARCHAR(20) | | Lifecycle state (Open, Assigned, …). |
-| `created_at` | DATETIME | | When the ticket was created. |
-| `updated_at` | DATETIME NULL | | Last update (also maintained by trigger). |
-| `closed_at` | DATETIME NULL | | When the ticket was closed, if applicable. |
 
-**Relationships:**
+Stocke les comptes et les rôles.
 
-- `user_id` references **`users.id`** (creator).
-- `assigned_to` references **`users.id`** (assignee); `ON DELETE SET NULL` if the user row were deleted (policy depends on DB usage).
+
+| Colonne | Type de donnée | Clé | Description |
+|---------|----------------|-----|-------------|
+| `id` | INT IDENTITY | **PK** | Identifiant unique de chaque utilisateur. |
+| `username` | NVARCHAR(100) | UNIQUE | Identifiant de connexion / nom affiché. |
+| `email` | NVARCHAR(255) | UNIQUE | Adresse e‑mail. |
+| `password_hash` | NVARCHAR(255) | | Hachage stocké du mot de passe (pas en clair). |
+| `role` | VARCHAR(20) | | L’un de : `Reporter`, `Technician`, `Admin`. |
+| `department` | NVARCHAR(100) | | Information organisationnelle optionnelle. |
+| `created_at` | DATETIME | | Date de création du compte. |
+
 
 ---
 
-## 4. Table: `incident_logs`
 
-Append‑only audit trail for actions on tickets.
+## 3. Table : `incidents`
 
-| Column | Data type | Key | Description |
-|--------|-----------|-----|-------------|
-| `id` | INT IDENTITY | **PK** | Unique log line id. |
-| `incident_id` | INT | **FK → incidents.id** | Which ticket. |
-| `user_id` | INT | **FK → users.id** | Who performed the action. |
-| `action_type` | VARCHAR(50) | | e.g. `Creation`, `Assignment`, `Status Change`, `Comment`. |
-| `message` | NVARCHAR(500) NULL | | Free‑text detail. |
-| `timestamp` | DATETIME | | When the event occurred. |
 
-**Cascade:** `incident_id` uses **ON DELETE CASCADE** — if an incident is deleted, its logs are removed (policy choice; emphasize backups for audit needs).
+Stocke chaque ticket (incident) — l’objet métier central.
 
----
 
-## 5. Table: `attachments`
+| Colonne | Type de donnée | Clé | Description |
+|---------|----------------|-----|-------------|
+| `id` | INT IDENTITY | **PK** | Numéro de ticket unique. |
+| `user_id` | INT | **FK → users.id** | Reporter / créateur du ticket. |
+| `assigned_to` | INT NULL | **FK → users.id** | Technicien assigné (NULL si non assigné). |
+| `title` | NVARCHAR(255) | | Titre court de l’incident. |
+| `description` | NTEXT | | Description complète. |
+| `category` | NVARCHAR(50) | | Catégorie (par ex. domaine applicatif). |
+| `priority` | VARCHAR(20) | | `Critical`, `Major` ou `Minor`. |
+| `status` | VARCHAR(20) | | État du cycle de vie (Open, Assigned, …). |
+| `created_at` | DATETIME | | Date de création du ticket. |
+| `updated_at` | DATETIME NULL | | Dernière mise à jour (aussi maintenue par trigger). |
+| `closed_at` | DATETIME NULL | | Date de clôture du ticket, si applicable. |
 
-Files linked to an incident.
 
-| Column | Data type | Key | Description |
-|--------|-----------|-----|-------------|
-| `id` | INT IDENTITY | **PK** | Unique attachment id. |
-| `incident_id` | INT | **FK → incidents.id** | Parent ticket. |
-| `file_path` | NVARCHAR(500) | | Storage path on the server. |
-| `file_name` | NVARCHAR(255) | | Original file name. |
-| `uploaded_at` | DATETIME | | Upload time. |
+**Relations :**
 
----
 
-## 6. Optional: trigger on `incidents`
+- `user_id` référence **`users.id`** (créateur).
+- `assigned_to` référence **`users.id`** (assigné) ; `ON DELETE SET NULL` si la ligne utilisateur est supprimée (politique dépendant de l’usage de la BD).
 
-- **`TR_incidents_updated_at`** — After an **UPDATE** on `incidents`, sets **`updated_at`** for the changed rows.  
-  Mention this as **automatic timestamp maintenance**.
 
 ---
 
-## 7. Visual ERD — paste into [dbdiagram.io](https://dbdiagram.io)
 
-Copy the block below into dbdiagram.io → it will render a diagram you can export for the thesis.
+## 4. Table : `incident_logs`
+
+
+Journal d’audit de type append‑only pour les actions sur les tickets.
+
+
+| Colonne | Type de donnée | Clé | Description |
+|---------|----------------|-----|-------------|
+| `id` | INT IDENTITY | **PK** | Identifiant unique de ligne de journal. |
+| `incident_id` | INT | **FK → incidents.id** | Ticket concerné. |
+| `user_id` | INT | **FK → users.id** | Utilisateur ayant réalisé l’action. |
+| `action_type` | VARCHAR(50) | | Par ex. `Creation`, `Assignment`, `Status Change`, `Comment`. |
+| `message` | NVARCHAR(500) NULL | | Détail en texte libre. |
+| `timestamp` | DATETIME | | Date et heure de l’événement. |
+
+
+**Cascade :** `incident_id` utilise **ON DELETE CASCADE** — si un incident est supprimé, ses journaux sont supprimés (choix de politique ; insister sur les sauvegardes pour les besoins d’audit).
+
+
+---
+
+
+## 5. Table : `attachments`
+
+
+Fichiers liés à un incident.
+
+
+| Colonne | Type de donnée | Clé | Description |
+|---------|----------------|-----|-------------|
+| `id` | INT IDENTITY | **PK** | Identifiant unique de pièce jointe. |
+| `incident_id` | INT | **FK → incidents.id** | Ticket parent. |
+| `file_path` | NVARCHAR(500) | | Chemin de stockage sur le serveur. |
+| `file_name` | NVARCHAR(255) | | Nom de fichier original. |
+| `uploaded_at` | DATETIME | | Date et heure de l’upload. |
+
+
+---
+
+
+## 6. Optionnel : trigger sur `incidents`
+
+
+- **`TR_incidents_updated_at`** — Après un **UPDATE** sur `incidents`, renseigne **`updated_at`** pour les lignes modifiées.  
+  Mentionnez‑le comme **mise à jour automatique du timestamp**.
+
+
+---
+
+
+## 7. ERD visuel — à coller dans [dbdiagram.io](https://dbdiagram.io)
+
+
+Copiez le bloc ci‑dessous dans dbdiagram.io → un diagramme sera généré que vous pourrez exporter pour la thèse.
 
 ```dbml
 // GIA - simplified ERD for dbdiagram.io
