@@ -1,0 +1,145 @@
+/**
+ * GIA - Premium CSS Override
+ * Stripe-like design system: soft grays, modern typography, card hover, glassmorphism, table UX.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ========== Background & Typography ========== */
+body {
+  background-color: #F8FAFC !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', system-ui, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========== Card Hover Effects ========== */
+.card {
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* ========== Glassmorphism Header ========== */
+.app-header {
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+/* ========== DataTables / Table UX ========== */
+.table-responsive .datatable tbody tr {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.table-responsive .datatable tbody tr:hover {
+  background-color: rgba(248, 250, 252, 0.9) !important;
+}
+.dataTables_wrapper .table tbody tr:hover {
+  background-color: rgba(248, 250, 252, 0.9) !important;
+  cursor: pointer;
+}
+
+/* ========== Empty State ========== */
+.empty-state {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #64748b;
+}
+.empty-state .empty-state-icon {
+  font-size: 3.5rem;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+  display: block;
+}
+.empty-state .empty-state-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0.25rem;
+}
+.empty-state .empty-state-text {
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+/* ========== Custom Scrollbars ========== */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+/* ========== Dashboard KPI gradient cards ========== */
+.kpi-card {
+  border: none !important;
+  overflow: hidden;
+}
+.kpi-card.kpi-total {
+  background: linear-gradient(135deg, #4f46e5 0%, #6366f1 50%, #818cf8 100%);
+  box-shadow: 0 4px 14px 0 rgba(79, 70, 229, 0.25);
+}
+.kpi-card.kpi-open {
+  background: linear-gradient(135deg, #d97706 0%, #f59e0b 50%, #fbbf24 100%);
+  box-shadow: 0 4px 14px 0 rgba(217, 119, 6, 0.25);
+}
+.kpi-card.kpi-resolved {
+  background: linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%);
+  box-shadow: 0 4px 14px 0 rgba(5, 150, 105, 0.25);
+}
+.kpi-card.kpi-users {
+  background: linear-gradient(135deg, #4338ca 0%, #6366f1 50%, #818cf8 100%);
+  box-shadow: 0 4px 14px 0 rgba(67, 56, 202, 0.25);
+}
+.kpi-card:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Empty state row: no hover and full-width cell */
+tr.empty-state-row:hover {
+  background-color: transparent !important;
+  cursor: default !important;
+}
+tr.empty-state-row td {
+  vertical-align: middle !important;
+}
+
+/* ========== Admin dashboard chart filters ========== */
+.chart-filter-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.chart-filter-pills .btn {
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 0.35rem 0.9rem;
+}
+.chart-filter-pills .btn-check:checked + .btn {
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.35);
+}
+.chart-filter-category {
+  min-width: 200px;
+}
