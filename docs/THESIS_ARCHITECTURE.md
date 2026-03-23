@@ -1,12 +1,17 @@
 # Architecture & documentation — soutenance de thèse (Plateforme GIA)
 
+
 Ce document est rédigé pour des **non-informaticiens** : il explique **comment la plateforme fonctionne** sans entrer dans le détail du code source.
+
 
 ---
 
+
 ## 1. L’architecture globale (3-Tier)
 
+
 L’application suit une **architecture à trois niveaux** : on sépare ce que l’utilisateur **voit**, ce que le serveur **décide**, et où les données sont **stockées** de façon durable.
+
 
 | Niveau | Rôle technique | Rôle métier |
 |--------|----------------|-------------|
@@ -14,7 +19,9 @@ L’application suit une **architecture à trois niveaux** : on sépare ce que l
 | **Logique métier (Backend)** | **PHP** sur le serveur : authentification, règles « qui peut faire quoi », mise à jour des tickets. | C’est le **cerveau** : appliquer les règles de l’organisation. |
 | **Données (Base de données)** | **Microsoft SQL Server** : tables `users`, `incidents`, `incident_logs`, etc. | C’est la **mémoire** fiable et structurée. |
 
+
 ### Métaphore du restaurant
+
 
 | Élément | Analogie | Dans GIA |
 |---------|----------|----------|
@@ -23,13 +30,18 @@ L’application suit une **architecture à trois niveaux** : on sépare ce que l
 | **La cuisine** | Prépare le plat selon la recette et les règles d’hygiène. | Le **Backend** (**PHP**) : validation, rôles, enregistrement des actions. |
 | **La réserve / le garde-manger** | Stocke les ingrédients de façon organisée. | La **base SQL Server** : comptes, tickets, journal d’audit. |
 
+
 Le client ne va pas **directement** dans la réserve : tout passe par la **cuisine** (PHP), ce qui permet de **contrôler** ce qui est lu ou modifié.
+
 
 ---
 
+
 ## 2. L’environnement de déploiement
 
+
 ### Pourquoi un serveur **Windows Server 2019** (ex. contexte **Standard Naftal**) plutôt qu’un simple PC Windows 11 ?
+
 
 | Critère | PC local (Windows 11) | Serveur dédié (Windows Server 2019, en entreprise) |
 |---------|------------------------|-----------------------------------------------------|
@@ -38,13 +50,18 @@ Le client ne va pas **directement** dans la réserve : tout passe par la **cuisi
 | **Rôle métier** | Outil personnel ou démo. | **Service mutualisé** : plusieurs utilisateurs (déclarants, techniciens, administration) accèdent au même système de façon contrôlée. |
 | **Exploitation** | Peu adapté à une charge et une supervision « production ». | Adapté aux **standards** d’entreprise (comptes de service, journalisation, redondance possible). |
 
+
 En résumé : le **PC Windows 11** convient au **développement et aux tests** ; le **serveur Windows Server** correspond à un **service de production** fiable, sécurisé et aligné sur les exigences d’une structure comme **Naftal** (disponibilité, contrôle des données, exploitation centralisée).
+
 
 ---
 
+
 ## 3. Le cycle de vie d’un incident (ticket)
 
+
 Un **incident** est un enregistrement dans la table `incidents`. Son **statut** indique où il se trouve dans le processus. En pratique, la chaîne ressemble à ceci :
+
 
 - **Ouvert (`Open`)** — Le ticket est **créé** par un déclarant ; **personne n’est encore responsable** côté support (ou il a été **remis en file**).
 - **Assigné (`Assigned`)** — Un **technicien** est **lié** au ticket (`assigned_to`) : quelqu’un en a la charge.
@@ -53,11 +70,15 @@ Un **incident** est un enregistrement dans la table `incidents`. Son **statut** 
 - **Clos (`Closed`)** — Le dossier est **fermé** administrativement (souvent avec une date de clôture).
 - **Échec / bloqué (`Failed/Blocked`)** — Issue **finale** lorsque l’incident ne peut pas être résolu dans les conditions prévues (blocage externe, impossibilité technique, etc.).
 
+
 Des transitions supplémentaires (retour en file non assignée, etc.) sont gérées par la **logique applicative** (PHP), toujours dans le respect des rôles (déclarant, technicien, administrateur).
+
 
 ### Traçabilité : la table `incident_logs`
 
+
 Chaque action importante peut être enregistrée dans **`incident_logs`** (création, assignation, changement de statut, commentaire, etc.) avec :
+
 
 - **quel ticket** (`incident_id`),
 - **quel utilisateur** (`user_id`),
@@ -65,15 +86,21 @@ Chaque action importante peut être enregistrée dans **`incident_logs`** (créa
 - **un message** descriptif (`message`),
 - **quand** (`timestamp`).
 
+
 Cela garantit une **traçabilité complète** : on peut reconstituer **l’historique** pour l’audit, la sécurité et la confiance entre services — **sans s’appuyer uniquement** sur l’écran courant du ticket.
+
 
 ---
 
+
 ## 4. Schéma de la base de données (tables principales)
+
 
 Tableaux à copier dans un outil type **dbdiagram.io**, **Excel** ou le mémoire de thèse. Les clés **PK** = primaire, **FK** = étrangère.
 
+
 ### Table `users` (utilisateurs)
+
 
 | Colonne | Type (schéma) | Clé | Description |
 |---------|----------------|-----|-------------|
@@ -85,7 +112,9 @@ Tableaux à copier dans un outil type **dbdiagram.io**, **Excel** ou le mémoire
 | `department` | NVARCHAR(100) | | Service / département (optionnel). |
 | `created_at` | DATETIME | | Date de création du compte. |
 
+
 ### Table `incidents` (tickets / incidents)
+
 
 | Colonne | Type (schéma) | Clé | Description |
 |---------|----------------|-----|-------------|
@@ -101,7 +130,9 @@ Tableaux à copier dans un outil type **dbdiagram.io**, **Excel** ou le mémoire
 | `updated_at` | DATETIME NULL | | Dernière mise à jour. |
 | `closed_at` | DATETIME NULL | | Date de clôture si applicable. |
 
+
 ### Table `incident_logs` (journal d’audit)
+
 
 | Colonne | Type (schéma) | Clé | Description |
 |---------|----------------|-----|-------------|
@@ -112,7 +143,9 @@ Tableaux à copier dans un outil type **dbdiagram.io**, **Excel** ou le mémoire
 | `message` | NVARCHAR(500) NULL | | Détail lisible de l’action. |
 | `timestamp` | DATETIME | | Date et heure de l’événement. |
 
+
 ### Table `attachments` (pièces jointes) — vue d’ensemble
+
 
 | Colonne | Type (schéma) | Clé | Description |
 |---------|----------------|-----|-------------|
@@ -122,9 +155,12 @@ Tableaux à copier dans un outil type **dbdiagram.io**, **Excel** ou le mémoire
 | `file_name` | NVARCHAR(255) | | Nom d’affichage du fichier. |
 | `uploaded_at` | DATETIME | | Date d’envoi. |
 
+
 ---
 
+
 ## 5. Glossaire technique (rappel rapide)
+
 
 | Terme | Définition simple |
 |-------|-------------------|
@@ -133,6 +169,8 @@ Tableaux à copier dans un outil type **dbdiagram.io**, **Excel** ou le mémoire
 | **Serveur web** | Logiciel (souvent sur Windows Server) qui **reçoit les requêtes** du navigateur et **exécute** PHP, puis renvoie les pages HTML. |
 | **Base de données relationnelle** | Système qui stocke l’information dans des **tables** reliées par des **clés** (ex. un ticket « pointe » vers un utilisateur). **SQL Server** en est un exemple. |
 
+
 ---
+
 
 *Document rédigé pour la plateforme **GIA** (Gestion des Incidents Applicatifs). Pour un schéma graphique (ERD), voir aussi `docs/03-Database-Schema-and-ERD.md` et l’export dbdiagram.io.*
