@@ -9,7 +9,7 @@
 require_once __DIR__ . '/includes/db.php';
 
 // Database configuration (same as db.php but without DB_NAME for initial connection)
-$host = DB_HOST;
+$host = DB_SERVER;
 $dbName = DB_NAME;
 $user = DB_USER;
 $pass = DB_PASS;
@@ -133,7 +133,7 @@ try {
     echo "\n✗ Database Error: " . $e->getMessage() . "\n";
     echo "\nPlease check:\n";
     echo "1. SQL Server is running\n";
-    echo "2. Connection credentials in includes/db.php are correct\n";
+    echo "2. Connection credentials in includes/config.php are correct\n";
     echo "3. SQL Server allows SQL Authentication (if using sa account)\n";
     echo "4. PDO_SQLSRV extension is installed in PHP\n";
     exit(1);

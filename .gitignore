@@ -1,1 +1,9 @@
 /node_modules/
+
+# Private Developer Docs
+docs/DEVELOPER_DEPLOYMENT_GUIDE.md
+# Local config overrides
+includes/config.php
+# Uploaded files
+uploads/*
+!uploads/index.html

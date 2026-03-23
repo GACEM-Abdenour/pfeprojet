@@ -8,6 +8,7 @@ Ce dossier regroupe **les documents essentiels** pour expliquer le projet à un 
 
 | Document | Contenu |
 |----------|---------|
+| **[THESIS_ARCHITECTURE.md](./THESIS_ARCHITECTURE.md)** | **Document unique de soutenance (FR)** : 3-tiers, déploiement (Windows Server vs PC), cycle de vie, schéma BDD, glossaire. |
 | [01-System-Architecture.md](./01-System-Architecture.md) | Architecture **3 tiers** (Frontend / PHP / SQL Server), métaphore **restaurant**. |
 | [02-Ticket-Lifecycle.md](./02-Ticket-Lifecycle.md) | **Vie d’un ticket** : statuts, rôles, rôle de **`incident_logs`**. |
 | [03-Database-Schema-and-ERD.md](./03-Database-Schema-and-ERD.md) | **Dictionnaire de données** + extrait **DBML** pour [dbdiagram.io](https://dbdiagram.io). |
