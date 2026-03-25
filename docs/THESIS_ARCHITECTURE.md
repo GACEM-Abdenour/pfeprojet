@@ -39,6 +39,8 @@ Le client ne va pas **directement** dans la réserve : tout passe par la **cuisi
 
 ## 2. L’environnement de déploiement
 
+> **Guide pas à pas (IIS, PHP, SQL Server, droits, checklist)** : voir le document dédié  
+> **[05-Deploiement-Windows-Server-2019.md](./05-Deploiement-Windows-Server-2019.md)** — c’est la version **opérationnelle** détaillée du même sujet que dans le mémoire (chapitre Réalisation).
 
 ### Pourquoi un serveur **Windows Server 2019** (ex. contexte **Standard Naftal**) plutôt qu’un simple PC Windows 11 ?
 

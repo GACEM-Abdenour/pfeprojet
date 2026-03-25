@@ -8,10 +8,15 @@ Application web interne pour la **déclaration**, le **suivi** et la **résoluti
 
 ## Documentation
 
+**Toute la documentation pédagogique est en français** dans le dossier **`docs/`**.
+
 | Document | Description |
 |----------|-------------|
-| **[Documentation thèse — Architecture (FR)](docs/THESIS_ARCHITECTURE.md)** | Architecture 3-tiers, déploiement, cycle de vie d’un ticket, schéma de base, glossaire — destiné à la **soutenance** (public non technique). |
-| [Index `docs/`](docs/README.md) | Autres documents (architecture détaillée, cycle de vie, schéma ERD, glossaire étendu). |
+| **[Lire en premier](docs/00-LIRE-EN-PREMIER.md)** | Par où commencer (ordre de lecture). |
+| **[Index complet `docs/`](docs/README.md)** | Table des matières : architecture, cycle de vie, BDD, glossaire, **sécurité / règles métier**, alignement avec le **mémoire**. |
+| **[Architecture — soutenance (FR)](docs/THESIS_ARCHITECTURE.md)** | Synthèse unique : 3-tiers, pourquoi **Windows Server**, cycle de vie, schéma BDD — pour un **public non technique**. |
+| **[Déploiement Windows Server 2019 + IIS + PHP + SQL Server](docs/05-Deploiement-Windows-Server-2019.md)** | **Guide détaillé** d’installation serveur (correspond au chapitre *Réalisation* du mémoire). |
+| **`memoire-pfe/`** | Mémoire LaTeX / PDF — **référence académique** attendue par les enseignants. |
 
 ---
 

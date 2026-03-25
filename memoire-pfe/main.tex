@@ -1,0 +1,41 @@
+\documentclass[12pt, a4paper]{report}
+
+\input{preamble}
+
+\begin{document}
+
+% --- Pages préliminaires ---
+\pagenumbering{roman}
+\include{frontmatter/page_de_garde}
+\include{frontmatter/remerciements}
+\include{frontmatter/resumes}
+\include{frontmatter/liste_sigles}
+
+% --- Sommaire et Listes ---
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+% --- Cœur du mémoire ---
+\clearpage
+\pagenumbering{arabic}
+
+\include{chapters/0_introduction}
+\include{chapters/1_cadre_theorique}
+\include{chapters/1_contexte}
+\include{chapters/2_analyse}
+\include{chapters/3_conception}
+\include{chapters/4_realisation}
+\include{chapters/5_conclusion}
+
+\appendix
+\include{chapters/annexe_glossaire}
+
+% --- Bibliographie ---
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,27 @@
+% --- Encodage et Langue ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+% --- Mise en page ---
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing % Interligne 1.5 standard pour les mémoires
+
+% --- Graphiques et Tableaux ---
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{array}
+\usepackage{booktabs} % Pour des tableaux professionnels
+\usepackage{tabularx}
+\usepackage{longtable}
+
+% --- Liens et Couleurs ---
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref} % Rend le sommaire cliquable sans cadres moches
+
+% --- Personnalisation des titres ---
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}

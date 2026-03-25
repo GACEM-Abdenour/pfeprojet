@@ -1,0 +1,76 @@
+\chapter*{Conclusion Générale et Perspectives}
+\addcontentsline{toc}{chapter}{Conclusion Générale et Perspectives}
+
+Ce projet de fin d'études nous a permis de mener à bien un cycle complet de
+développement logiciel : de l'analyse du besoin métier jusqu'au déploiement d'une
+solution opérationnelle sur une infrastructure d'entreprise réelle.
+
+En partant d'un constat simple — la gestion des incidents informatiques au sein
+du Groupe Informatique de la Branche Carburants de Naftal souffrait d'un manque
+criant de traçabilité, d'organisation et de visibilité — nous avons conçu et réalisé
+une \textbf{Plateforme de Gestion des Incidents Applicatifs (GIA)} qui répond
+intégralement au cahier des charges validé par la Direction Informatique.
+
+La solution s'appuie sur une architecture \textbf{3-Tiers} éprouvée, combinant
+une interface Bootstrap~5 moderne et responsive, une logique métier PHP~8
+sécurisée par un système de rôles et de sessions, et une base de données relationnelle
+SQL Server garantissant l'intégrité et la traçabilité complète via une table d'audit
+(\texttt{incident\_logs}). Le déploiement sur \textbf{Windows Server~2019 / IIS}
+confirme la conformité de la solution avec les standards d'infrastructure de Naftal.
+
+Les principaux apports de ce projet sont :
+\begin{itemize}
+    \item \textbf{Traçabilité complète :} chaque action sur un ticket est horodatée
+    et attribuée à un utilisateur identifié, rendant le système opposable lors d'un audit.
+    \item \textbf{Pilotage par les données :} les KPIs du tableau de bord permettent
+    aux managers de mesurer objectivement la performance du support (MTTR, taux de
+    résolution, charge par technicien).
+    \item \textbf{Workflow structuré :} la machine à états du cycle de vie des tickets
+    élimine les risques d'incidents oubliés ou traités en double.
+\end{itemize}
+
+\section*{Limites du travail et positionnement par rapport au MEF}
+Ce mémoire n'applique pas le modèle d'évaluation fonctionnelle (MEF)~\cite{autissier2008} sous
+la forme d'enquêtes standardisées auprès de la DCSI : les baromètres (activités, compétences,
+organisation, satisfaction) n'ont pas été mesurés dans le cadre du PFE. En revanche, le cadre
+théorique et les travaux sur Naftal~\cite{meghari2014} ont guidé la \textbf{justification} du
+projet : la rubrique «\,maintenance applicative\,» et la «\,gestion de la relation
+utilisateurs\,» appellent des dispositifs traçables. GIA constitue une brique concrète ; une
+évaluation complète de la performance du support à l'échelle groupe exigerait des indicateurs
+consolidés, des entretiens élargis et une gouvernance des données sur la durée.
+
+\paragraph*{Limites} Cette première version de GIA présente néanmoins certaines limites qu'il
+convient d'énoncer honnêtement. Premièrement, la solution a été validée sur un environnement
+simulé (VirtualBox) et non sur le réseau de production réel de Naftal : des tests de charge et de
+montée en charge restent nécessaires avant tout déploiement à grande échelle. Deuxièmement, la
+plateforme ne couvre actuellement que les incidents applicatifs ; les incidents matériels (panne
+d'imprimante, défaillance réseau) en sont exclus. Troisièmement, l'absence de module de
+notification automatique contraint les utilisateurs à consulter activement la plateforme, limitant
+la réactivité.
+
+\section*{Apports pour le parcours académique}
+Sur le plan méthodologique, le projet illustre le passage du constat qualitatif (entretiens,
+cahier des charges, observation) à une spécification testable (règles R1--R7, matrices de
+traçabilité), puis à une réalisation contrôlée sur stack imposée (Windows Server, IIS, PHP, SQL
+Server). Cette chaîne reproduit les étapes rencontrées dans les projets SI en entreprise et
+complète la vision «\,macro\,» de la fonction support développée dans les chapitres théoriques.
+
+\section*{Perspectives}
+La plateforme GIA constitue une base solide qui peut être enrichie dans le cadre de la stratégie
+de modernisation du SI de Naftal.
+
+\paragraph*{Notifications automatiques}
+L'intégration d'une couche de notification par e-mail via le serveur Exchange de Naftal
+permettrait d'alerter en temps réel le Demandeur et l'Administrateur à chaque transition de
+statut critique. Cela réduirait le délai de réaction et éliminerait le besoin de consulter
+manuellement l'interface pour suivre l'état d'un ticket.
+
+\paragraph*{Base de connaissances}
+À terme, les rapports de résolution rédigés par les techniciens constituent une matière première
+précieuse. Une fonctionnalité de recherche plein texte sur les clôtures passées permettrait de
+créer une FAQ opérationnelle, réduisant le MTTR sur les incidents récurrents.
+
+\paragraph*{Extension multi-branches}
+L'architecture intranet VPN de Naftal (2 Mb/s, reliant toutes les branches) est déjà en place. La
+généralisation de GIA aux Branches GPL et Commercialisation ne nécessiterait qu'une adaptation des
+catégories d'incidents et des droits d'accès, sans refonte architecturale.

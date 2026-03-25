@@ -1,0 +1,3460 @@
+--- PAGE 1 ---
+MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR
+ET
+DE LA RECHERCHE SCIENTIFIQUE
+ÉCOLE NATIONALE SUPÉRIEURE DE MANAGEMENT
+ENSM.ALGER
+MASTER EN MANAGEMENT DES ORGANISATIONS
+MEMOIRE DE FIN D’ETUDES
+THÈME
+Elaboré par :
+Mlle. MEGHARI Randa
+Encadré par :
+Dr. TOUMI Djamila
+Juin 2014
+Evaluation De La Performance De La Fonction
+Système D’information
+Cas : Direction Centrale Des Systèmes
+D’information « NAFTAL »--- PAGE 2 ---
+RR éé ss uu mm éé
+La notion de système d’information oscille entre la dimension de la technique
+informatique et celle du pilotage de l’organisation . En forte mutation, à la fois technologique,
+organisationnelle, le système d’information devient une fonction dont la performance prend
+une dimension tant stratégique qu’économique.
+La recherche de la performance, qui s’ est matérialisée dans un premier temps sur les
+activités principales de l’entreprise, s’oriente désormais sur les fonctions supports en  ter mes
+stratégiques, non financiers. Dans le but d’apprécier le niveau de performance de ces
+fonctions, le modèle d’évaluation fonctionnelle MEF a été développé.
+La fonction système d’information est le fruit de la diffusion de la technologie
+informatique dans les entrep rises, à l’instar de l’entreprise algérienne NAFTAL, leader sur le
+marché national de distribution des produits pétroliers. En pratique, la mise en place, le suivi
+technique, gestionnaire et stratégique de cette technologie ont été confiés à une fonction
+intitulée direction centrale des systèmes d’information.
+MMoottss ccllééss :: Système d’information, Performance, Fonction support, Modèle d’évaluation
+fonctionnelle,  Technologie technique, NAFTAL, Direction centrale des systèmes
+d’information.
+Abstract
+The concept of information system oscillates between the size of computer technology
+and the control of the organization. Rapidly changing, both technological, organizational,
+information system becomes a function whose performance takes a strategic as well as
+economic dimension.
+Research performance, which materialized in the first instance on the main activities
+of the company, is now focusing on support functions in strategic terms, not financial. In
+order to assess the performance of these functions, the F unctional Assessment MEF model
+was developed.
+The information system function is the result of the diffusion of information
+technology in enterprises, like the Algerian company NAFTAL leader on the national market
+for the distribution of petroleum product s. In practice, the implementation, the technical,--- PAGE 3 ---
+managerial and strategic technology were transferred to a feature called central management
+information systems.
+Keywords: Functional Assessment Information System, Performance, Support Function,
+Model, Technical Technology NAFTAL, Central Directorate for Information Systems.
+ﻣﻠﺨﺺ
+ﻣﻔﮭﻮم ﻧﻈﺎم اﻟﻤﻌﻠﻮﻣﺎت ﺗﺘﺄرﺟﺢ ﺑﯿﻦ ﺣﺠﻢ ﺗﻜﻨﻮﻟﻮﺟﯿﺎ اﻟﻜﻤﺒﯿﻮﺗﺮ وﺳﯿﻄﺮة اﻟﻤﻨﻈﻤﺔ. ﯾﺘﻐﯿﺮ ﺑﺴﺮﻋﺔ، وﯾﺼﺒﺢ ﻛﻞ ﻣﻦ 
+واﻟﺘﻨﻈﯿﻤﯿﺔ، وﻧﻈﺎم اﻟﻤﻌﻠﻮﻣﺎت اﻟﺘﻜﻨﻮﻟﻮﺟﯿﺔ وظﯿﻔﺔ اﻟﺬي ﯾﺄﺧﺬ ﺑﻌﺪا اﺳﺘﺮاﺗﯿﺠﯿﺎ .وﻛﺬﻟﻚ اﻻﻗﺘﺼﺎدﯾﺔ اﻷداء
+اﻷداء اﻟﺒﺤﺜﻲ، اﻟﺬي ﯾﺘﺤﻘﻖ ﻓﻲ اﻟﻤﻘﺎم اﻷول ﻋﻠﻰ اﻷﻧﺸﻄﺔ اﻟﺮﺋﯿﺴﯿﺔ ﻟﻠﺸﺮﻛﺔ، وﯾﺘﻢ اﻟﺘﺮﻛﯿﺰ اﻵن ﻋﻠﻰ وظﺎﺋﻒ اﻟﺪﻋﻢ ﻣﻦ 
+ﺣﯿﺚ اﻹﺳﺘﺮاﺗﯿﺠﯿﺔ، وﻟﯿﺲ اﻟﻤﺎﻟﯿﺔ. ﻣﻦ أﺟﻞ ﺗﻘﯿﯿﻢ أداء ھﺬه اﻟﻤﮭﺎم، ﺗﻢ ﺗﻄﻮﯾﺮ .MEFاﻟﺘﻘﯿﯿﻢ اﻟﻮظﯿﻔﻲﻧﻤﻮذج 
+وظﯿﻔﺔ ﻧﻈﺎم اﻟﻤﻌﻠﻮﻣﺎت ھﻮ ﻧﺘﯿﺠﺔ ﻟﻨﺸﺮ ﺗﻜﻨﻮﻟﻮﺟﯿﺎ اﻟﻤﻌﻠﻮﻣﺎت ﻓﻲ اﻟﺸﺮﻛﺎت، ﻣﺜﻞ ﺷﺮﻛﺔ ﻧﻔﻄﺎلاﻟﺠﺰاﺋﺮﯾﺔ زﻋﯿﻢ ﻓﻲ  
+اﻟﺴﻮق اﻟﻮطﻨﯿﺔ ﻟﺘﻮزﯾﻊ اﻟﻤﻨﺘﺠﺎت اﻟﻨﻔﻄﯿﺔ. ﻓﻲ اﻟﻤﻤﺎرﺳﺔ اﻟﻌﻤﻠﯿﺔ، واﻟﺘﻨﻔﯿﺬ، وﻧﻘﻞ، واﻟﺘﻜﻨﻮﻟﻮﺟﯿﺎ اﻟﺘﻘﻨﯿﺔ اﻹدارﯾﺔ 
+واﻹﺳﺘﺮاﺗﯿﺠﯿﺔ ﻟﻤﯿﺰة ﺗﺴﻤﻰ ﻧﻈﻢ اﻟﻤﻌﻠﻮﻣﺎت اﻹدارﯾﺔ اﻟﻤﺮﻛﺰﯾﺔ.
+:اﻟﻜﻠﻤﺎت اﻟﺮﺋﯿﺴﯿﺔ 
+ﺗﻘﯿﯿﻢ ﻧﻈﺎم اﻟﻤﻌﻠﻮﻣﺎت اﻟﻮظﯿﻔﯿﺔ، واﻷداء، ودﻋﻢ وظﯿﻔﺔ، اﻟﻨﻤﻮذﺟﻲ، ﺗﻜﻨﻮﻟﻮﺟﯿﺎ اﻟﺘﻘﻨﯿﺔ ﻧﻔﻄﺎل، اﻟﻤﺪﯾﺮﯾﺔ اﻟﻤﺮﻛﺰﯾﺔ ﻟﻨﻈﻢ 
+اﻟﻤﻌﻠﻮﻣﺎت.--- PAGE 4 ---
+Remerciements
+En premier lieu, je remercie DIEU le tout Puissant de m’avoir accordé le
+courage, la force et la patience de mener à bien ce modeste travail.
+Je tiens à remercier mes très chers parents pour leur aide précieuse et soutien
+moral tout le temps présents à mes cotés.
+Au terme de cette étude, il m’est très agréable d’exprimer ma profonde gratitude
+et d’adresser mes vifs remerciements à Mme TOUMI Djamila, pour avoir accepté
+de m’encadrer, et pour ses précieux conseils et orientations.
+Je remercie également le personnel de l’entreprise NAFTAL qui a manifesté un
+intérêt considérable pour le présent cas d’étude, plus particulièrement à Mr
+KHESRANI, Mme CHENA.
+Je suis par ailleurs reconnaissante envers : Responsables, dirigeants et personnel
+de notre école, mes enseignants (es), mes camarades, qui m’ont été d’un soutien
+incommensurable, qu’ils en soient sincèrement remercies ici.
+Enfin, je remercie tous ceux qui ont contribué de près ou de loin à la réalisation
+de ce travail de recherche.
+Méghari Randa--- PAGE 5 ---
+LISTE DES TABLEAUX
+Tableaux Intitulé des tableaux Pages
+N° 1 Définitions du système d’information 11
+N° 2 Distinctions entre informatique et système d'information 15
+N° 3 Typologies des SI 17
+N° 4 Analyse SWOT de l’entreprise NAFTAL 31
+N° 5 Les différents départements de la DCSI de NAFTAL 37
+N° 6 Population interrogée 41
+N° 7 Notation des différents types de compétences 51
+N° 8 Synthèse des taux de maîtrise 60
+N° 9 Synthèse des évaluations fonctionnelles 69
+LISTE DES FIGURES
+Schémas Intitulé des figures Pages
+N° 1 Processus de transformation de donnée en information 08
+N° 2 La structure générale d’un système 10
+N° 3 Les rôles fondamentaux de système d’information 12
+N° 4 les composantes d’un système d’information 13
+N° 5 Organisation de la macrostructure de la société NAFTAL 34
+N° 6 L’organigramme de la DCSI 36
+N° 7 le modèle d’évaluation fonctionnelle 45
+N° 8 Modèle d’activités de la fonction système d’information : Cinq rubriques
+métier et vingt pratiques
+48
+N° 9 Baromètre Taux d’activité 49
+N° 10 Les trois savoirs fonctionnels 50
+N° 11 Baromètre taux de maitrise des compétences 52
+N° 12 Baromètre du taux de support structurel 54
+N° 13 Baromètre taux de satisfaction 57
+N° 14 Représentation graphique du taux d’activité métier 58
+N° 15 Baromètre Taux d’activité DCSI (NAFTAL) 59
+N° 16 Représentation graphique du taux de maitrise des RH de la DCSI 61
+N° 17 Baromètre taux de maitrise DCSI 61
+N° 18 Représentation graphique du taux de support structurel de la DCSI 63
+N° 19 Baromètre du taux de support structurel à NAFTAL 64
+N° 20 Représentation graphique du taux de satisfaction des clients 65
+N° 21 Baromètre taux de satisfaction à NAFTAL 66
+N° 22 Baromètre du taux de performance de la fonction SI 68
+N° 23 Radar des branches de l’évaluation fonctionnelle 70
+N° 24 Baromètre taux de performance globale de la DCSI de NAFTAL 71--- PAGE 6 ---
+LISTE DES ABREVIATIONS
+SI Système d’information
+MOA Maitrise d’ouvrage
+MŒ Maitre d’œuvre
+RH Ressource humaines
+DSI Direction de système d’information
+ROME Répertoire opérationnel des métiers et des emplois
+DCSI La direction centrale des systèmes d’information
+SPA Société par actions
+GPL Gaz de pétrole liquéfié
+ERDP Entreprise nationale de raffinage et de distribution de produits pétroliers
+OMC Organisation mondiale du commerce
+SWOT Modèle de diagnostic stratégique (Strengths, Weaknesses, Opportunities,
+Threats) / (Forces, faiblesses, opportunités et menaces)
+HSEQ Hygiène, sécurité, environnement, qualité
+ERP Enterprise Resource Planning
+MEF Modèle d’évaluation fonctionnelle
+TDB Tableaux de bord
+BTP Bâtiments et travaux publics
+CA Chiffre d’affaires
+DERH Direction Exécutive Ressources Humaines
+DESPE Direction Exécutive Stratégie / Planification/Eco
+DAG Direction Administration Générale
+ISO Organisation internationale de normalisation--- PAGE 7 ---
+SOMMAIRE
+Pages
+Introduction
+Chapitre 1 : Cadre Conceptuel Du Système d’information ………………… 06
+Section 1 : Généralités sur Le système d’information ………………………………… 08
+Section 2 : Les nouveaux défis de la fonction système d’information …………………… 19
+Chapitre 2 : Présentation Du Terrain Et Choix Méthodologique …………… 25
+Section 1 : La présentation de l’entreprise NAFTAL/SPA …………………………….. 27
+Section 2: La présentation de la direction centrale De SI de l’entreprise NAFTAL ……… 35
+Section 3 : Cadre méthodologique …………………………………………………... 39
+Chapitre 3 : Mesure De La Performance De La Fonction Système
+d’information De NAFTAL …………………………………………………… 43
+Section 1 : La présentation du modèle d’évaluation fonctionnelle MEF …………………. 45
+Section 2 : L’analyse des quatre pôles d’évaluation de la DCSI de NAFTAL ……………. 59
+Section 3 : L’évaluation globale de la performance de la fonction SI de NAFTAL ……….. 69
+Conclusion--- PAGE 8 ---
+INTRODUCTION GENERALE--- PAGE 9 ---
+Les organisations sont des systèmes complexes confrontés à un environnement aux
+multiples composants, en constante évolution. Les gestionnaires sont en mesure de gérer de
+nombreuses informations, de nature et d’origine diverses, pour effectuer des choix, prendre
+des décisions et mettre en place des stratégies, permettant d’atteindre les objectifs fixés et
+garantir la pérennité de l’entreprise. Cette réalité reflète l’importance des systèmes
+d’information.
+En effet, l e concept de systèmes d’informations a émergé aux Etats Unis dans les
+années 1960 sous le nom de Management Information System. La technologie informatique a
+obligé les chercheurs à préciser ce qui est l’information. Il s’inscrit dans un système social
+(entreprise, administration...) où il existe des règles et des régularités. Le terme informatique a
+été défini en 1963 par P.DREYFUS comme étant une science du traitement rationnel,
+notamment par machines automatiques, de l’information, considérée comme le support des
+connaissances humaines et de s communications dans les domaines techniques, économiques
+et sociaux.1
+Le traitement des flux d’information circulant à l’interne qu’à l’externe de
+l’organisation suppose un certain nombre de composantes reliées entre elles et œuvrant en vue
+d’un objecti f commun dans un processus de transformation organisé; il s’agit donc d’un «
+système » qui utilise des ressources et les transforme en produits fina ux. Un tel système
+possède des composantes en interaction les unes avec les autres : les entrées, le traitem ent et
+les sorties.
+L’angle de vue système d’information est celui du manager, et l’ensemble des acteurs
+de l’entreprise qui ont des besoins de traitement de données et qui sont en p osition de clients.
+A contrario, l’angle de vue informatique est celui de fournisseur, qui offre des outils
+techniques (biens et services), qui doivent être capables de satisfaire les besoins du client.2
+En tant que fonction de support, le SI est influencé par l’environnement de
+l’entreprise, les caractéristiques de celle -ci e t les options stratégiques de ses dir igeants. Sa
+1 LAURENCE, (Monaco) : « Système d’information de gestion », 2ème édition Lextenso, Paris, 2012, P.17.
+2GILLET, (Michel) et GILLET : (Patrick), SIRH, Système d’information des ressources humaines, Ed Dunod,
+Paris, 2010, P.1--- PAGE 10 ---
+mise en œuvre entraine en retour des impacts significatifs sur l’organisation (couts, valeur
+ajoutée, processus).
+Vue sous un angle manageriel, la gestion du SI est une fonction de support comme la
+gestion du personnel, le contrôle de gestion, dont l’objectif est d’assurer au mieux le
+traitement de l’information, en fonction des besoins des responsables d’activité et des
+utilisateurs. Comment faire pour évaluer une fonction ressources humaines, système
+d’information, ou contrôle de gestion qui ne réalise pas de recettes à proprement parler, qui
+n’est donc pas un centre de profit et dont les informations de bilans et de résultats ne sont pas
+aussi formalisées que des fonctions telles que la fonction commerciale ?
+Ces questions se sont  posées lorsque le travail de recherche a été commencé, mais
+après plusieurs lectures le modèle d’évaluation fonctionnelle nous est apparu comme une
+évidence, il est valable pour toutes les fonctions de l’entreprise, comme pour ses dispositifs de
+gestion transversaux. Il permet d’apprécier leur niveau de performance en termes de
+prestations, de compétences, d’organisation et de satisfaction client.
+L’Algérie connait de profondes mutations, et en raison de l’arrivée de plusieurs
+entreprises étrangères sur le territoire national, les entreprises nationales se préparent
+sérieusement à évoluer dans ce nouveau contexte à travers notamment la mise en place
+d’organisation adaptée à de nouveaux enjeux économiques.
+En pratique, les systèmes d'informations recouvrent toutes les fonctions d'une
+entreprise. Les PME ont plus de difficulté à s’équiper de systèmes adaptés que les grandes
+entreprises, ces Systèmes d’Information, qui soutiennent les orientations stratégiques des
+directions et contribuent fortement à rendre l’entreprise plus compétitive et en avance sur son
+marché.
+Le choix de notre thème de recherche, qui demeure d’actualité, n’est alors pas dû au
+hasard, mais plutôt le fruit de l’intérêt même, que nous accordons à l’importance des systèmes
+d’information performants au sein des entreprises, et en particulier l’entreprise algérienne qui
+connait un besoin important en la matière. Le choix du sujet a été jugé pertinent dans la
+mesure où il s’agissait d’évaluer et de mesurer la pe rformance de la fonction système
+d’information de NAFTAL, qui est une fonction support car elle ne crée pas de valeur ajoutée
+proprement dit, mais elle y contribue. C’est pourquoi nous avons jugé utile de traiter le thème--- PAGE 11 ---
+suivant : « Evaluation de la perfo rmance de la fonction système d’information de
+l’entreprise NAFTAL ».
+Afin d’effectuer notre recherche, nous avons opté pour un acteur puissant sur la scène
+économique algérienne, qui est l’entreprise NAFTAL autant que leader sur le marché national
+de distribution des produits pétroliers . Ce dernier a connu ces dernières années des mutations
+notables avec l’introduction d’opérateurs privés nationaux et étrangers
+Le contexte économique algérien actuel est caractérisé à l a fois par les réformes
+engagées par les pouvoirs publiques ainsi que par le nouveau cadre législatif régissant le
+secteur des hydrocarbures qui consacre définitivement l’ouverture du marché national aux
+opérateurs privés nationaux et étrangers, particuliè rement dans la distribution et la
+commercialisation des produits pétroliers, NAFTAL se trouve  alors confrontée à une rude
+concurrence.
+Dans le but de maintenir sa position, NAFTAL s’opère judicieusement sur le marché
+algérien tout en exploitant son système d’information tant en interne qu’en externe. C’est
+pourquoi, une évaluation de la performance du système d’information mis en place sera
+porteuse.  Avoir un bon système d’information est donc vital afin de développer la capacité de
+réflexion, d’analyse et d’action.
+De ce fait la problématique à laquelle nous tentons de trouver des éléments de
+réponses est : « La fonction système d’information de NAFTAL est-elle performante ? ».
+L’objectif de notre recherche étant l’évaluation de la performance de la fonction
+système d’information, un ensemble de questionnements s’impose :
+1. Quel est le degré de maitrise de la fonction système d’information de  NAFTAL?
+2. La structure de la fonction système d’ information de NAFTAL est -elle bien
+dimensionnée ?
+3. La fonction système d’information de NAFTAL répond aux besoins de ses clients ?
+Afin d’apporter des éléments de réponses à ses questions, nous avançons les
+hypothèses suivantes :--- PAGE 12 ---
+ H1 : Le degré de maitrise de la fonction système d’information de NAFTAL est
+acceptable.
+ H2 : La structure de la fonction système d’information de NAFTAL est bien
+dimensionnée.
+ H3 : La fonction système d’information de NAFTAL répond aux besoins de ses
+clients.
+En termes d’approche de recherche, nous avons adopté une approche méthodologique
+qualitative, basée sur l’application d’un modèle d’évaluation fonctionnelle ainsi que  la
+recherche documentaire tant sur le plan théorique que sur le plan pratique, l’observation et les
+questionnaires propres au modèle MEF en termes d’outils d’investigation.
+Pour ce faire, nous avons subdivisé notre travail en trois chapitres :
+CHAPITRE I : Cadre conceptuel du système d’information
+CHAPITRE II : Présentation du terrain et choix méthodologique
+CHAPITRE III : Evaluation de la performance de la fonction si de NAFTAL--- PAGE 13 ---
+CHAPITRE I
+CADRE CONCEPTUEL DU SYSTEME
+D’INFORMATION--- PAGE 14 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+7
+L’information constitue une ressource essentielle pour le fonctionnement de toute
+entité. Durant des années, les managers étaient convaincus que la détention à titre exclusif
+d’une information leur donnait un surcroit de pouvoir. Les temps ont changé et les
+technologies d’information et de communication ont fluidifié la circulation de l’information
+dans l’entreprise.
+En effet, le traitement des flux d’information qui circulent à l’interne qu’à l’externe
+suppose un certain nombre de composantes reliées ent re elles et œuvrant en vue d’un objectif
+commun dans un processus de transformation organisé; il s’agit donc des systèmes
+d’informations. Au cours de la dernière décennie, la fonction système d’information a modifié
+SI en profondeur le fonctionnement des e ntreprises et augmenté considérablement les
+possibilités d’organisation et de coordination du travail.
+D’une manière générale, l’objectif de ce chapitre est de présenter le système
+d’information en particulier et la fonction système d’information en génér al. Etant subdivisé
+en deux sections, la première section sera consacrée à la présentation des principaux concepts
+associés au système d’information. Par la suite, en second lieu, nous tenons à clarifier
+l’importance de la fonction système d’information au sein de l’entreprise, notamment, ses
+acteurs et structure d’organisation.--- PAGE 15 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+8
+SECTION 1 : GENERALITES SUR LE SYSTEME D’INFORMATION
+Avant de définir c e qu’un système d’ information, il parait néc essaire de définir
+certains concepts.
+1.1.Information et système :
+Comme l’information est la matière première de tout système d’information, nous
+avons vu logique de commencer par la présentation de l’information et du système.
+A. L’information :
+Selon LAUDON Kenneth, LAUDON Jane , l e terme information recouvre les
+données qui sont présentées sous une forme utile et utilisable par les personnes. Les données,
+au contraire, sont des valeurs à l’état brut représentant des évènements qui ont lieu dans ou en
+dehors des organisations. Elles n’ont pas encore été organisées de façon à ce que les
+utilisateurs puissent les comprendre et s’en servir.1
+Figure N°1 : Processus de transformation de donnée en information
+Source : élaborée par nous mêmes
+- Selon J. Chaumier : « l’information est l’ensemble des données collectées,
+enregistrées, classées, organisées pour avoir une signification dans un cadre déterminé,
+c’est  à dire, que l’information prend une signification et une valeur propre au
+contactant et à l’instant. »2
+- Selon C .BRASSEUR : «…l’information c’est clairement une matière première vitale
+nécessaire au fonctionnement de l’entreprise ». 3 Quatre qualités essentielles pour
+1 LAUDON, (Kenneth), LAUDON, (Jane) : » Management des systèmes d’information », Adapté par FIMBEL
+Éric, 9ème éd Pearson Education, France, 2006, p.15.
+2 VOLANT, (Christiane) : « le management de l’information dans l’entreprise vers une vision systémique »,
+ADBS, Paris, 2003, P.10
+3 BRASSEUR, (Christophe) : « Data Management, qualité de données et compétitivité », édition Lavoisier,
+Paris, 2005, P.23
+Donnée
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+8
+SECTION 1 : GENERALITES SUR LE SYSTEME D’INFORMATION
+Avant de définir c e qu’un système d’ information, il parait néc essaire de définir
+certains concepts.
+1.1.Information et système :
+Comme l’information est la matière première de tout système d’information, nous
+avons vu logique de commencer par la présentation de l’information et du système.
+A. L’information :
+Selon LAUDON Kenneth, LAUDON Jane , l e terme information recouvre les
+données qui sont présentées sous une forme utile et utilisable par les personnes. Les données,
+au contraire, sont des valeurs à l’état brut représentant des évènements qui ont lieu dans ou en
+dehors des organisations. Elles n’ont pas encore été organisées de façon à ce que les
+utilisateurs puissent les comprendre et s’en servir.1
+Figure N°1 : Processus de transformation de donnée en information
+Source : élaborée par nous mêmes
+- Selon J. Chaumier : « l’information est l’ensemble des données collectées,
+enregistrées, classées, organisées pour avoir une signification dans un cadre déterminé,
+c’est  à dire, que l’information prend une signification et une valeur propre au
+contactant et à l’instant. »2
+- Selon C .BRASSEUR : «…l’information c’est clairement une matière première vitale
+nécessaire au fonctionnement de l’entreprise ». 3 Quatre qualités essentielles pour
+1 LAUDON, (Kenneth), LAUDON, (Jane) : » Management des systèmes d’information », Adapté par FIMBEL
+Éric, 9ème éd Pearson Education, France, 2006, p.15.
+2 VOLANT, (Christiane) : « le management de l’information dans l’entreprise vers une vision systémique »,
+ADBS, Paris, 2003, P.10
+3 BRASSEUR, (Christophe) : « Data Management, qualité de données et compétitivité », édition Lavoisier,
+Paris, 2005, P.23
+Donnée
+ Traitement
+ Information
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+8
+SECTION 1 : GENERALITES SUR LE SYSTEME D’INFORMATION
+Avant de définir c e qu’un système d’ information, il parait néc essaire de définir
+certains concepts.
+1.1.Information et système :
+Comme l’information est la matière première de tout système d’information, nous
+avons vu logique de commencer par la présentation de l’information et du système.
+A. L’information :
+Selon LAUDON Kenneth, LAUDON Jane , l e terme information recouvre les
+données qui sont présentées sous une forme utile et utilisable par les personnes. Les données,
+au contraire, sont des valeurs à l’état brut représentant des évènements qui ont lieu dans ou en
+dehors des organisations. Elles n’ont pas encore été organisées de façon à ce que les
+utilisateurs puissent les comprendre et s’en servir.1
+Figure N°1 : Processus de transformation de donnée en information
+Source : élaborée par nous mêmes
+- Selon J. Chaumier : « l’information est l’ensemble des données collectées,
+enregistrées, classées, organisées pour avoir une signification dans un cadre déterminé,
+c’est  à dire, que l’information prend une signification et une valeur propre au
+contactant et à l’instant. »2
+- Selon C .BRASSEUR : «…l’information c’est clairement une matière première vitale
+nécessaire au fonctionnement de l’entreprise ». 3 Quatre qualités essentielles pour
+1 LAUDON, (Kenneth), LAUDON, (Jane) : » Management des systèmes d’information », Adapté par FIMBEL
+Éric, 9ème éd Pearson Education, France, 2006, p.15.
+2 VOLANT, (Christiane) : « le management de l’information dans l’entreprise vers une vision systémique »,
+ADBS, Paris, 2003, P.10
+3 BRASSEUR, (Christophe) : « Data Management, qualité de données et compétitivité », édition Lavoisier,
+Paris, 2005, P.23
+Information--- PAGE 16 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+9
+qu’une information puisse être exploitée dans une entreprise : pertinente, fiable,
+disponible, ayant un cout raisonnable. On parle donc de support  à la décision.
+B. Le système :
+Selon Joël D e Rosnay , un système est un ensemble d’éléments en interaction
+dynamique, organisés en fonction d’un but. L’entreprise est un système ouvert, composé des
+éléments (services, département,…) en interaction dynamique les uns avec les autres et avec
+le monde extérieur (clients, fournisseurs, banque,…).
+Les trois composantes de tout système sont : 1
+ Le système opérant : système qui réalise toutes les tâches d’exécution, composé de
+modules opérationnels assurant la transformation des flux entrants (matières
+premières) en flux sortants (produits finis,), c'est-à-dire l’activité.
+ Le système de pilotage : système de gestion, qui fixe les objectifs et les moyens pour
+les atteindre. On peut dire que c’est le système nerveux de l’entreprise. Ses modules
+pilotes assurent la prise de décision à différents niveaux. Il se compose par exemple de
+la direction financière, direction commerciale, direction de production….
+ Le système d’i nformation (S.I) : qui assure le couplage organisationnel entre le
+système de pilotage et le système opérant sert à traiter l’information et la véhiculer
+entre les deux éléments . Il est composé d’employés, ordi nateurs, règles et méthodes
+etc
+1 GILLET, (Michel) et GILLET, (Patrick) : « Management  des systèmes d’informations », édition Dunod, Paris,
+2008, p.11.--- PAGE 17 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+10
+Nous pouvons représenter la structure générale d’un système par le schéma suivant :
+Figure N° 2: la structure générale d’un système
+Source : REGIS, (Messonier) : Externaliser le SI, édition economica, paris,
+2006, p.71.par adaptation
+En effet, le système de pilotage fixe les objectifs et définit les moyens pour les
+atteindre,  il  transmet  alors  les  directives correspondantes au système  opératoire via  le
+système d’information , Le  système opératoire exécute les directives, rend compte des
+réalisations au système de pilotage via le système d’information. Ce dernier constitue ainsi le
+relais entre le système de pilotage, le système opératoire et l’environnement.
+1.2.Définition, fonctions et composantes du système d’information :
+A. Définition du SI:
+La plupart des définitions mettent d’une part, l’accent sur les composantes (matériel,
+logiciel, personnel, données, procédures ), d’autre part, sur les fonctionnalités (collecte,
+traitement, stockage et diffusion des informations). Dans ce cadre, plusieurs auteurs ont défini
+le système d’information sous différents angles, nous en retiendrons les suivantes :
+Système de pilotage
+réfléchit, décide
+Système d’information
+mémorise, traite, diffuse
+Système opérant
+transforme, produit
+;kkkkkk
+OutputInput
+Interactions
+Décisions
+Informations
+--- PAGE 18 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+11
+Tableau N° 1 : Définitions du système d’information
+AUTEURS DEFINITIONS
+VIDAL (P),
+PLANEIX (P)
+« Un SI est un ensemble organisé de ressources (matériels,
+logiciels, personnels, données, procédures), permettant
+d’acquérir, de traiter, de stocker, de communiquer des
+informations sous forme de données, textes, images, sons, …etc
+dans des organisations ».
+R. Reix et F. Rowe
+20021
+« Un SI est un ensemble d’acteurs sociaux qui mémorisent et
+transforment des représentations via des technologies de
+l’information et des modes opératoires. »
+LAUDON
+Kenneth,
+LAUDON Jane.2
+« Un SI est un ensemble de moyens humains, matériels et
+organisationnels permettant de recueillir (ou récupérer), de
+traiter, de stocker et de transmettre de l’information au sein
+une organisation ».
+KALIKA et ses
+collaborateurs
+« Un SI est un système utilisateur machine intégré qui produit de
+l’information pour assister les être humains dans les fonctions
+d’exécution, de gestion et de prise de décision, en utilisant des
+équipements informatiques, des logiciels, des bases de données,
+des procédu res manuelles, des modèles pour l’analyse, la
+planification, le contrôle et la prise de décision ».
+NGANG
+BILOUNGA Jean
+Jacques3
+« Un SI est un Ensemble structuré de données, de moyens
+techniques afin de générer, mémoriser, traiter, transférer et
+exploiter des informations dans le cadre d'objectifs définis ».
+LE MOIGNE
+« La fonction d'un système d'information est de produire et
+d'enregistrer (mémoriser) les informations représentations de
+l'activité du système d'opération, puis de les mettre à la
+disposition, en général de façon aussi interactive que possible, du
+système de décision ».
+Source : élaboré par nous-mêmes
+1 REIX, (R), ROWE, (F) : « Faire de la recherche en système d’information », édition Franz Rowe, Vuibert
+collection « FNEGE », Paris, 2002, p.117.
+2 LAUDON, (Kenneth), LAUDON, (Jane) , OP.cit, p.15.
+3 http://foad.refer.org/IMG/pdf/cours_MCSI.pdf, le 23/03/2014 à 19h35.--- PAGE 19 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+12
+A partir de ces définitions nous pouvons définir le système d’information comme étant
+un ensemble d'éléments matériels ou immatériels (hommes, machines, méthodes, règles) en
+interaction transfor mant en processus des éléments appelés Entrées en d'autres éléments
+appelés Sorties. Il est caractérisé par son hétérogénéité (classification de l’information selon la
+nature, l’objet et la forme), sa complexité (par les différents flux d’informations internes et
+externes à l’entreprise ou l’organisation) et sa nature évolutive (adaptation au contexte).
+B. Les fonctions d’un SI :
+A l’issue des définitions citées précédemment, nous distinguons les quatre fonctions
+principales d’un SI :
+Figure 3: Les rôles fondamentaux de système d’information
+Source : Pascal Vidal, Philippe Planeix et autres, les systèmes
+d’informations organisationnels, Pearson Education, France, 2005, P.35.
+ L’acquisition : recouvre les opérations de collecte et de saisie. On distingue la
+collecte ponctuelle pour éclairer une décision particulière, non répétitive et la collecte
+systématique qui implique une information formalisée, structurée, hiérarchisée,
+stockée en attente d’utilisation pour résoudre des problèmes répétitifs.
+ Le traitement : consiste à la transformation des données en informations par des
+opérations (calcul, comparaison, classement et récapitulation). Elle constitue la
+fonction principale du SI, elle opère différentes opérations (agrégations,
+homogénéisation, simplification, tri…etc) en vue de rendre les données brutes initiales
+exploitables par leurs destinataires.
+SortieAcquisition Stockage
+Traitement--- PAGE 20 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+13
+ Le stockage : permet au système de jouer son rôle de mémoire organisationnelle et
+individuelle, il concerne la conservation des informations d’une façon organisée , ce
+qui facilitera leur restitution au moment où on en aura besoin
+ La communication : concerne la diffusion et la transmission des informations aux
+différents usages des utilisateurs finaux.
+En effet, l’objectif final de ces fameux systèmes d’information est de stocker,
+préserver, exploiter et échanger des informations pour automatiser des tâches réplicables de
+façon plus sécurisée que ne le pourrait une intervention humaine, ou fournir à des utilisateurs
+les informations indispensables pour leur permettre d’agir à bon escient et plus vite.1
+C. Les composantes d’un SI :
+Comme nous l’avons précisé, un système est un ensemble organisé, il n’est pas une
+simple juxtaposition d’éléments. En effet, les différents éléments sont articulés, combinés
+pour répondre à de s exigences précises d’acquisition, de traitement, de stockage ou de
+communication d’informations. Un tel système comporte différentes ressources énumérées ci -
+dessous:
+Figure N° 4 : les composantes d’un système d’information
+Source : REIX, (Robert), Op.Cit, P.20.
+1 BOHNKE, (Sabine) : « Moderniser son système d’information », Eyrolles, éditions d’organisation, Paris, 2010,
+P.3
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+13
+ Le stockage : permet au système de jouer son rôle de mémoire organisationnelle et
+individuelle, il concerne la conservation des informations d’une façon organisée , ce
+qui facilitera leur restitution au moment où on en aura besoin
+ La communication : concerne la diffusion et la transmission des informations aux
+différents usages des utilisateurs finaux.
+En effet, l’objectif final de ces fameux systèmes d’information est de stocker,
+préserver, exploiter et échanger des informations pour automatiser des tâches réplicables de
+façon plus sécurisée que ne le pourrait une intervention humaine, ou fournir à des utilisateurs
+les informations indispensables pour leur permettre d’agir à bon escient et plus vite.1
+C. Les composantes d’un SI :
+Comme nous l’avons précisé, un système est un ensemble organisé, il n’est pas une
+simple juxtaposition d’éléments. En effet, les différents éléments sont articulés, combinés
+pour répondre à de s exigences précises d’acquisition, de traitement, de stockage ou de
+communication d’informations. Un tel système comporte différentes ressources énumérées ci -
+dessous:
+Figure N° 4 : les composantes d’un système d’information
+Source : REIX, (Robert), Op.Cit, P.20.
+1 BOHNKE, (Sabine) : « Moderniser son système d’information », Eyrolles, éditions d’organisation, Paris, 2010,
+P.3
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+13
+ Le stockage : permet au système de jouer son rôle de mémoire organisationnelle et
+individuelle, il concerne la conservation des informations d’une façon organisée , ce
+qui facilitera leur restitution au moment où on en aura besoin
+ La communication : concerne la diffusion et la transmission des informations aux
+différents usages des utilisateurs finaux.
+En effet, l’objectif final de ces fameux systèmes d’information est de stocker,
+préserver, exploiter et échanger des informations pour automatiser des tâches réplicables de
+façon plus sécurisée que ne le pourrait une intervention humaine, ou fournir à des utilisateurs
+les informations indispensables pour leur permettre d’agir à bon escient et plus vite.1
+C. Les composantes d’un SI :
+Comme nous l’avons précisé, un système est un ensemble organisé, il n’est pas une
+simple juxtaposition d’éléments. En effet, les différents éléments sont articulés, combinés
+pour répondre à de s exigences précises d’acquisition, de traitement, de stockage ou de
+communication d’informations. Un tel système comporte différentes ressources énumérées ci -
+dessous:
+Figure N° 4 : les composantes d’un système d’information
+Source : REIX, (Robert), Op.Cit, P.20.
+1 BOHNKE, (Sabine) : « Moderniser son système d’information », Eyrolles, éditions d’organisation, Paris, 2010,
+P.3
+--- PAGE 21 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+14
+Le système d’information en tant qu’un ensemble organisé, il comporte :
+ Les ressources humaines : ce sont soit des utilisateurs, c'est -à-dire des employés, des
+cadres qui consomment l’information produites par le système ou contrib uent à
+l’acquisition, au stockage, au traitement ou à la communication d’informations, soit
+des informaticiens, concepteurs de système d’information (les programmateurs, les
+analystes fonctionnels et opérateurs sur ordinateurs) dont la fonction exclusive
+consiste à concevoir, implanter, faire fonctionner un système d’information.
+ Les ressources matérielles : sont constitués des dispositifs physiques (périphériques,
+réseaux.), qui permettent de recevoir, d’émettre, de manipuler des informations. Ils
+intègrent également les supports de l’information (papier, magnétique, optique).
+ Les ressources logicielles : comprennent
+ Les programmes : d’application et de service nécessaires au fonctionnement des
+matériels informatiques (système d’exploitation, traitement de texte, tableurs…).
+En l’absence de ceux -ci (les matériels informatiques), les procédures sont
+manuelles et il n’y a pas lieu de préparer des logiciels.
+ Les procédures : ensemble d’instructions, de précautions ou de mesures à prendre
+lors du traitement des informations (saisie, correction d’erreurs…).
+ Les ressources en données : se présentent sous forme de données alphanumériques
+(chiffres, lettres, données textuelles, données d’image, données audio).
+Il est important de noter que le SI ne découle pas de la simple juxtaposition de ces
+ressources ; il est le résultat d’un travail de construction qui a pour but de répondre au mieux
+aux objectifs assignés au SI par ses utilisateurs futurs.
+C. Système d’information et informatique1 :
+Il existe bien de nos jours une relation étroite entre système d’information et
+informatique. Cependant, il ne s’agit pas d’une relation d’identité mais d’une relation de type
+demande et offre. Il existe dans les organisations des besoins de traiter des in formations pour
+permettre à l’organisation d’être efficace et de se développer. L’informatique peut offrir des
+outils permettant de satisfaire ces besoins d’une manière adaptée. La relation entre les deux
+est donc de type maitrise d’ouvrage et maitrise d’œ uvre ou client à fournisseur. Cela aura des
+1 GILLET, (Michel) et GILLET, (Patrick), Op.cit., P.3.--- PAGE 22 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+15
+incidences très importantes. Il est parfois utile de distinguer système d’information et système
+informatique :
+Tableau N°2 : Distinctions entre informatique et système d'information
+Informatique Système d'information
+Désignation Un outil, un moyen, u n centre
+de coûts
+Une philosophie, un actif, un
+élément de la chaîne de valeur
+Définition
+-Il désigne des machines
+(ordinateurs, réseaux) et des
+logiciels. La compétence
+informatique consiste à
+maîtriser à la fois la technicité
+des matériels et des langages
+de programmation et/ou le
+paramétrage des logiciels.1
+-C’est un ensembl e organisé
+d’objets techniques matériels,
+logiciels, applications - dont la
+mise en  œuvre réalise
+l’infrastructure d’un système
+d’information.2
+-Il fait le lien entre la technologie
+informatique et le fonctionnement
+d’une entreprise.3
+-C’est la partie du réel constituée
+d’informations organisées,
+d’événements ayant un effet sur ces
+informations et d’acteurs qui
+agissent sur ces in formations ou à
+partir de ces informations, selon des
+processus visant une finalité de
+gestion et utilisant les technologies
+de l’information.3
+Fonction -Automatiser
+-Fonction transversale de
+support
+-Faire une différence stratégique
+-Fonction de transformation
+stratégique
+Approche Fonctionnelle: identifier des
+besoins opérationnels et
+informationnels immédiats et
+leur fournir des fonctionnalités
+Informationnelle: comprendre le
+métier de l'entreprise afin de
+construire ou de reconstruire des
+fondations durables pour son
+1 AUTISSIER (D), DELAYE (V) : Mesurer la performance d’un système d’information, Eyrolles, édition
+d’organisation, Paris, 2008, P.48
+2 MORLEY, (Chantal) : Management d’un projet système d’information, 5ème édition, Dunod, paris, 2006, p.15.
+3 Ibid, P.15.--- PAGE 23 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+16
+et des solutions à court terme système d'information
+Responsabilité -Maîtrise d'œuvre*
+-Domaine des informaticiens
+-Maîtrise d'œuvre ** et maîtrise
+d'ouvrage
+-Domaine de l'entreprise globale
+Source : DEYRIEUX, (André), Le système d'information
+nouvel outil de stratégie, ed maxima, Paris, 2004, P4
+La maîtrise d’ouvrage (MOA) est responsable de l’efficacité de l'organisation et des
+méthodes de travail autour des systèmes d’information . Elle fait appel à un maître d'œuvre
+(MŒ) interne et/ou externe pour obtenir les produits ( matériels, logiciels, services et
+solutions) nécessaires à la réalisation de sa mission.1
+D. Les déterminants de l’utilisation des systèmes d’information :
+L’utilisation des systèmes d’information est déterminée par la taille de l’entreprise, le
+caractère immatériel de l’activité et l’internationalisation de l’entreprise.
+a. La taille de l’entreprise : plus l a taille de l’entreprise est importante plus le
+recours aux systèmes d’information est fréquent.
+b. Le caractère immatériel de l’activité : plus l’entreprise exerce une activité à
+caractère immatériel plus elle aura recours aux systèmes d’information.
+c. L’internationalisation de l’entreprise : Plus l’internationalisation est forte, plus
+le système d’information sera élaboré.
+Les industries globales sont donc les plus à même de disposer d’un SI développé.
+E. Typologies des systèmes d’information :
+* Ce sont des personnes qui formalisent les forces et faiblesses des applications informatiques, définissent les
+besoins en termes d’informatiques pour un métier, un processus, l’évolution ou la création d’une application.
+** C’est un informaticien, qui procède à l’écriture des programmes informatiques avec des langages, construit des
+applications informatiques pour répondre au mieux aux besoins des utilisateurs, décrits par la maitrise d’ouvrage.
+1 http://fr.wikipedia.org/wiki/Ma%C3%AEtrise_d%27ouvrage, le 22/04/2014 à 23 :38--- PAGE 24 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+17
+Du point de vue conceptuel, les systèmes d’information peuvent être classés selon
+différentes manières, comme le montre le tableau suivant :
+Tableau N°3 : Typologies des SI
+Critères de
+classification
+Types de SI Rôles
+Systèmes du niveau de la
+stratégie
+Aider les cadres supérieurs à résoudre les
+questions d’ordre stratégique et réagir aux
+tendances à long terme tant de l’entreprise
+elle-même que son environnement.
+Niveaux
+d’organisation Systèmes du niveau de la
+gestion
+Soutenir les cadres intermédiaires dans
+l’exécution des activités de suivi, de
+contrôle, de prise de décision non
+routinière et d’administration.
+Systèmes du niveau des
+opérations
+Aider les cadres opérationnels à assurer le
+suivi des activités et des transactions
+élémentaires de l’organisation (ventes,
+paie…).
+Système d’information
+marketing
+Engendrer un flux ordonné d'information
+pertinente, provenant de sources internes et
+externes à l'entreprise et destiné à servir de
+base aux décisions marketing.
+Fonction
+Système d’information de
+production
+Organiser l’ensemble des activités de
+production de façon à satisfaire les
+commandes des clients.
+Système d’information
+comptable /financier
+assurer que les responsabilités en matière
+de gouvernance du système d'information
+« finance » sont bien formalisées de façon
+à être reconnues en tant que telles.
+Système d’information de
+RH
+Il permet d’automatiser les différents
+processus qui composent la gestion des
+ressources humaines. Ce dernier couvre--- PAGE 25 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+18
+donc l’ensemble du domaine des RH.
+Système d’information pour
+dirigeants
+Doit fournir une information synthétisée et
+à jour qui donne un aperçu général continu
+des activités et opérations de l’entreprise.
+Finalité
+Système d’information de
+gestion
+Identifier les activités liées à la gestion du
+système d’information et la diversité des
+métiers associés.
+Système d’information d’aide
+à la décision
+le suivi opérationnel, la conservation des
+données historiques, la production de
+statistiques et rapports nécessaires.
+Système d’information de
+traitement des transactions
+Garantir à tout moment les propriétés
+inhérentes à une transaction
+informatique pour les données qu'il gère.
+Source : BELAID : « Le management, concepts clés », Collectif EPBI,
+édition pages bleues, Algérie ; 2009, P.65-68. Par adaptation.
+F. Rôle du système d’information1 :
+R. Reix et F. Rowe (2002) signalent la multiplication des problématiques liées à
+l’usage des systèmes d’information : l’aide à la décision ; l’aide à la communication ; la
+constitution d’un champ très lié à une évolution technique en diversification constante. Nous
+pouvons ainsi détailler trois principaux rôles du système d’information au sein de l’entreprise,
+à savoir :
+A. Instrument de partage et de connexion entre les différents acteurs de
+l’entreprise :
+1GILLET, (Michel) et GILLET, (Patrick) : « Système d’information des ressources humaine s », Ed Dunod,
+Paris, 2010, P.27--- PAGE 26 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+19
+L’efficacité de la prise de décision et la rapidité de la réaction aux modifications des
+conditions de l’environnement, dans tous les domaines, dépendent de la qualité de ce partage
+en terme :
+- de rapidité de transmission de l’information ;
+- de fiabilité des informations transmises, non-déformation par des bruits parasites ;
+- de complétude de l’information. Il ne doit pas y avoir d’omission dans la transmission
+de données afin de ne pas biaiser la prise de décision (filtration, dilution);
+- d’adéquation de l’information transmise, par rapport aux besoins du destinataire.
+Chaque destinataire de l’information aura des besoins caractérisés par sa position hiérarchique
+et son rôle fonctionnel dans l’organisation.
+B. Mémoire de l’organisation :
+Une entreprise qui perd sa mémoire perd son histoire, son savoir et son savoir -faire.
+L’amnésie est aussi désa streuse chez un être social que chez un être humain. La créativité,
+permettant de résoudre les problèmes, étant fondée sur le raisonnement analogique, il est très
+important de capitaliser ses connaissances, pour accroître son potentiel comme le fait le
+cerveau humain.
+Malheureusement de nombreuses organisations ne prennent pas encore conscience de
+l’importance de la fonction de mémorisation, qui nécessite le stockage des informations, mais
+également leur mise à disposition en cas de besoin.
+C. Instrument de mise en forme des données :
+Afin de disposer des informations adéquates en temps utiles, le système d’information
+doit non seulement fournir à chacun l’information dont il a besoin, mais elle doit être aussi
+sous une forme compréhensible, conforme et agréable au décideur, et ce, en prenant en
+compte sa position hiérarchique et son rôle dans l’organisation. Cela permettra un gain de
+temps considérable pour le destinataire.
+La relation complexe entre information et organisation est fondée sur un rapport
+dialectique, l’information est donc un support à l’organisation et inversement. L’organisation
+progresse et apprend, elle va formuler de nouvelles demandes qui vont permettre d’organiser--- PAGE 27 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+20
+l’information et d’approfondir le système d’information. On entre ai nsi dans une spirale de
+progrès mutuels.
+SECTION 2 : LES NOUVEAUX DEFIS DE LA FONCTION SYSTEME
+D’INFORMATION
+2.1. Les acteurs de la fonction système d’information1 :
+De nos jours, les entreprises ont besoin de systèmes d’information pour exercer leurs
+activités et qu’elles utilisent de nombreux types de systèmes différents. Les utilisateurs finaux
+gèrent leurs systèmes en fonction de leurs activités mais la gestion technologique nécessite la
+création d’une fonction spéciale de la gestion des systèmes d’information.
+Dans toutes les entreprises, sauf les plus petites, le service ou la fonction de systèmes
+d’information est l’unité organisationnelle officiellement chargée des services liés à la
+technologie de l’information. Elle a la responsabilité du bon fonctionnement du matériel, des
+logiciels, du stockage des données et des réseaux. Le service SI comprend des spécialistes
+tels que des programmeurs, des analystes de systèmes, des directeurs de projet et des
+gestionnaires de systèmes d’information.
+- Les p rogrammeurs sont des techniciens hautement qualifiés qui rédigent les
+instructions logicielles des ordinateurs.
+- Les analystes de systèmes constituent le principal lien entre les groupes de spécialistes
+des SI e le reste de l’organisation. Ils ont pout tach e de traduire les problèmes et les
+exigences des affaires en besoins d’information et en systèmes d’information.
+- Les gestionnaires des SI sont les chefs des équipes de programmeurs et d’analystes,
+les directeurs de projet, les gestionnaires des installatio ns physiques, les gestionnaires
+des télécommunications et les spécialistes des bases de données.
+1 LAUDON, (Kenneth), LAUDON, (Jane) : « Les systèmes d’information  de gestion ; gérer l’E numérique »,
+3ème ed , CANADA, 2010, P.51.--- PAGE 28 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+21
+- S’ajoutent à ce service les superviseurs du personnel chargé des opérations
+informatiques et de la saisie des données.
+- De plus, des spécialistes de l’extérieu r-fournisseur de matériel fabricants
+d’ordinateurs, entreprises de logiciels et consultants -participent souvent aux activités
+quotidiennes et à la planification à long terme des SI.
+- Dans bon nombre d’entreprises, le service des SI est dirigé par un chef d e
+l’information, membre de la haute direction, qui supervise l’utilisation des
+technologies de l’information au sein de l’entreprise.
+- Les grandes entreprises comptent aussi désormais des postes de chef de la sécurité, de
+chef de la gestion des connaissanc es et de chef de la protection des renseignements
+personnels, dont les titulaires travaillent tous en étroite collaboration avec le chef de
+l’information.
+- Les utilisateurs finaux sont des représentants des services (à l’extérieur du groupe des
+systèmes d’information) auxquels les applications sont destinées. Ils jouent un rôle de
+plus en plus important dans la conception et l’élaboration des SI.
+Dans les premières années de l’informatique, le groupe des SI était essentiellement
+composé de programmeurs qui effectuaient des taches techniques hautement spécialisées mais
+limitées. Aujourd’hui, une proportion de plus en plus grande du personnel est constituée
+d’analystes de systèmes et de spécialistes de réseaux et le service des SI agit comme un
+puissant agent de changement dans l’organisation. Il propose de nouvelles stratégies d’affaires
+et de nouveaux produits et services fondés sur l’information et s’occupe à la fois du
+développement de la technologie et de la planification des changements.
+La fonction stratégique du système d'information est de rendre cohérent les échanges
+entre les acteurs (internes ou externes) et de gérer l'évolution de l'organisation en permettant à
+chacun des prises de décisions judicieuses.
+2.2. La structure de la fonction SI au sein des entreprises :
+Le pilotage des SI s’organise autour d’un triptyque constitué de la direction générale,
+de la direction des SI et des directions métiers. La définition du SI et son adéquation aux
+besoins des activités de l’entreprise son t la responsabilité première des équipes de
+management des directions  métier. La direction informatique est responsable de la mise en--- PAGE 29 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+22
+œuvre pratique (production et informatique) et de l’évolution à long terme du SI (projets et
+architecture globale). Il ex iste de nombreux types d’entreprises et de multiples façons de
+structurer la fonction Si.
+Une entreprise de taille très modeste n’aura pas de groupe qui en soit officiellement
+responsable, elle pourra confier à un employé la tache de veiller au bon fonctionnement de ses
+réseaux et de ses applications ou avoir recours à des consultants pour assurer ces services.
+Mais les sociétés de plus grande envergure  ont un service des systèmes d’information
+distinct, dont la structure peut varier en fonction de la nat ure et des champs d’intérêt de
+l’entreprise.
+1. L’entreprise se dote parfois d’une structure décentralisée dans laquelle chaque secteur
+fonctionnel a son propre service et sa propre direction des SI, relevant en général d’un
+cadre supérieur ou du chef de l’ information. En d’autres termes, le service du
+marketing a son propre groupe des SI, comme le service de production et chacune des
+autres fonctions de l’entreprise.
+Cette structure a l’avantage que les systèmes créés répondent directement aux besoins des
+domaines fonctionnels. Mais la centralisation étant faible et chaque groupe possédant à ses
+propres acquisitions technologiques, l’organisation court  le risque que les systèmes mis sur
+pied soient incompatibles, ce qui augmentera les couts.
+2. Dans un autre type de structure, la fonction des SI constitue un service distinct
+semblable à celui des autres domaines fonctionnels, doté d’un important effectif, d’un
+groupe de cadres intermédiaires et de cadres supérieurs, qui revendique sa part des
+ressources de l’entreprise.
+Cette structure est celle que privilégient bon nombre de grandes entreprises. Le service central
+des SI prend les décisions technologiques pour l’ensemble de l’entreprise, ce qui accroit les
+chances de compatibilité des systèmes et de cohérenc e des plans de développement des
+systèmes à long terme.
+3. Les très grandes entreprises comptent de multiples divisions et gèrent plusieurs
+gammes de produits. Elles peuvent donc permettre à chaque division (comme celle des
+produits de consommation ou des pro duits chimiques et additifs) d’avoir son propre
+groupe de systèmes d’information. Mais tous les groupes relèvent du chef de
+l’information et d’un groupe central qui établit les normes qui s’appliquent à toute--- PAGE 30 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+23
+l’entreprise, centralise les achats et élabore des plans à long terme pour assurer une
+évolution coordonnée de la plateforme informatique de l’entreprise. ce modèle
+conjugue une certaine indépendance des divisions et une certaine centralisation.
+2.3. Les responsabilités de la fonction système d’information :
+La fonction système d’information est une fonction à part entière dans l’organisation, elle se
+charge de : 1
+ La stratégie des systèmes d’information : elle identifie les besoins de l’organisation
+en matière d’informatique, en fonction de son activité et de ses stratégies.
+ Le déploiement des systèmes d’information : qui concerne les choix qui visent la
+réussite des projets informatiques.
+ L’exploitation du système d’information : ou co mment suivre la disponibilité du
+parc informatique et télécom, et la performance des applications de l’entreprise.
+2.4. Les missions de la direction des SI2 :
+La DSI est en interaction avec la direction générale, ainsi que les autres fonctions de
+l’entreprise. Voire est rattachée à la direction générale.
+En pratique, la DSI s’occupe de :
+ La coordination entre les équipes transversales.
+ Contrôle des différents acteurs internes et externes.
+ Force de proposition quant à l’évolution des SI liés à l’év olution méme de
+l’organisation
+ Respect de la cohérence entre la stratégie de l’entreprise et les évolutions des SI.
+ Rationalisation technique et budgétaire des choix technologiques
+1 AUTISSIER, (D), DELAYE (V) : Op.cit., P.48
+2 Ibid : P. 20--- PAGE 31 ---
+CHAPITRE I : CADRE CONCEPTUEL DU SYSTEME D’INFORMATION
+24
+En terme organisationnel, la DSI se compose généralement s :
+ D’une cellu le études, responsables des projets applicatifs et de maintenance
+applicative
+ D’une cellule exploitation, responsable de la mise à disposition des applications et
+servant de support applicatif, bureautique…
+ Voire d’une cellule infrastructure et télécoms, r esponsable de la messagerie, des
+réseaux et des télécoms.
+En fonction de la taille de l’entreprise, et de son mode d’organisation, la DSI peut être
+centralisée ou décentralisée.
+2.5. Les missions du directeur des SI1 :
+Le directeur des SI doit posséder donc des compétences technologiques,
+communicationnelles, managerielles et de gestion. D’après le répertoire ROME (répertoire
+opérationnel des métiers et des emplois), le directeur des SI :
+ Dirige une organisation, des ser vices, des structures informatiques et fixe les
+évolutions des besoins fonctionnels et la stratégie de l’entreprise.
+ Il supervise la conception, la mise en œuvre et le maintien opérationnel (qualité,
+sécurité, fiabilité, coûts, délais) des prestations info rmatiques produites et des
+systèmes d’information.
+ Il pilote et supervise des projets en SI.
+ Il gère le budget le global de la structure, du service ou du projet.
+L’activité de ce métier s’exerce au sein des sociétés de services, d’entreprises en
+relation avec différents services de l’entreprise ou clients (maintenance, exploitation…etc), en
+contact avec multiples intervenants (prestataires, fournisseurs, maitrise d’ouvrage, maitri se
+d’œuvre, directeur général). Elle varie selon le type de structure, l’org anisation,  et le niveau
+de responsabilité (stratégie, support métiers, management de projet, technologies).
+1 MONACO, (Laurence) : « Système d’information de gestion », 2ème édition Lextenso, Paris, 2012,  P.19.--- PAGE 32 ---
+CHAPITRE II
+PRESENTATION DU TERRAIN
+ET CHOIX METHODOLOGIQUE--- PAGE 33 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+26
+Le secteur des hydrocarbures en Algérie est largement dominé par la SONATRACH,
+NAFTAL étant une des plus grandes sociétés du groupe, elle occupe la position d’opérateur
+historique dominant et de par la respectable expérience et expertise acquises une force
+reconnue.
+L’entreprise NAFTAL repose sur divers principes et valeurs tels que la
+décentralisation, la transparence, l’efficacité, la réactivité ou encore la valorisation des
+ressources hu maines, et la primauté de l’intérêt du groupe dans toutes les décisions et le
+renforcement de la communication à tous les niveaux.
+Ce chapitre sera divisé en trois sections, la première consistera à présenter cet
+organisme d’accueil « NAFTAL/SPA », déterm iner ses activités, ses missions, et dans la
+deuxième section il s’agira de présenter le département concerné par l’étude qui est la
+direction centrale de s systèmes d’information DCSI , en dernier lien, nous détaillons l’aspect
+méthodologique de notre travail.--- PAGE 34 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+27
+SECTION 1 : LA PRESENTATION DE L’ENTREPRISE NAFTAL/SPA.
+1.1.Fiche technique de l’entreprise NAFTAL :
+Dénomination sociale NAFTAL SPA
+Filiale à 100% de SONATRACH
+Capital social 15.650.000.000 DA
+Date de création 6 Avril 1980, par le décret n°80-101
+Mission principale Distribution et C ommercialisation des produits
+pétroliers.
+Siège social Bp 73 Route des dunes, Chéraga, Alger
+Domaines d’intervention
+ Enfûtage des GPL
+ Formulation de bitumes
+ Distribution, stockage et commercialisation des c
+arburants, GPL, lubrifiants, bitumes, pneumatiques,
+GPL/carburant, produits spéciaux.
+ Transport des produits pétroliers.
+Effectif 29 762 agents : 24 771 permanents, 4991 temporaires
+Position premier distributeur de produits pétroliers en Algérie.1
+Production
+51% de l'énergie finale              10 millions de tonnes
+de produits pétroliers par an sous forme de :
+- Carburants (8 millions de TM).
+- Gaz de pétrole liquéfiés (plus de 1.6 million
+de TM).
+- Bitumes (plus de 0.5 million de TM).
+- Lubrifiants (plus de 70 000 TM).
+1.2.Historique ou évolution :
+L’évolution de l’entreprise NAFTAL peut être résumée en trois étapes comme suit :
+ 1ère étape ( 1980-1987) : C réation de « ERDP » par transfert du monopole de
+SONATRACH
+1 http://www.naftal.dz/presentation.php?pageID=EN-CHIFFRE, le 22/03/2014 à 22 :44--- PAGE 35 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+28
+ Issue de la restr ucturation de SONATRACH en 1980 , l’entreprise nationale de
+raffinage et de distribution de produits pétroliers (ERDP) a été créée par transfert du
+monopole de SONATRACH le 6 Avril 1980 par décret n°80-101.
+ Entrée en activité le 1er janvier 1982, elle est chargée du raffinage et de la
+distribution des produits pétroliers.
+ La dénomination de l’entreprise nationale de raffinage et de distribution de produits
+pétroliers a été modifiée par abréviation NAFTAL, suite à la promulgation du décret
+n°83-112 du Février 1983.
+ 2ème étape (1987 -1997) : Création de NAFTEC par transfert de l’activité de
+raffinage de NAFTAL
+ Issue du transfert de l’activité de raffinage de NAFTAL, l’entreprise nationale de
+raffinage des produits pétroliers (NAFTEC) à caractère économique a été créée par
+transfert de l’activité de raffinage de NAFTAL, conformément au décret n°87 -190 du
+25 Aout 1987.
+ L’activité raffinage est séparée de l’activité distribution , NAFTAL est
+désormais chargée uniquement
+de la commercialisation et de la distribution des produits pétroliers et dérivés.
+ 3ème étape depuis 1997 : Fin du monopole et ouverture du marché de la
+distribution
+ La promulgation du décret n°97 - 435 du 17 Novembre 1997 portant la réglementation
+de stockage et de distribution des produits pétroliers, qui consacre l’ouverture à toute
+personne morale ou physique de l’exercice des activités de distribution des produits
+pétroliers, de conditionnement des GPL et de transformation des bitumes.
+ Transformation de NAFTAL en société par actions au capital social de 6 560 000 000
+DA, filiale à 100% du groupe SONATRACH le 18 Avril 1998, le capital a été
+augmenté à 15 milliards DA en 2002 et à 15.65 milliards en 2006.
+ La promulgation de la loi n° 05-07 du 28 Avril 2005 relative aux hydrocarbures, qui a
+instauré le principe du libre accès aux installations de transport par canalisation et de--- PAGE 36 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+29
+stockage des produits pétroliers moyennant paiement d’un tarif agréé pa r l’agence de
+régulation des hydrocarbures.
+ La forte concurrence notamment sur le marché des produits à marge libre (lubrifiants,
+pneumatique, bitumes…)
+1.3. Les activités de NAFTAL :
+Les activités principales de NAFTAL se résument comme suit :
+ Stockage, distribution et commercialisation des carburants terre (essence, gasoil,
+essence sans plomb et GPLc).
+ Stockage et commercialisation des carburants Kérosènes (jet A, jet B…) et lubrifiants
+destinés à l’aviation.
+ Stockage et commercialisation des carburants et lubrifiants destinés à l’activité marine
+(bunker C, fuel…etc).
+ Stockage, conditionnement, distribution et commercialisation des gaz du pétrole
+liquéfiés GPL (Butane, Propane).
+ Stockage, formulation et commercialisation des bitumes.
+ Commercialisation des lubrifiants, pneumatiques et produits spéciaux (cires,
+paraffines, solvants et aromatiques).
+ Récupération et exportation des huiles usagées.
+1.4. NAFTAL dans son environnement :
+Le secteur de la distribution des produits pétroliers en Algérie a évolué ces dernières années,
+notamment :
+ La réglementation a changé, elle continue à changer.
+ Les normes HSE deviennent de plus en plus contraignantes.
+ De nouveaux acteurs interviennent, très dynamiques, avec des méthodes plus simples,
+différentes de celles de NAFTAL.
+ Les besoins se diversifient, tout en augmentant.
+ Les infrastructures nationales, routes, chemin de fer, ports, se renforcent et s’étendent.
+ Les consommateurs sont plus exigeants.
+ Les grands de la grande distribution annoncent leur arrivée.--- PAGE 37 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+30
+Cette évolution est porteuse de dangers et de risques énormes pour l’entreprise
+NAFTAL et ses activités. La politique énergétique du ministère de l’énergie et des mines vise
+à améliorer la performance du secteur de la distribution des produits pétroliers.
+Grace aux efforts déployés quotidiennement, NAFTAL assure la disponibilité de ses
+produits pétroliers à travers tout le territoire national, notamment dans les conditions les plus
+difficiles et les endroits les plus reculés. A ce titre, il parait vital que le centre d’intérêts de
+tous les intervenants dans ce secteur doit être axé sur la satisfaction entière des besoins du
+client, en lui assurant des prestations de haute qualité, dans le respect total des règles de la
+sécurité, de la concurrence, conformément aux normes et standards internationaux.
+En effet, l ’entreprise NAFTAL est leader sur le marché national de distribution des
+produits pétroliers, néanmoins,  cette position e st soumise à une rude épreuve par l’ouverture
+du marché et par une concurrence de plus en plus importante de la part des opérateurs locaux
+et étrangers.  Ces changements exigent un continuel effort  d’adaptation afin de consolider,
+voire maintenir sa posit ion, tout en saisissant les opportunités offertes, notamment au niveau
+régional.
+Les enjeux futurs s’annoncent rudes avec l’introduction de puissants concurrents
+étrangers, qui suivent avec une attention particulière l’évolution du marché de la distributi on
+des produits pétroliers. Ces concurrents qui faut -il le rappeler, viendront avec des stratégies,
+déjà préétablies, des projets intégrés et un savoir -faire avéré en mesure d’accaparer des parts
+de marché. NAFTAL est consciente de l’urgence du changement afin de s’adapter aux
+exigences économiques de l’heure, dont les jalons directeurs ont pour noms, la compétitivité,
+la qualité et la performance.
+En outre, l ’environnement qui se présente aux entreprises nationales en général et à
+NAFTAL en particulier s e caractérise par la mondialisation et l’accélér ation des mutations
+économiques, l ’accord d’asso ciation avec l’union européenne et la future adhésion de
+l’Algérie à l’OMC. Sur le plan interne, NAFTAL est leader sur le marché de la distribution et
+commercialisation des produits pétroliers, s es stations -services NAFTAL sont implantées à
+travers l’ensemble du territoire national.--- PAGE 38 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+31
+De cet ordre d’idées, nous pouvons présenter la matrice SWOT de l’entreprise NAFTAL :
+Tableau N° 4 : Analyse SWOT de l’entreprise NAFTAL
+FORCES FAIBLESSES
+ NAFTAL appartient à un grand groupe
+pétrolier international (SONATRACH).
+ Le réseau stations -service NAFTAL
+existe depuis plusieurs décennies, d’où
+son expérience.
+ Une implantation à travers l’ensemble du
+territoire national.
+ NAFTAL est la deuxième entreprise du
+pays.
+ Des infrastructures de transports et de
+stockage importantes.
+ Une gamme de  produits diversifiée.
+ Capacités de développement importantes.
+ Esprit monopole persistant.
+ Déficit de commodités modernes et
+d’activités annexes, notamment non fuel,
+u niveau de ses stations-service.
+ Une prestation de service insuffisante.
+ Un marketing embryonnaire.
+ Une culture d’hygiène et de sécurité
+insuffisante.
+ Absence de stratégie adaptée aux
+tendances du marché.
+ Faible exploitation du système
+d’information de communication.
+ Potentiel du réseau insuffisamment
+exploité.
+ Absence de veille technologique pour
+certains produits.
+ Politique marketing inadaptée aux
+réalités du marché.
+OPPORTUNITES MENACES
+ L’autoroute Est/Ouest.
+ Le lancement d’un large programme de
+rénovation et de modernisation du  réseau
+stations-service.
+ Développer en sous -traitance et/ou en
+partenariat les activités non fuels.
+ L’augmentation de la consommation.
+ L’arrivée imminente  de nouveaux
+entrants.
+ Une qualité de l’offre produits/services
+nouvelle aux yeux de la clientèle.
+ Marché fortement concurrentiel.
+ Des formats de stations -service des
+concurrents nouveaux.
+ Des partenariats déjà établis sur les
+domaines clés (activités  non fuels).
+ Des pratiques commerciales de s--- PAGE 39 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+32
+concurrents plus agressives.
+ Nouveau cadre législatif régissant la
+distribution et commercialisation
+Source : élaborée par nous-mêmes
+Partant du fait que le réseau stations-service NAFTAL est perçu de l’extérieur comme étant :
+ Un réseau qui ne répond pas entièrement aux attentes de la clientèle.
+ Une indisponibilité des produits ; lubrifiants et pneumatiques, notamment.
+ Une culture de sécurité insuffisante.
+NAFTAL devra désormais, accroitre sa notoriété, développer son image et
+communiquer plus sur son expérience, sa capacité d’écoute, ses prestations de service, son
+engagement à protéger l’environnement et sur l’expertise de son personnel.
+1.5.Organisation d e l’Entreprise :
+Dans un contexte en forte mutation marqué par les contraintes d’adaptation à la loi
+d’une part et par une concurrence qui devient de plus en plus féroce d’autre part, NAFTAL a
+adopté une nouvelle stratégie en matière d’organisation basée s ur le principe de la
+spécialisation par ligne de produits (par activité). Il s'agit d'une organisation fortement
+hiérarchisée, conçue selon les principes dictés par le taylorisme.
+Pour ce faire, NAFTAL a fait l’objet d’une actualisation de sa macrostructu re
+effectuée en 2006, qui s’articule autour des principales structures ci-après :
+ La Direction Générale (le staff exécutif) ; qui est chargée de la
+politique, des orientations générales, de la coordination, de la
+cohérence d’ensemble, du pilotage, du management et de la veille
+stratégique.
+ Les Structures Fonctionnelles ; qui comprennent les directions
+exécutives, les directions centrales, et les directions de soutien.--- PAGE 40 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+33
+ Les Directions Exécutives , chacune dans son domaine d’activité, sont
+chargées de :
+- Anticiper les tendances.
+- Concevoir et mettre en place les instruments de pilotage et les
+outils de contrôle.
+- Assurer le management stratégique.
+- Assister les structures opérationnelles.
+- Définir la politique et la stratégie générale de la société.
+ Les Directions Centrales sont des centres d’expertise pour les activités
+de recherche, de développement, d’audit, de la protection du
+patrimoine, de la sécurité industrielle et de l’environnement, de la
+communication et relations publiques et des activités spo rtives et
+culturelles.
+ Les Directions de soutien assurent la gestion administrative du siège
+social de la société.
+ Les Structures Opérationnelles ; qui comprennent les branches
+d’activités, Branche Carburants, Commercialisation , GPL, activités
+Internationales & Partenariats--- PAGE 41 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+34
+La figure suivante représente l’organisation générale de la macrostructure de NAFTAL :
+Source: Direction Centrale Stratégie, Planification et économie. NAFTAL, 2014
+Structures
+Fonctionnelles
+Direction
+Générale
+Structures
+Opérationnelle
+s
+Figure N°5 : Organisation de la macrostructure de la société NAFTAL
+Président Directeur Général
+NAFTAL S.P.A
+Directions Générale
+Conseillers
+Comité exécutif
+Chef de Projet
+Comité Directeur
+Direction Exécutive Stratégie /
+Planification/Eco
+Direction Exécutive
+Ressources Humaines
+Directions
+Exécutives
+Direction Exécutive
+Finance
+Structures Fonctionnelles
+Direction Centrale
+Système
+d’information
+Direction Centrale
+H.S.E.Q
+Direction Centrale
+Procédures & Contrôle
+de Gestion
+Direction Centrale
+Audit
+Directions
+centrales
+Centrales
+Direction Centrale
+Communication &
+Relations
+Publiques
+Direction Centrale
+A.S.C
+Direction Centrale
+Recherche & Dév.
+Directions de soutien
+de Soutien
+Direction
+Sûreté Interne de l’Etablissement
+Direction
+Administration Générale
+Branche
+Activités Internationales
+& Partenariats
+Branche
+Commercialisation
+Branche
+Carburants
+Branche
+G.P.L--- PAGE 42 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+35
+SECTION 2 : LA PRESENTATION DE LA DIRECTION CENTRALE DE
+SI DE L’ENTREPRISE NAFTAL
+La direction des systèmes d’information est la direction concernée par notre étude
+dans la mesure où elle s’occupe de la fonction sy stème d’information . La DCSI est une
+nouvelle structure de NAFTAL, créée dans le cadre de la réorganisation de l’entreprise (fin
+2004), elle dépendait de la direction systèmes d’information & pro cédures SIP, mais dépend
+maintenant de la direction générale.
+2.1.Missions de la Direction Centrale des Systèmes d’Informations :
+La direction Centrale des Systèmes d’Informations de NAFTAL a pour mission de :
+- Organiser la migration des systèmes informatiques existants vers de nouvelles
+plateformes plus performantes
+- Mettre en place des progiciels et autres outils modernes (ERP) d’analyse des banques
+de données de gestion et d’aide à la décision.
+2.2.Tâches et responsabilités:
+Quant aux taches et responsabilités, la direction Centrale des Systèmes d’Informations de
+NAFTAL s’occupe de :
+- Doter l’entreprise d’une infrastructure de communication sous forme de réseau étendu
+qui intègre toutes les structures de la société ;
+- Déployer des réseaux locaux sur l’ensemble des structures de la société jusqu’aux
+centres de distribution et de stockage ;
+- Veiller à la cohérence de l’environnement informatique de la société en termes de
+technologies et de ressources ;
+- Assurer la sécurité et la confidentialité des systèmes d’information de la société ;
+- Mettre en place des progiciels modernes qui couvrent toutes les fonctions de la
+société ;
+- Constituer et superviser les groupes de chargés de la conduite des projets (analyse,
+conception, développement, formation, déploiement, consolidation, et assistance) ;
+- Editer périodiquement les tableaux de bord des données de gestion de la société ;--- PAGE 43 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+36
+2.3.Organisation de la DCSI :
+La direction centrale des systèmes d’information s’organise autour de différents départements.
+Figure N° 6 : L’organigramme de la DCSI
+Source : direction centrale systèmes d’information, NAFTAL, 2014
+--- PAGE 44 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+37
+Au regard  de l’organigramme de la DCSI, cette direction est composé e de six
+départements, qui sont Département systèmes Back Office, Département systèmes
+opérationnels, Département Solutions Web & Systèmes Décisionnels, Département
+traitements informatiques , Département support & réseaux informatiques, Département
+archives centrales. Dans ce qui suit nous verrons le profil , ainsi que l es tâches et
+responsabilités assignées de chacun d’entre eux.
+Tableau N° 5 : Les différents départements de la DCSI de NAFTAL
+Département Effectif Profil Taches et responsabilités
+Département
+systèmes Back
+Office
+9 Chefs de projet
+Administration
+Systèmes
+Chefs de projet
+Sécurité
+informatique
+ Coordonner avec les autres
+départements de la direction,
+l’implémentation et l’optimisation des
+systèmes de gestion de bases de
+données.
+ Veiller à la confidentialité, à l’intégrité
+et à la disponibilité des données
+hébergées sur les supports relevant
+leurs compétences ;
+ Assurer la sécurité, l’organisation et la
+gestion des données du réseau
+hébergées sur des supports dont le
+département est responsable ;
+Département
+systèmes
+opérationnels
+11 chefs de projet
+développement et
+d’ingénieurs.
+ Constituer et superviser les groupes de
+chargés de la conduite des projets
+(analyse, conception, développement,
+formation, déploiement, consolidation,
+et assistance) ;
+ Editer périodiquement les tableaux de
+bord des données de gestion de la
+société ;
+ Assainir le référentiel de données de la
+société et maintenir en permanence son
+unicité pour la cohérence des interfaces
+inter systèmes ;
+Département
+Solutions Web
+& Systèmes
+10 Chefs de Projet
+Intégrateur WEB
+Chefs de Projet
+Systèmes
+Décisionnels
+ Planifier la réalisation des systèmes de
+valorisation et publication des
+indicateurs de gestion de l’entreprise ;
+ Participer à l’élaboration des cahiers de
+charge et étudier les offres relatives
+aux solutions web, décisionnelles ou
+qui intègrent les deux--- PAGE 45 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+38
+Décisionnels  Veiller à l’intégration des solutions ou
+technologies web et décisionnelles
+adaptées à la politique générale
+d’informatisation de l’entreprise;
+Département
+traitements
+informatiques
+10 Techniciens transfert
+de données,
+techniciens de
+traitement, chargé
+d’études
+ organiser la gestion des ressources pour
+le déroulement des traitements
+informatiques ;
+ veiller au maintien en condition des
+moyens matériels de traitements
+informatiques ;
+ élaborer les cahiers des charges pour le
+renouvellement et l’extension des
+équipements de traitement
+informatiques ;
+Département
+support &
+réseaux
+informatiques
+13 Ingénieurs hardware,
+ingénieurs système,
+techniciens
+hardware,
+techniciens en
+informatique, chargé
+d’études
+ Réaliser les études d’installation des
+réseaux informatiques ;
+ Définir les fiches techniques des
+équipements informatiques ;
+ Réaliser l’installation et la maintenance
+des équipements informatiques ;
+ Elaborer et diffuser les procédures
+d’utilisation des ressources
+informatiques;
+Département
+archives
+centrales
+13 Cadres d’études,
+archivistes,
+opérateur
+micrographe,
+scannéristes
+ Collecter les données sur la situation
+des archives à l’échelle société ;
+ Procéder à la mise en place des
+structures d’archivage à l’échelle
+entreprise ;
+ Suivre la formation des archivistes à
+l’échelle entreprise ;
+ Diriger et contrôler le personnel
+exerçant sous son autorité directe
+Source : élaboré par nous-mêmes--- PAGE 46 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+39
+SECTION 3 : CADRE METHODOLOGIQUE
+3.1. Choix du thème et de l’entreprise :
+A. Choix du thème :
+Dans un environnement complexe et en constante évolution, le pilotage de
+l’organisation consiste à procéder à des ajustements continus afin de s’adapter. L’information
+est donc omniprésente, toutes les approches de gestion sont sous -tendues par l’existence d’un
+système d’information.
+Le choix du thème trouve sa justification dans son caractère novateur, reflétant une
+certaine réalité au sein d’une entreprise algérienne. Ce choix est basé sur l’importance des
+systèmes d’information qui sont devenus une composante essentielle de toute entreprise, ils
+deviennent un champ d’étude indispensable dans divers domaines. 1 Parallèlement, les
+systèmes d’information peuvent jouer un rôle capital dans le succès d’une entreprise ; ils
+fournissent  l’information dont l’entreprise a besoin pour une exploitation efficiente et une
+gestion efficace, néanmoins, ils peuvent échouer. Par conséquent, ils mettent en jeu le succès,
+voire la survie de l’entreprise.
+En pratique, la préoccupation centrale du domaine des systèmes d’information se situe
+au niveau de l’efficacité de ces moyens dans les entreprises. La Direction des Systèmes
+d'Information est l'entité qui au sein de l'organisation a en charge le management des systèmes
+d'information. Sa gestion implique des prises de décisions, des choix et la mise en évidence
+des différents enjeux. Néanmoins, les entreprises recherchent à faire évoluer leurs systèmes
+d’informations, tout en procédant à une évaluation permanente de leur performance. Loin des
+méthodes financières et pratiques quantitatives, nous avons opté pour un modèle d’évaluation
+fonctionnelle pertinent.
+Le choix de cette méthode a été jugé pertinent dans la mesure où il s’agissait d’évaluer
+et de mesurer la performance de la fonction système d’info rmation de NAFTAL, qui est une
+fonction support car elle ne crée pas de valeur ajoutée proprement dit, mais elle y contribue
+1 JAMES, (A. O'BRIEN) : « Les systèmes d'information de gestion », De Boeck Université, Canada, 1995.P.6.--- PAGE 47 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+40
+B. Choix de l’entreprise :
+En Algérie, nous accusons un retard dans l’utilisation technologies de l’information et
+de la communication, néanmoins des entreprises ont pris conscience de l’importance de ces
+technologies dans l’accroissement de leur compétitivité et ont mis en place un système
+d’information fiable pour gérer les flux d’information.
+Cette étude dressera une évaluation de la performance de la fonction système
+d’information de l’entreprise de distribution des produits pétroliers raffinés NAFTAL, filiale
+de la première entreprise africaine SONATRACH . Elle intervient en qualité d'intermédiaire
+entre les fournisseurs nationaux et étrangers (raffineurs, manufacturiers et autres producteurs)
+et les utilisateurs de produits pétroliers implantés essentiellement en Algérie.
+C’est la complexité et la mouvance de l’environnement tant en interne qu’en externe,
+auquel l’entreprise NAFTAL doit faire face et l’importance primordiale accordée à la fonction
+système d’information qui nous ont amenés à choisir cette entreprise comme cas d’étude.
+3.2. Objet et délimitation du champ de l’étude :
+A. Objet de l’étude :
+A l’issue de cette étude, nous avons tenté de mesurer la performance de la fonction
+système d’information de NAFTAL au moyen d’un modèle d’évaluation fonctionnelle MEF,
+portant sur quatre pôles d’analyse, à savoir les activités, les compétences, l’organisation et la
+satisfaction des utilisateurs. Cela consiste à déterminer en pa rticulier, le taux d’activité, le
+taux de maitrise, le taux de support structurel et le taux de satisfaction, correspondants à
+chaque pole du modèle, et le taux de performance globale en général.
+Ne pouvant pas étudier l’aspect technique des systèmes d’inf ormation, à ce stade de la
+recherche, nous nous sommes intéressées à l’application du modèle au sein de la direction
+centrale des systèmes d’informations de NAFTAL.
+Il est question aussi de décrire la direction centrale des systèmes d’information, ainsi
+que son organisation, taches et responsabilités afin de mieux assimiler l’application du
+modèle. Avec l’aide de l’analyse et du recueil d’information théoriques et pratiques que nous
+avons effectué, nous sommes en mesure de présenter la synthèse des évaluat ions
+fonctionnelles afin de répondre à notre problématique.--- PAGE 48 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+41
+B. Délimitation du champ de l’étude :
+Pour être en mesure d’appliquer le modèle d’évaluation fonctionnelle MEF au sein de
+NAFTAL, nous nous sommes basées sur une de ses fonc tions supports, à savoir la direction
+centrale des systèmes d’information, faisant l’objet de notre recherche.
+L’application du modèle MEF au sein de NAFTAL nécessite l’administrions de quatre
+questionnaires, propres au modèle, correspondants aux quatre p ôles d’évaluation. Ces quatre
+questionnaires sont destinés à différentes cibles, comme suit dans le tableau suivant :
+Tableau N° 6 : Population interrogée
+Pole Effectif Poste
+Pole activités 2  Chef département Back office
+ Assistant du directeur de la DCSI
+Pole compétences 25  Chefs de départements
+ Chefs de projets
+ Ingénieurs
+Pole organisation 26  Chefs de départements
+ Chefs de projets
+ Ingénieurs
+ Assistant du directeur
+Pole satisfaction
+clients
+10
+10
+10
+40
+ Membres de la direction
+ Managers
+ Chefs de projet
+ Utilisateurs (DERH, DESPE, DAG)
+Source : élaboré par nous-mêmes
+3.3.La méthode et les outils de recueil d’information :
+A. La méthode de recueil d’information :
+Pour mener notre recherche, nous avons ado pté une approche méthodologique
+qualitative, basée sur l’application d’un modèle d’évaluation fonctionnelle . De par son
+caractère inductif, l’approche qualitative vise à décrire et à mieux comprendre un phénomène--- PAGE 49 ---
+CHAPITRE II : PRESENTATION DU TERRAIN ET CHOIX METHODOLOGIQUE
+42
+dans une situation particulière, en détermi nant les principaux éléments à mettre en relation
+pour produire une représentation cohérente.1
+L’approche quantitative quant à elle, a recours à la mesure et à l’analyse chiffrée, ainsi
+qu’aux calculs statistiques. De par son caractère déductif, elle cherche à vérifier et à assurer
+qu’il est possible de généraliser une affirmation déduite de théories préalables, à savoir une
+hypothèse2, sur le cas étudié.
+B. Les outils de recueil d’information :
+Nous avons procédé en premier lieu, à une recherche documentaire et bibliographique,
+dans le but de présenter le modèle d’évaluation fonctionnelle ainsi que la fonction  des
+systèmes d’information, faisant l’objet de l’évaluation , et essayer de rapprocher les résultats
+obtenus aux données théoriques du modèle MEF.
+Pour cela, nous avons démarré de données générales en se basant principalement sur la
+consultation d’ouvrages, ainsi que sur des travaux de recherche traitant le modèle d’évaluation
+fonctionnelle. En parallèle, no us avons consulté les documents internes de NAFTAL, remis
+par la Direction Exécutive Stratégie / Planification/Eco . Ces documents ont permis de mieux
+connaitre la Société, ses activités, son organisation et son environnement.
+Afin de collecter plus d’info rmation sur le fonctionnement interne de NAFTAL , nous
+nous sommes appuyés sur l’observation tout au long de la période de stage . « Observer est un
+processus incluant l’attention volontaire et intelligente, orientée par un objectif terminal ou
+organisateur et dirigé sur un objet pour en recueillir des informations »3
+L’application du modèle d’évaluation fonctionnelle sur la direction centrale des
+systèmes d’information nous a permis de mesurer les différents taux, de présenter les
+baromètres correspondants aux quatre pôles d’évaluation ainsi que quelques représentations
+graphiques. En dernier lieu, nous avons pu évaluer la performance globale de la fonction
+système d’information de NAFTAL.
+1 MONGEAU, (Pierre) : « Réaliser son mémoire», presse de l’université du Québec, Canada, 2008, P.31.
+2 Ibid, P.31.
+3 KAKAY, (H) : « Contribution à la recherche qualitative-Cadre méthodologique de rédaction de mémoire »,
+Université de Franche-Comté, 2008, P.21.--- PAGE 50 ---
+CHAPITRE III
+MESURE DE LA PERFORMANCE DE LA
+FONCTION SYSTEME D’INFORMATION
+DE NAFTAL--- PAGE 51 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+44
+La question de l’évaluat ion de la performance de la direction des systèmes
+d’information est centrale dans sa relation avec la direction générale et les directions métiers.
+Tout l’objectif d’un pilotage efficace des SI est de créer de la valeur ajoutée pour les activités
+de l’entreprise et donc de permettre conjointement à la direction générale et aux directions
+métiers et à la DSI d’évaluer cette création de valeur à travers d’un modèle de performance
+compréhensible par tous les acteurs.
+En effet, loin des techniques d’évaluations financières et des TDB, nous nous sommes
+intéressés à ce que pourrait être l’évaluation d’une fonction support au moyen d’un modèle
+d’évaluation fonctionnelle qui préconise une mesure selon qu atre axes, dont l’ensemble
+permet une appréciation générale et prospective.
+Ce présent chapitre est subdivisé en trois sections, la première sera consacrée à la
+présentation du modèle d’évaluation fonc tionnelle, la seconde traitera l’analyse des quatre
+pôles d’évaluation de la performance de la direction centrale des sy stèmes d’information de
+NAFTAL et la dernière section conclura notre travail par l’évaluation globale de la
+performance la fonction SI de l’entreprise NAFTAL--- PAGE 52 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+45
+SECTION 1 : LA PRESENTATION DU MODELE D’EVALUATION
+FONCTIONNELLE MEF
+Une fonction support ou une fonction de soutien est un ensemble de ressources
+réalisant différentes prestations pour les autres services, elle est considérée comme un centre
+de coût et n on un centre de profit et son but est de soutenir et veiller à la bonne marche des
+activités principales de l’entreprise telles que la production, les ventes …
+En effet, l es fonctions supports sont des centres de production à optimiser mais
+également des dispositifs de pilotage et de coordination de toutes les activités de l’entreprise.
+L’enjeu de leur pilotage auquel le m odèle MEF apporte des solutions , est double :
+performance opérationnelle et stratégique.
+1.1.Origine du modèle MEF :
+Le modèle d’évaluation fonctionnelle (MEF) est une approche originale,
+opérationnelle et complémentaire des approches financières globales. Elle a été révélée lors
+du concours pour le Prix du livre performance et qualité 2007, le premier livre portait sur
+l’évaluation de la per formance du contrôle de gestion et ce n’est qu’en 2008 que le MEF fut
+appliqué à la fonction système d’information et fonction gestion des ressources humaines.
+C’est une méthode d’une grande clarté et d’une grande simplicité, accessible à tous
+types d’entr eprise. Par des techniques de questionnaires qui permettent de comparer une
+réalité à un modèle idéal, nous obtenons pour chacun de ces quatre (4) axes une mesure
+quantitative qui permet de procéder à un diagnostic de performance de la fonction et de
+proposer des pistes d’amélioration.1
+Le MEF se décompose en quatre pôles qui définissent les composantes d’une fonction
+support : Le pôle activités, Le pôle compétences, Le pôle organisation, Le pôle client.
+1 AUTISSIER, (D), DELAYE (V) : Op.cit., P.20.--- PAGE 53 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+46
+Source : AUTISSIER, (D), DELAYE (V) : Op.cit., P.20.
+Ce modèle est valable pour toutes les fonctions support et les dispositifs de gestion
+transverses d’une entreprise tels que la qualité, la gestion de la connaissance, la responsabilité
+sociale des entreprises, la gestion du changement, la gestion de projet. En effet, il permet
+d’apprécier leur niveau de performance en termes de pre stations, de compétences,
+d’organisation et de satisfaction client. Par le biais de questionn aires qui permettent de
+comparer une réalité à un modèle idéal, nous obtenons pour chaque axe, une mesure
+quantitative qui permet de procéder à un diagnostic de performance de la fonction et de
+proposer des pistes d’amélioration.
+1.2.Champs d’application du MEF :
+Beaucoup d’entreprises ont choisit ce modèle d’évaluation pour mener à bien des
+projets informatiques, pour des raisons de confidentialité, les noms ne sont pas mentionnés
+dans les études de cas trouvées, néanmoins nous pouvons citer quels types d’e ntreprises qui
+ont eu recours à la méthode :2
+ Une entreprise de BTP spécialisée dans la construction d’espaces verts
+aménagés, tels que des terrains de golf en France : Le directeur de l’entreprise se plaignait des
+nombreux documents papiers qui circulent et se détérioraient sur les chantiers.
+2 Adapté d’AUTISSIER, (D), DELAYE, (V)., op cit P179 à 186
+Figure N° 7 : le modèle d’évaluation fonctionnelle
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+46
+Source : AUTISSIER, (D), DELAYE (V) : Op.cit., P.20.
+Ce modèle est valable pour toutes les fonctions support et les dispositifs de gestion
+transverses d’une entreprise tels que la qualité, la gestion de la connaissance, la responsabilité
+sociale des entreprises, la gestion du changement, la gestion de projet. En effet, il permet
+d’apprécier leur niveau de performance en termes de pre stations, de compétences,
+d’organisation et de satisfaction client. Par le biais de questionn aires qui permettent de
+comparer une réalité à un modèle idéal, nous obtenons pour chaque axe, une mesure
+quantitative qui permet de procéder à un diagnostic de performance de la fonction et de
+proposer des pistes d’amélioration.
+1.2.Champs d’application du MEF :
+Beaucoup d’entreprises ont choisit ce modèle d’évaluation pour mener à bien des
+projets informatiques, pour des raisons de confidentialité, les noms ne sont pas mentionnés
+dans les études de cas trouvées, néanmoins nous pouvons citer quels types d’e ntreprises qui
+ont eu recours à la méthode :2
+ Une entreprise de BTP spécialisée dans la construction d’espaces verts
+aménagés, tels que des terrains de golf en France : Le directeur de l’entreprise se plaignait des
+nombreux documents papiers qui circulent et se détérioraient sur les chantiers.
+2 Adapté d’AUTISSIER, (D), DELAYE, (V)., op cit P179 à 186
+Figure N° 7 : le modèle d’évaluation fonctionnelle
+Performance
+fonctionnelle
+Activités
+Compétences
+Organisation
+Clients
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+46
+Source : AUTISSIER, (D), DELAYE (V) : Op.cit., P.20.
+Ce modèle est valable pour toutes les fonctions support et les dispositifs de gestion
+transverses d’une entreprise tels que la qualité, la gestion de la connaissance, la responsabilité
+sociale des entreprises, la gestion du changement, la gestion de projet. En effet, il permet
+d’apprécier leur niveau de performance en termes de pre stations, de compétences,
+d’organisation et de satisfaction client. Par le biais de questionn aires qui permettent de
+comparer une réalité à un modèle idéal, nous obtenons pour chaque axe, une mesure
+quantitative qui permet de procéder à un diagnostic de performance de la fonction et de
+proposer des pistes d’amélioration.
+1.2.Champs d’application du MEF :
+Beaucoup d’entreprises ont choisit ce modèle d’évaluation pour mener à bien des
+projets informatiques, pour des raisons de confidentialité, les noms ne sont pas mentionnés
+dans les études de cas trouvées, néanmoins nous pouvons citer quels types d’e ntreprises qui
+ont eu recours à la méthode :2
+ Une entreprise de BTP spécialisée dans la construction d’espaces verts
+aménagés, tels que des terrains de golf en France : Le directeur de l’entreprise se plaignait des
+nombreux documents papiers qui circulent et se détérioraient sur les chantiers.
+2 Adapté d’AUTISSIER, (D), DELAYE, (V)., op cit P179 à 186
+Figure N° 7 : le modèle d’évaluation fonctionnelle
+Compétences--- PAGE 54 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+47
+De plus, il voulait disposer d’un outil de gestion de chantiers qui organiserait la conception,
+affecterait les équipes, enregistrerait les dépenses et suivrait les réalisations. Pour mettre son
+équipe système d’information sous tension et pour que celle -ci pren ne conscience de ses
+faiblesses en gestion de projet, il a mobilisé le modèle MEF.
+Après l’analyse des résultats obtenus, le directeur de l’entreprise a proposé un
+parcours de formation et de professionnalisation sur la gestion de projet et l’écriture d’u n
+cahier des charges fonctionnel dans une optique de MOA, en sollicitant et en faisant participer
+différents types d’utilisateurs du futur système.
+ Une entreprise industrielle réalise un chiffre d’affaires de 223 400 000 euros et
+le coût de son système d’i nformation est évalué à 11 200 000 euros. Le contrôleur de gestion
+a calculé le ratio des dépenses du système d’information sur le CA et a obtenu 4,93 %. Le
+directeur, ne sachant pas si ce ratio est bon ou mauvais, décide d’utiliser le modèle MEF pour
+connaître la performance du service système d’information et plus particulièrement sur le
+thème des ressources allouées ;
+Le diagnostic MEF a été mené dans son ensemble mais avec une focalisation et une
+analyse particulière sur trois des quatre points qui con cernent le support structurel. Le
+fonctionnement, les enjeux et les ressources ont été analysés de manière détaillée pour savoir
+si le taux de dépense informatique se justifiait.
+Il est apparu clairement que le coût global de la fonction SI est en particulier dû à un effectif
+supérieur aux normes en vigueur. Et Cela méritait réflexion quant à la justification de cet
+effectif au regard de l’activité de l’entreprise et des besoins des utilisateurs.
+Le modèle d’évaluation fonctionnelle (MEF) a été uti lisé dans d’autres secteurs
+d’activité, tels que l’agroalimentaire, l’hôtellerie, l’informatique, et a connu un franc succès,
+d’où l’intérêt de son utilisation pour l’évaluation de la performance de NAFTAL, entreprise
+publique exerçant dans le secteur de la distribution des hydrocarbures raffinés.--- PAGE 55 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+48
+1.3.Les quatre pôles du modèle MEF :
+Le modèle d’évaluation fonctionnelle se structure autour de quatre pôles, permettant
+l’évaluation de la performance d’une fonction support,
+A. Le pôle activités du modèle :
+Le premier pôle du modèle MEF vise à définir le référentiel d’activités de la fonction
+système d’information, qui répond à la question : que doit faire la fonction système
+d’information ? Il s’agit de lister tout ce qui doit être fait théoriquement et le comp arer aux
+activités réelles.
+Ce pôle est construit sur un modèle d’activités comprenant cinq rubriques métiers,
+vingt pratiques et quatre -vingts activités dans une logique d’intégration. Le premier
+questionnaire est destiné au manager de la fonction. (Annexes A)
+Les cinq rubriques métiers sont :3
+ Le pilotage du département système d’information : pour la définition de la
+stratégie, la veille, les schémas directeurs et tableaux de bord de la fonction ;
+ La gestion de la relation avec les utilisateurs : qui sont toutes les prestations à
+réaliser pour assurer un niveau de satisfaction maximum à l’utilisateur qui est le client
+interne ;
+ Le développement applicatif : il concerne l’ensemble des projets d’informatisation ;
+ La maintenance applicative : elle porte sur le traitement de toutes les actions de suivi
+et de contrôle du parc informatique existant ;
+ La gestion de l’infrastructure technique : pour la mise à disposition de
+l’équipement machine et réseau.
+3 AUTISSIER, (D) et DELAYE, (V). Op cit, p 74--- PAGE 56 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+49
+Figure N° 8 : Modèle d’activités de la fonction système d’information :
+Cinq rubriques métier et vingt pratiques
+Source : AUTISSIER, (D), DELAYE (V) : Mesurer la performance d’un système
+d’information, Eyrolles, éditions d’organisation, Paris, 2008, P75
+Pour chacune des activités, nous allons vérifier si elle est réalisée ou pas pour
+déterminer, par rubrique et globalement, un taux d’activité. Le taux d’activité permet de
+positionner la fonction système d’information sur une échelle de 0 à 100 avec quatre
+configurations types :
+Maintenance
+applicative:
+- suivi d'exploitation
+- gestion des anmalies
+- gestion de la
+documentation
+- qualité et éthique
+Gestion
+infrastructure:
+- postes de travail et
+serveurs
+- technologies de
+stockage des
+informations
+- réseaux et télécoms
+- sécurité
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+49
+Figure N° 8 : Modèle d’activités de la fonction système d’information :
+Cinq rubriques métier et vingt pratiques
+Source : AUTISSIER, (D), DELAYE (V) : Mesurer la performance d’un système
+d’information, Eyrolles, éditions d’organisation, Paris, 2008, P75
+Pour chacune des activités, nous allons vérifier si elle est réalisée ou pas pour
+déterminer, par rubrique et globalement, un taux d’activité. Le taux d’activité permet de
+positionner la fonction système d’information sur une échelle de 0 à 100 avec quatre
+configurations types :
+SI
+Pilotage:
+-stratégie et shéma directeur
+- gestion de la sous-traitance
+- management de la
+performance SI
+- veille, prospective, qualité
+et audit
+Développement
+applicatif:
+-conception, déploiement
+et mise en exploitation
+- urbanisme
+- gestion de la MOA
+Maintenance
+applicative:
+- suivi d'exploitation
+- gestion des anmalies
+- gestion de la
+documentation
+- qualité et éthique
+Gestion
+infrastructure:
+- postes de travail et
+serveurs
+- technologies de
+stockage des
+informations
+- réseaux et télécoms
+- sécurité
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+49
+Figure N° 8 : Modèle d’activités de la fonction système d’information :
+Cinq rubriques métier et vingt pratiques
+Source : AUTISSIER, (D), DELAYE (V) : Mesurer la performance d’un système
+d’information, Eyrolles, éditions d’organisation, Paris, 2008, P75
+Pour chacune des activités, nous allons vérifier si elle est réalisée ou pas pour
+déterminer, par rubrique et globalement, un taux d’activité. Le taux d’activité permet de
+positionner la fonction système d’information sur une échelle de 0 à 100 avec quatre
+configurations types :
+Relation
+utilisateurs:
+- accompagnement
+du changement
+- support utilisateurs
+-formation
+- analyse des besoins
+Développement
+applicatif:
+-conception, déploiement
+et mise en exploitation
+- urbanisme
+- gestion de la MOA--- PAGE 57 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+50
+Figure N° 9 : Baromètre Taux d’activité
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, p.96.
+ SI minimaliste : le taux d’activité est compris entre 0 et 25% cette configuration
+correspond à une fonction système d’information qui se focalise sur quelques activités. Il
+faut néanmoins s’interroger sur les besoins de gestion et le positionnement de la fonction
+système d’information.
+ SI restreint : le taux est compris entre 25 et 50%, ce système est basé essentiellement sur
+le pilotage avec quelques activités traitant d u développement applicatif. Les activités de
+maintenance sont très peu réalisées par manque de ressources ou par choix stratégique
+(recours à l’externe).
+ SI développé : le taux est compris entre 50 et 75%, les services système d’information
+réalisent toutes les activités de pilotage, développement applicatif et maintenance
+applicative, et qui recouvrent également toute la partie infrastructure. Il convient de
+s’interroger sur les activités non réalisées de savoir si elles ne sont pas adaptées ou si
+elles ne le sont pas par incapacité de l’entité système d’information.
+ SI exhaustif : la fonction système d’information réalise entre 75 et 100 % du référentiel
+d’activités. E lle est qualifiée d’innovante et tend à diffuser une culture d’innovation
+technologique et organisationnelle sur le rôle des SI dans l’entreprise. Elle est force de
+proposition auprès des autres services, disponible et ouverte envers les utilisateurs.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+50
+Figure N° 9 : Baromètre Taux d’activité
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, p.96.
+ SI minimaliste : le taux d’activité est compris entre 0 et 25% cette configuration
+correspond à une fonction système d’information qui se focalise sur quelques activités. Il
+faut néanmoins s’interroger sur les besoins de gestion et le positionnement de la fonction
+système d’information.
+ SI restreint : le taux est compris entre 25 et 50%, ce système est basé essentiellement sur
+le pilotage avec quelques activités traitant d u développement applicatif. Les activités de
+maintenance sont très peu réalisées par manque de ressources ou par choix stratégique
+(recours à l’externe).
+ SI développé : le taux est compris entre 50 et 75%, les services système d’information
+réalisent toutes les activités de pilotage, développement applicatif et maintenance
+applicative, et qui recouvrent également toute la partie infrastructure. Il convient de
+s’interroger sur les activités non réalisées de savoir si elles ne sont pas adaptées ou si
+elles ne le sont pas par incapacité de l’entité système d’information.
+ SI exhaustif : la fonction système d’information réalise entre 75 et 100 % du référentiel
+d’activités. E lle est qualifiée d’innovante et tend à diffuser une culture d’innovation
+technologique et organisationnelle sur le rôle des SI dans l’entreprise. Elle est force de
+proposition auprès des autres services, disponible et ouverte envers les utilisateurs.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+50
+Figure N° 9 : Baromètre Taux d’activité
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, p.96.
+ SI minimaliste : le taux d’activité est compris entre 0 et 25% cette configuration
+correspond à une fonction système d’information qui se focalise sur quelques activités. Il
+faut néanmoins s’interroger sur les besoins de gestion et le positionnement de la fonction
+système d’information.
+ SI restreint : le taux est compris entre 25 et 50%, ce système est basé essentiellement sur
+le pilotage avec quelques activités traitant d u développement applicatif. Les activités de
+maintenance sont très peu réalisées par manque de ressources ou par choix stratégique
+(recours à l’externe).
+ SI développé : le taux est compris entre 50 et 75%, les services système d’information
+réalisent toutes les activités de pilotage, développement applicatif et maintenance
+applicative, et qui recouvrent également toute la partie infrastructure. Il convient de
+s’interroger sur les activités non réalisées de savoir si elles ne sont pas adaptées ou si
+elles ne le sont pas par incapacité de l’entité système d’information.
+ SI exhaustif : la fonction système d’information réalise entre 75 et 100 % du référentiel
+d’activités. E lle est qualifiée d’innovante et tend à diffuser une culture d’innovation
+technologique et organisationnelle sur le rôle des SI dans l’entreprise. Elle est force de
+proposition auprès des autres services, disponible et ouverte envers les utilisateurs.
+--- PAGE 58 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+51
+B. Le pôle compétences du modèle :
+Un collaborateur de la fonction système d’information doit savoir faire tout ou une
+partie des activités du SI de son entreprise, et ce en fonction des missions de son poste, de son
+ancienneté et de sa spécialisation. Il en déc oule la notion de polyvalence, mais la compétence
+comprend le savoir technique (savoir faire) mais aussi les savoirs comportementaux (savoir
+être) pour gérer la dimension relationnelle de sa fonction. On peut ajouter à cela le savoir
+métier qui est la connaissance de la stratégie de l’entreprise, de ses métiers, ses valeurs, etc.
+Figure N° 10 : Les trois savoirs fonctionnels
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.101.
+ Les compétences techniques : c’est le degré de maîtrise de la réalisation des activités
+du SI, elles correspondent à une connaissance opérationnelle de conception, de
+réalisation et de déploiement des quatre-vingts activités de la fonction.
+Les connaissanc es sont précises et reposent sur les langages de développement, les
+environnements (Windows, linux …) les méthodologies, référentiels, protocoles et matériels
+informatiques.
+ Les compétences comportementales : Les acteurs de la fonction SI véhiculent
+généralement une image assez technique de leur métier. S’ils sont plutôt bien reconnus
+pour leur expertise technique et leur savoir faire, leurs compétences
+comportementales, notamment communicationnelles et relati onnelles, sont, en
+revanche, nettement moins bien perçues par leurs collègues de l’entreprise. Or, ce sont
+des compétences clés à développer pour garantir la diffusion d’une culture SI dans
+Savoirs techniques
+Savoirs
+comportementau
+x
+Savoirs métier--- PAGE 59 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+52
+l’entreprise, s’assurer de la parfaite opérationnalité des solutions proposées et, par voie
+de conséquence, démystifier cette fonction4
+Ces compétences sont la rigueur, le sens du service client, la communication, la capacité à
+convaincre, à  négocier, l’animation d’équipes, la curiosité, etc.
+ Les compétences « métier d e l’entreprise » : il est facile d’acquérir un certain
+nombre de techniques, ce qui l’est moins c’est de savoir les adapter sur le terrain en
+fonction de l’entreprise, d’où l’intérêt de sensibiliser les employés pour qu’ils
+s’intéressent plus à la raison d’être de celle-ci, à sa culture, ses valeurs, sa stratégie, au
+secteur dans lequel elle évolue, à ses métiers, son fonctionnement et son
+environnement.
+Dans cette logique le 2e questionnaire consiste à interroger les ressources humaines de
+la fonction SI sur ces trois types de compétences, elles auront à préciser, ils doivent
+mentionner leur état de connaissance et de maîtrise, en choisissant l’une des quatre réponses
+proposées (Annexe B). Nous cumulons le nombre de points pour calculer un taux de maîtrise
+par catégorie d’activité et  globaleme nt. Les réponses possibles diffè rent suivant le type de
+compétences, leur pondération s’établit comme suit :
+Tableau N° 7 : Notation des différents types de compétences
+Compétences
+techniques
+Compétences
+comportementales
+Compétences métier Points
+Je maîtrise Je maîtrise ++ Je connais et je l'utilise 4
+Je pratique Ça peut aller + Je connais mais je n'en tiens pas
+compte systématiquement
+3
+Je connais J'ai des difficultés - Je connais un peu 2
+Je ne connais pas Je n'y arrive pas - - Je ne connais pas 1
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.108.
+Le taux de maîtrise est calculé de la manière suivante : somme des points aux
+différentes affirmations, divisée par le nombre d’affirmations et multipliée par 100 pour un
+4 AUTISSIER, (D), DELAYE (V), Op.cit., P.104.--- PAGE 60 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+53
+affichage en pourcentage. Sur  compétences, le score maximum sera de 400 et le minimu m de
+100, en considérant qu’il y a 100 activités, les sondés sont tenus d’apporter une réponse.
+Le taux de maîtrise global permet de positionner le niveau de compétence de la
+fonction système d’information sur une échelle de 0 à 100, avec quatre configurations types,
+comme le montre la figure ci-après, sous  forme d’un baromètre.
+Figure N° 11 : Baromètre taux de maitrise des compétences
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit P.118.
+ SI expert : le taux est compris entre 75 et 100%, les personnes évaluées peuvent être
+considérées comme des experts de la fonction, avec une expertise qui se matérialise
+sur quelques points et une très bonne connaissance de tous les autres.
+ SI spécialisé : le taux e st compris entre 50 et 75%, Il est au -dessus de la moyenne,
+faisant ainsi état d’un niveau de compétence acceptable et couvrant les besoins de
+gestion ordinaires de l’entreprise. On le caractérise de système d’information
+légitimiste par opposition au précédent que l’on qualifie d’innovant.
+ SI junior : le taux est compris entre 25 et 50% il est qualifié de junior pour
+stigmatiser un niveau moyen faible avec un bon potentiel de progression. Les
+faiblesses sont plus dues au manque d’expérience de l’équipe qu ’à des manques
+structurels.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+53
+affichage en pourcentage. Sur  compétences, le score maximum sera de 400 et le minimu m de
+100, en considérant qu’il y a 100 activités, les sondés sont tenus d’apporter une réponse.
+Le taux de maîtrise global permet de positionner le niveau de compétence de la
+fonction système d’information sur une échelle de 0 à 100, avec quatre configurations types,
+comme le montre la figure ci-après, sous  forme d’un baromètre.
+Figure N° 11 : Baromètre taux de maitrise des compétences
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit P.118.
+ SI expert : le taux est compris entre 75 et 100%, les personnes évaluées peuvent être
+considérées comme des experts de la fonction, avec une expertise qui se matérialise
+sur quelques points et une très bonne connaissance de tous les autres.
+ SI spécialisé : le taux e st compris entre 50 et 75%, Il est au -dessus de la moyenne,
+faisant ainsi état d’un niveau de compétence acceptable et couvrant les besoins de
+gestion ordinaires de l’entreprise. On le caractérise de système d’information
+légitimiste par opposition au précédent que l’on qualifie d’innovant.
+ SI junior : le taux est compris entre 25 et 50% il est qualifié de junior pour
+stigmatiser un niveau moyen faible avec un bon potentiel de progression. Les
+faiblesses sont plus dues au manque d’expérience de l’équipe qu ’à des manques
+structurels.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+53
+affichage en pourcentage. Sur  compétences, le score maximum sera de 400 et le minimu m de
+100, en considérant qu’il y a 100 activités, les sondés sont tenus d’apporter une réponse.
+Le taux de maîtrise global permet de positionner le niveau de compétence de la
+fonction système d’information sur une échelle de 0 à 100, avec quatre configurations types,
+comme le montre la figure ci-après, sous  forme d’un baromètre.
+Figure N° 11 : Baromètre taux de maitrise des compétences
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit P.118.
+ SI expert : le taux est compris entre 75 et 100%, les personnes évaluées peuvent être
+considérées comme des experts de la fonction, avec une expertise qui se matérialise
+sur quelques points et une très bonne connaissance de tous les autres.
+ SI spécialisé : le taux e st compris entre 50 et 75%, Il est au -dessus de la moyenne,
+faisant ainsi état d’un niveau de compétence acceptable et couvrant les besoins de
+gestion ordinaires de l’entreprise. On le caractérise de système d’information
+légitimiste par opposition au précédent que l’on qualifie d’innovant.
+ SI junior : le taux est compris entre 25 et 50% il est qualifié de junior pour
+stigmatiser un niveau moyen faible avec un bon potentiel de progression. Les
+faiblesses sont plus dues au manque d’expérience de l’équipe qu ’à des manques
+structurels.
+--- PAGE 61 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+54
+ SI débutant : le taux est compris entre 0 et 25%, le niveau de maîtrise est très faible
+sur l’ensemble des compétences et certaines font même l’objet d’une méconnaissance
+totale qui ne permet pas aux collaborateurs de prendre c onscience de l’importance de
+celles-ci et des opportunités qu’elles pourraient avoir pour l’entreprise. Dans un tel cas
+de figure, il faut très vite prendre des mesures de correction en professionnalisant, en
+revoyant les missions de la fonction ou en changeant les personnes.
+Ce questionnaire est donc destiné aux employés de la DCSI de NA FTAL, la
+population interrogée est composée de 25 personnes de tous les départemen ts de la direction
+centrale SI. Cependant, les techniciens, agents et secrétaires n’ont pas été interrogés car ils ne
+participent pas proprement dit à la réalisation des activités du SI.
+C. Le Pôle organisation du modèle :
+La notion d’organisation est polysémique. Elle désigne tout aussi bien l’organigramme
+de la fonction, son style de management, l’ensemble des ressources (humaines et matérielles)
+que les modes de fonctionnement.
+Le référentiel structurel de la fonction système d’information comprend les éléments
+suivants qui constituent l’ensemble des ressources à partir desquelles les activités de la
+fonction pourront être réalisées :
+ Le positionnement de la fonction dans l’organigramme;
+ Le fonctionnement interne;
+ Les enjeux;
+ Les ressources de la fonction.
+L’appréciation de ces variables permet de s’interroger sur leur niveau de perfor mance, et de
+déterminer un taux de support structurel.
+Ce 3e questionnaire a été distribué au même échantillon que le pôle précédent soit 25
+personnes, composé de chefs de départements, de chefs de projets, d’ingénieurs en plus de
+l’assistant du directeur. (Annexe C)--- PAGE 62 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+55
+Le taux de support structurel permet de dresser une évaluation de la fonction sur une
+échelle barométrique :
+Figure N° 12 : Baromètre du taux de support structurel
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.142.
+ Maximisation structurelle : le taux de support est compris entre 75 et 100%, la
+fonction système d’information bénéficie d’un effectif satisfaisant et de conditions de
+travail et de fonctionnement favorisant l’initiative et l’implication.
+ Optimisation structurelle : Le taux de support est compris entre 50 et 75%, les
+différentes variables qualifiées sont jugées acceptables et correspondent à l’activité,
+avec des remarques du type « ça va mais on pourrait faire mieux ».
+ Equilibre structurel : Le taux de support struct urel est compris entre 25 et 50%, ce
+taux reflète une situation où il y a un risque dû à la tension existante, tant sur les
+ressources que sur le fonctionnement.
+ Déséquilibre structurel : le taux de support est compris entre 0 et 25%, c’est une
+situation quelques peu alarmante car la fonction système d’information ne peut réaliser
+le contenu (quantitativement et qualitativement) de sa mission. Le sous -effectif et/ou
+les problèmes de positionnement et de management peuvent conduire à « bâcler »
+certaines productions avec des incidences contreproductives pour l’entreprise.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+55
+Le taux de support structurel permet de dresser une évaluation de la fonction sur une
+échelle barométrique :
+Figure N° 12 : Baromètre du taux de support structurel
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.142.
+ Maximisation structurelle : le taux de support est compris entre 75 et 100%, la
+fonction système d’information bénéficie d’un effectif satisfaisant et de conditions de
+travail et de fonctionnement favorisant l’initiative et l’implication.
+ Optimisation structurelle : Le taux de support est compris entre 50 et 75%, les
+différentes variables qualifiées sont jugées acceptables et correspondent à l’activité,
+avec des remarques du type « ça va mais on pourrait faire mieux ».
+ Equilibre structurel : Le taux de support struct urel est compris entre 25 et 50%, ce
+taux reflète une situation où il y a un risque dû à la tension existante, tant sur les
+ressources que sur le fonctionnement.
+ Déséquilibre structurel : le taux de support est compris entre 0 et 25%, c’est une
+situation quelques peu alarmante car la fonction système d’information ne peut réaliser
+le contenu (quantitativement et qualitativement) de sa mission. Le sous -effectif et/ou
+les problèmes de positionnement et de management peuvent conduire à « bâcler »
+certaines productions avec des incidences contreproductives pour l’entreprise.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+55
+Le taux de support structurel permet de dresser une évaluation de la fonction sur une
+échelle barométrique :
+Figure N° 12 : Baromètre du taux de support structurel
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.142.
+ Maximisation structurelle : le taux de support est compris entre 75 et 100%, la
+fonction système d’information bénéficie d’un effectif satisfaisant et de conditions de
+travail et de fonctionnement favorisant l’initiative et l’implication.
+ Optimisation structurelle : Le taux de support est compris entre 50 et 75%, les
+différentes variables qualifiées sont jugées acceptables et correspondent à l’activité,
+avec des remarques du type « ça va mais on pourrait faire mieux ».
+ Equilibre structurel : Le taux de support struct urel est compris entre 25 et 50%, ce
+taux reflète une situation où il y a un risque dû à la tension existante, tant sur les
+ressources que sur le fonctionnement.
+ Déséquilibre structurel : le taux de support est compris entre 0 et 25%, c’est une
+situation quelques peu alarmante car la fonction système d’information ne peut réaliser
+le contenu (quantitativement et qualitativement) de sa mission. Le sous -effectif et/ou
+les problèmes de positionnement et de management peuvent conduire à « bâcler »
+certaines productions avec des incidences contreproductives pour l’entreprise.
+--- PAGE 63 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+56
+D. Le pôle satisfaction client du modèle :
+Les clients de la fonction système d’information sont des clients internes, il est donc
+important de tenir compte de leur satisfaction pour faire évoluer les prestations et les relations
+internes dans l’entreprise. Quels sont les clients de la fonction système d’information ? Pour
+qui travaille le système d’information ?
+Les cinq principaux clients de la fonction système d’information sont la direct ion
+générale, la ligne managériale, les chefs de projet, tous les utilisateurs potentiels et les
+prestataires externes de l’entreprise.
+ La direction générale : D’un point de vue gestionnaire, le système d’information est
+l’outil de traçabilité et de lisibilité de l’activité, par lequel les décideurs obtiennent des
+états de synthèse leur permettant de prendre connaissance de la réalité. D’un point de
+vue opérationnel, le système d’information est au cœur des dispositifs de production.
+La DG est donc un client important du système d’information, qui attend du responsable de
+cette entité un pilotage rigoureux de cette dernière.
+ La ligne managériale : Les cadres diri geants de l’entreprise représentent la ligne
+managériale, ce sont ceux qui dirigent une équipe sur le terrain. Ils ont une
+responsabilité fonctionnelle liée à la réalisation d’un métier et se voient allouer des
+ressources correspondantes. Cette population est très demandeuse de participation au
+système d’information à la fois comme cliente que fournisseur.
+Les cadres dirigeants contribuent fortement à la prise de décision, ils attendent du
+système d’information une relation de partenariat pour la coconstruc tion d’outils de
+production et/ou de gestion.
+ Les chefs de projet : pour le développement de nouvelles applications ou bien
+l’évolution de celles existantes peuvent appartenir à la fonction système d’information
+ou être pris dans la ligne managériale et m étier de l’entreprise. Ils attendent de la
+fonction système d’information qu’elle ait des compétences fortes en management de
+projet pour pouvoir les aider dans les objectifs visés dans le projet qu’ils pilotent.
+Lorsqu’ils font partie du département SI, i ls sont censés maîtriser les compétences
+liées aux activités du développement applicatif.--- PAGE 64 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+57
+ Les utilisateurs sont la catégorie de clients regroupant le plus de personnes, avec les
+profils et les attentes les plus hétérogènes. Issus des différents métiers de l’entreprise,
+ils attendent du système d’information qu’il soit opérationnel, facile à utiliser, et
+fiable.
+ Les partenaires externes occupent aussi une place très importante dans le monde du
+système d’information, les plus répandus sont les sociétés d’inf ogérance, les
+fournisseurs de matériels, les fournisseurs de solutions incluant le matériel et les
+logiciels, etc.
+Le référentiel des couples produits/clients constitue la base de notre questionnaire
+d’évaluation de la satisfaction client.
+Adressé aux clients des différents départements (DERH, DE SPE, DAG), nous avons
+distribué des questionnaires différents en fonction des rapports de chacune des catégories
+énoncées précédemment avec la fonction SI et des besoins à satisfaire ; 10 pour des membres
+de la direction, 10 pour les managers, 10 pour les chefs de projet et 40 utilisateurs . (Annexe
+D)
+Les prestataires externes n’ont pas été pris en compte car la DCSI de NAFTAL n’a pas
+de partenaires bien spécifiques, elle travaille avec les entreprises qui lui of frent les meilleurs
+produits et services.
+Les réponses aux différentes questions nous ont permis de déterminer un taux en
+pondérant  chacune d’elle : 4 pour « très satisfait », 3 pour « satisfait », 2 pour « peu satisfait
+», et 1 pour « non satisfait ».
+Le taux de satisfaction s’obtient par le quotient des notes obtenus sur le maxima
+possible (4*n*p), n étant le nombre d’interviewés ; p le nombre d’activités sur lesquelles les
+interviewés sont interrogés.--- PAGE 65 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+58
+Figure 13 : Baromètre taux de satisfaction
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.160.
+ Qualité de service : le SI offre à ses clients les prestations les plus adaptées à  leurs
+besoins, et est en constante écoute pour d’éventuelles adaptations ou améliorations des
+produits fournis
+ Ecoute du client : le SI sait être attentif aux besoins de ses clients sans être en mesure
+d’y répondre systématiquement, en raison de ses faiblesses de moyens structurels, tant
+en volume qu’en compétences.
+ Amélioration client : les demandes clients ne sont pas toujours prises en compte, et
+les prestations du système d’information ne sont pas toutes jugées pertinentes.
+ Rupture client : c’est une situation de crise. Le système d’information n’est plus jugé
+légitime par les bénéficiaires qui le perçoivent comme un outil déconnecté de la
+réalité, voire contreproductif. Dans une telle situation, il est urgent de revoir les
+prestations, le positionnement, les compétences et l’organisation du système
+d’information pour que les relations avec ses clients s’améliorent.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+58
+Figure 13 : Baromètre taux de satisfaction
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.160.
+ Qualité de service : le SI offre à ses clients les prestations les plus adaptées à  leurs
+besoins, et est en constante écoute pour d’éventuelles adaptations ou améliorations des
+produits fournis
+ Ecoute du client : le SI sait être attentif aux besoins de ses clients sans être en mesure
+d’y répondre systématiquement, en raison de ses faiblesses de moyens structurels, tant
+en volume qu’en compétences.
+ Amélioration client : les demandes clients ne sont pas toujours prises en compte, et
+les prestations du système d’information ne sont pas toutes jugées pertinentes.
+ Rupture client : c’est une situation de crise. Le système d’information n’est plus jugé
+légitime par les bénéficiaires qui le perçoivent comme un outil déconnecté de la
+réalité, voire contreproductif. Dans une telle situation, il est urgent de revoir les
+prestations, le positionnement, les compétences et l’organisation du système
+d’information pour que les relations avec ses clients s’améliorent.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+58
+Figure 13 : Baromètre taux de satisfaction
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.160.
+ Qualité de service : le SI offre à ses clients les prestations les plus adaptées à  leurs
+besoins, et est en constante écoute pour d’éventuelles adaptations ou améliorations des
+produits fournis
+ Ecoute du client : le SI sait être attentif aux besoins de ses clients sans être en mesure
+d’y répondre systématiquement, en raison de ses faiblesses de moyens structurels, tant
+en volume qu’en compétences.
+ Amélioration client : les demandes clients ne sont pas toujours prises en compte, et
+les prestations du système d’information ne sont pas toutes jugées pertinentes.
+ Rupture client : c’est une situation de crise. Le système d’information n’est plus jugé
+légitime par les bénéficiaires qui le perçoivent comme un outil déconnecté de la
+réalité, voire contreproductif. Dans une telle situation, il est urgent de revoir les
+prestations, le positionnement, les compétences et l’organisation du système
+d’information pour que les relations avec ses clients s’améliorent.
+--- PAGE 66 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+59
+SECTION 2 : L’ANALYSE DES QUATRE POLES D’EVALUATION DE
+LA FONCTION SI DE L’ENTREPRISE NAFTAL
+L’application du modèle MEF au sein de l’entreprise NAFTAL nous a permis
+d’apprécier le niveau de performance de la fonction SI en termes de pre stations, de
+compétences, d’organisation et de satisfaction clients. Par le biais de questionnaires, et la
+comparaison de la réalité à un modèle idéal, nous avons obtenu, pour chaque axe, une mesure
+quantitative permettant de procéder à un diagnostic de la performance de la direction centrale
+de système d’information de NAFTAL.
+2.1.Pole activités de NAFTAL :
+Il a été vérifié sur les quatre -vingts activités types recensées du référentiel, le
+pourcentage de celles réalisées dans l’entreprise. Ce premier question naire était destiné au
+manager de la fonction mais n’ayant pas pu obtenir ses réponses, c’est donc le chef
+département Back office de NAFTAL et l’assistant du directeur de la DCSI qui ont répondu à
+ce 1er questionnaire étant au courant de toutes les activités du SI de NAFTAL.
+Figure N° 14 : Représentation graphique du taux d’activité métier
+Source : élaborée par nous-mêmes
+Le taux d’activité permet de positionner la fonction système d’information sur une échelle de
+0 à 100 avec quatre configurations types.
+Activités
+pilotage
+Activités
+relations
+utilisateur
+s
+Activités
+développe
+ment
+applicatif
+Activités
+maintena
+nce
+applicativ
+e
+Activités
+gestion
+infrastruct
+ure
+Taux
+d’activité
+Taux d’activité métier 44% 66% 74% 75% 79% 68%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%--- PAGE 67 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+60
+Figure N° 15 : Baromètre Taux d’activité DCSI (NAFTAL)
+Source : élaborée par nous-mêmes
+Le taux de couverture d’activités est de 68%, Le système d’information de NAFTAL
+est donc développé, il réalise une très grande partie des activités du référentiel, mais néglige la
+partie pilotage avec un taux de 44%, or  la rubrique pilotage est garante d e la cohérence des
+actions internes ainsi que des liens avec l’externe, de la performance actuelle et future de
+l’organisation, et du bon fonctionnement interne. Le pilotage regroupe l’ensemble des
+activités amont (veille, audit, stratégie), de management (économique, RH) et de pilotage des
+prestations opérationnelles (gestion du portefeuille de projets, urbanisme) et est donc
+important.
+Une DSI vit pour et par ses utilisateurs. Fonction support au service des autres métiers,
+son ambition est claire : gar antir l’adéquation du SI aux besoins de l’entreprise, actuels et
+futurs. La partie relations utilisateurs et pilotage sont quelque peu négligés avec
+respectivement des taux de 66%, et 44%, et ce par rapport aux autres activités.
+La DCSI de NAFTAL ne possède pas de référentiel qualité de manière choisie ou bien
+prescrite par des partenaires directs ou indirects, comme Cobit, CMMI, ISO. Elle n’effectue
+pas d’audits réguliers, et ne possède pas de stratégie claire, définie, formalisée et
+communiquée à tous les acteurs de la fonction, ce qui peut être dangereux à long terme.
+La DCSI n’a pas non plus d’outils pour le recueil des attentes des utilisateurs tels que
+les clubs informatiques, les forums, les questionnaires de satisfaction clients, elle peut donc
+passer à côté de son objectif initial qui est la réponse aux besoins de l’entreprise.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+60
+Figure N° 15 : Baromètre Taux d’activité DCSI (NAFTAL)
+Source : élaborée par nous-mêmes
+Le taux de couverture d’activités est de 68%, Le système d’information de NAFTAL
+est donc développé, il réalise une très grande partie des activités du référentiel, mais néglige la
+partie pilotage avec un taux de 44%, or  la rubrique pilotage est garante d e la cohérence des
+actions internes ainsi que des liens avec l’externe, de la performance actuelle et future de
+l’organisation, et du bon fonctionnement interne. Le pilotage regroupe l’ensemble des
+activités amont (veille, audit, stratégie), de management (économique, RH) et de pilotage des
+prestations opérationnelles (gestion du portefeuille de projets, urbanisme) et est donc
+important.
+Une DSI vit pour et par ses utilisateurs. Fonction support au service des autres métiers,
+son ambition est claire : gar antir l’adéquation du SI aux besoins de l’entreprise, actuels et
+futurs. La partie relations utilisateurs et pilotage sont quelque peu négligés avec
+respectivement des taux de 66%, et 44%, et ce par rapport aux autres activités.
+La DCSI de NAFTAL ne possède pas de référentiel qualité de manière choisie ou bien
+prescrite par des partenaires directs ou indirects, comme Cobit, CMMI, ISO. Elle n’effectue
+pas d’audits réguliers, et ne possède pas de stratégie claire, définie, formalisée et
+communiquée à tous les acteurs de la fonction, ce qui peut être dangereux à long terme.
+La DCSI n’a pas non plus d’outils pour le recueil des attentes des utilisateurs tels que
+les clubs informatiques, les forums, les questionnaires de satisfaction clients, elle peut donc
+passer à côté de son objectif initial qui est la réponse aux besoins de l’entreprise.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+60
+Figure N° 15 : Baromètre Taux d’activité DCSI (NAFTAL)
+Source : élaborée par nous-mêmes
+Le taux de couverture d’activités est de 68%, Le système d’information de NAFTAL
+est donc développé, il réalise une très grande partie des activités du référentiel, mais néglige la
+partie pilotage avec un taux de 44%, or  la rubrique pilotage est garante d e la cohérence des
+actions internes ainsi que des liens avec l’externe, de la performance actuelle et future de
+l’organisation, et du bon fonctionnement interne. Le pilotage regroupe l’ensemble des
+activités amont (veille, audit, stratégie), de management (économique, RH) et de pilotage des
+prestations opérationnelles (gestion du portefeuille de projets, urbanisme) et est donc
+important.
+Une DSI vit pour et par ses utilisateurs. Fonction support au service des autres métiers,
+son ambition est claire : gar antir l’adéquation du SI aux besoins de l’entreprise, actuels et
+futurs. La partie relations utilisateurs et pilotage sont quelque peu négligés avec
+respectivement des taux de 66%, et 44%, et ce par rapport aux autres activités.
+La DCSI de NAFTAL ne possède pas de référentiel qualité de manière choisie ou bien
+prescrite par des partenaires directs ou indirects, comme Cobit, CMMI, ISO. Elle n’effectue
+pas d’audits réguliers, et ne possède pas de stratégie claire, définie, formalisée et
+communiquée à tous les acteurs de la fonction, ce qui peut être dangereux à long terme.
+La DCSI n’a pas non plus d’outils pour le recueil des attentes des utilisateurs tels que
+les clubs informatiques, les forums, les questionnaires de satisfaction clients, elle peut donc
+passer à côté de son objectif initial qui est la réponse aux besoins de l’entreprise.
+--- PAGE 68 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+61
+Le système d’information de NAFTAL se base essentiellement sur les activités de
+développement d’applications avec un taux de 74%, de maintenance 75% et de gestion
+d’infrastructure 79%.
+2.2. Pole compétences de NAFFTAL :
+Tableau N° 8: Synthèse des taux de maîtrise
+Taux de maîtrise Pourcentage %
+Pilotage du SI 55
+Gestion de l'infrastructure 68
+Développement applicatif 68
+Maintenance applicative 58
+Gestion de la relation avec les utilisateurs 65
+Compétences techniques 61
+Compétences comportementales 76
+Compétences métier 56
+Taux de maîtrise global 62
+Source : élaboré par nous-mêmes--- PAGE 69 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+62
+Figure N° 16 : Représentation graphique du taux de maitrise des RH de la DCSI
+Source : élaborée par nous-mêmes
+Cette analyse nous a permis de positionner le SI de NAFTAL dans le baromètre de taux de
+maitrise;
+Figure N°17 : Baromètre taux de maitrise DCSI
+Source : élaborée par nous-mêmes
+Le taux de maîtrise est de 62% le système d’information à NAFTAL est  donc
+spécialisé, le niveau des employés de la DCSI est acceptable, mais le personnel n’est pas
+polyvalent dans la mesure où il maitrise que les activités que sa fonction lui permet
+d’accomplir.
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+Compétences
+techniques
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+62
+Figure N° 16 : Représentation graphique du taux de maitrise des RH de la DCSI
+Source : élaborée par nous-mêmes
+Cette analyse nous a permis de positionner le SI de NAFTAL dans le baromètre de taux de
+maitrise;
+Figure N°17 : Baromètre taux de maitrise DCSI
+Source : élaborée par nous-mêmes
+Le taux de maîtrise est de 62% le système d’information à NAFTAL est  donc
+spécialisé, le niveau des employés de la DCSI est acceptable, mais le personnel n’est pas
+polyvalent dans la mesure où il maitrise que les activités que sa fonction lui permet
+d’accomplir.
+Compétences
+techniques
+Compétences
+comportementales
+Compétences
+métier
+Taux de maîtrise
+global
+Taux de maitrise
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+62
+Figure N° 16 : Représentation graphique du taux de maitrise des RH de la DCSI
+Source : élaborée par nous-mêmes
+Cette analyse nous a permis de positionner le SI de NAFTAL dans le baromètre de taux de
+maitrise;
+Figure N°17 : Baromètre taux de maitrise DCSI
+Source : élaborée par nous-mêmes
+Le taux de maîtrise est de 62% le système d’information à NAFTAL est  donc
+spécialisé, le niveau des employés de la DCSI est acceptable, mais le personnel n’est pas
+polyvalent dans la mesure où il maitrise que les activités que sa fonction lui permet
+d’accomplir.
+Taux de maîtrise
+global
+--- PAGE 70 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+63
+Le taux 61% représente les compétences techniques, il est principalement dû à la
+disponibilité de compétences d’expertise dans certains domaines techniques et à l’absence de
+savoir et d’expérience pour d’autres compétences. Si on prend l’exemple du département
+systèmes opérationnels, les membres de ce département sont experts dans leur domaine c'est -
+à-dire le développement applicatif mais ils ne sont pas en mesure d’effectuer des activités
+assignées à un autre département tel que le département ar chives centrales. Ce qui  nous
+renvoie à la notion de polyvalence.
+Les compétences comportementales tels que la  rigueur, l’esprit de synthèse, de
+formalisation, l’organisation, le sens du service client, intégrité, curiosité semblent être
+détenus par le p lus grand nombre d’employés soit 76%, les employés interrogés ayant
+visiblement une grande opinion d’eux -mêmes ceci peut expliquer cet état de fait, car le
+questionnaire attend un jugement personnel, une auto -évaluation de la part de l’employé. Ce
+qui suppose une certaine distance par rapport à soi.
+Les compétences métiers représentent une faiblesse rencontrée avec un taux de 56%
+chez les employés de la DCSI de NAFTAL ayant pour la plupart une formation
+d’informatique, ils connaissent beaucoup de techniques mais ne savent pas les adapter au
+terrain. Ils cherchent à réutiliser ce qu’ils ont appris dans une logique de « placage » plus que
+de « customisation ». Le problème peut venir aussi de l’entreprise qui ne communique pas
+certaines informations telles que la stratégie, la culture, les valeurs, et les grands projets.
+2.3. Pole organisation du NAFTAL :
+A. Le positionnement de la fonction :
+La DSCI de NAFTAL est directement rattaché à la direction générale car la fonction
+SI doit être placé au cœur des processus décisionnels et gestionnaires de l’entreprise. Des
+questions telles que : Le positionnement de la fonction SI vous paraît -il explicite ? Le
+positionnement de la fonction SI vous paraît-il le meilleur pour réaliser les activités dont elle à
+la charge ? Le positionnement de la fonction SI permet -il de bien dialoguer avec les autres
+services de l'entreprise ? Ont été posées, en répondant par « oui tout à fait », « oui, en partie »,
+« non » et « non, c’est très dommageable », on évalue sur une échelle de 1 à 4 la pertinence de
+ce positionnement  par question.--- PAGE 71 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+64
+B. Le fonctionnement et le mode de management :
+« Dites-moi comment est organisée votre fonction système d’information et je vous
+dirai si celle -ci est performante… » Ce n’est pas aussi simple q ue cela, mais le
+fonctionnement est un des éléments contributifs de la performance. 5 Des questions concernant
+la répartition des tâches et activités, la coordination entre les collaborateurs, la formalisation
+des fiches de poste, des processus de la foncti on et le management de la fonction, avec le
+même type de réponses que celles du positionnement.
+C. Les enjeux :
+Par enjeux, nous entendons les priorités que se fixe le système d’information pour
+progresser, et cela de manière opérationnelle, pour avoir des ré sultats concrets. Des questions
+sur la tenue des budgets, du respect des délais, la réalisation des objectifs ont donc été posées
+aux collaborateurs.
+D. Les ressources :
+Des questions sur le coût global de la fonction, le coût salarial, l’effectif, ainsi que les achats
+ont été posées ;
+Source : élaborée par nous-mêmes
+5 AUTISSIER, (D), DELAYE (V), Op.cit., P.125.
+Positionnemen
+t de la DCSI
+Fonctionneme
+nt Enjeux Ressources
+Taux de
+support
+structurel
+global
+Taux de support 40% 45% 50% 60% 49%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+Taux de support
+Figure N°18 : Représentation graphique du taux de support structurel de la DCSI--- PAGE 72 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+65
+Cette analyse nous a permit de positionner le SI de NAFTAL dans le baromètre de taux de
+support structurel :
+Source : élaborée par nous-mêmes
+Le taux de support structurel à NAFTAL est de 49%, on est dans une situation
+d’équilibre structurel, ce taux reflète une situation où il y a un risque dû à la tension existante,
+tant sur le positionnement que sur le fonctionnement.
+Les ressources sont jug ées suffisantes avec le plus grand taux soit 60% ; et ce pour
+couvrir le périmètre théorique de la fonction, NAFTAL étant une entreprise publique qui a le
+monopole et un chiffre d’affaires de 3,36 milliards de dollars pour un résultat net de 91
+millions de dollars6, les dépenses ne sont pas contrôlées, car dans tous les cas, les coûts ne
+sont pas significatifs par rapport au produit de l’entreprise.
+Pour ce qui est du positionnement, il est satisfaisant pour les employés de la DCSI à
+40%, car selon eux il n e leur permet pas de dialoguer avec les autres départements de
+l’entreprise et ne facilite pas l’obtention des informations, car l’organigramme de NAFTAL
+est très hiérarchisé.
+La formalisation des fiches de poste est en cours de réalisation, ce qui fait qu e la répartition
+des tâches et des activités pour chaque acteur de la fonction n’est pas toujours claire et
+6 Equipe de rédaction : « les 500 premières entreprises africaine »s, Jeune Afrique, N°29 Hors série, 2012, P.98.
+Figure N° 19 : Baromètre du taux de support structurel à
+NAFTAL
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+65
+Cette analyse nous a permit de positionner le SI de NAFTAL dans le baromètre de taux de
+support structurel :
+Source : élaborée par nous-mêmes
+Le taux de support structurel à NAFTAL est de 49%, on est dans une situation
+d’équilibre structurel, ce taux reflète une situation où il y a un risque dû à la tension existante,
+tant sur le positionnement que sur le fonctionnement.
+Les ressources sont jug ées suffisantes avec le plus grand taux soit 60% ; et ce pour
+couvrir le périmètre théorique de la fonction, NAFTAL étant une entreprise publique qui a le
+monopole et un chiffre d’affaires de 3,36 milliards de dollars pour un résultat net de 91
+millions de dollars6, les dépenses ne sont pas contrôlées, car dans tous les cas, les coûts ne
+sont pas significatifs par rapport au produit de l’entreprise.
+Pour ce qui est du positionnement, il est satisfaisant pour les employés de la DCSI à
+40%, car selon eux il n e leur permet pas de dialoguer avec les autres départements de
+l’entreprise et ne facilite pas l’obtention des informations, car l’organigramme de NAFTAL
+est très hiérarchisé.
+La formalisation des fiches de poste est en cours de réalisation, ce qui fait qu e la répartition
+des tâches et des activités pour chaque acteur de la fonction n’est pas toujours claire et
+6 Equipe de rédaction : « les 500 premières entreprises africaine »s, Jeune Afrique, N°29 Hors série, 2012, P.98.
+Figure N° 19 : Baromètre du taux de support structurel à
+NAFTAL
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+65
+Cette analyse nous a permit de positionner le SI de NAFTAL dans le baromètre de taux de
+support structurel :
+Source : élaborée par nous-mêmes
+Le taux de support structurel à NAFTAL est de 49%, on est dans une situation
+d’équilibre structurel, ce taux reflète une situation où il y a un risque dû à la tension existante,
+tant sur le positionnement que sur le fonctionnement.
+Les ressources sont jug ées suffisantes avec le plus grand taux soit 60% ; et ce pour
+couvrir le périmètre théorique de la fonction, NAFTAL étant une entreprise publique qui a le
+monopole et un chiffre d’affaires de 3,36 milliards de dollars pour un résultat net de 91
+millions de dollars6, les dépenses ne sont pas contrôlées, car dans tous les cas, les coûts ne
+sont pas significatifs par rapport au produit de l’entreprise.
+Pour ce qui est du positionnement, il est satisfaisant pour les employés de la DCSI à
+40%, car selon eux il n e leur permet pas de dialoguer avec les autres départements de
+l’entreprise et ne facilite pas l’obtention des informations, car l’organigramme de NAFTAL
+est très hiérarchisé.
+La formalisation des fiches de poste est en cours de réalisation, ce qui fait qu e la répartition
+des tâches et des activités pour chaque acteur de la fonction n’est pas toujours claire et
+6 Equipe de rédaction : « les 500 premières entreprises africaine »s, Jeune Afrique, N°29 Hors série, 2012, P.98.
+Figure N° 19 : Baromètre du taux de support structurel à
+NAFTAL--- PAGE 73 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+66
+explicite, cette formalisation engage simultanément l’entreprise et le salarié dans une relation
+contractuelle qui permet un management par les objectifs.
+Pour ce qui est des enjeux, le taux de support est de 50%, les employés témoignent du fait
+qu’il n’y a jamais de délais et respecter ou de budget  à tenir, le périmètre d’action des projets
+n’est pas limité, et c’est très dommageable.
+Pour le fonctionnement, nous avons obtenu un taux de 45%, Le mode de management
+ne satisfait pas les collaborateurs, Il est centralisé sur le responsable qui exige que tout soit
+validé par lui. Les collaborateurs sont alors des assistants qui appliquent les modèles de leur «
+chef » et lui transmettent toutes leurs productions, qu’il validera et adressera aux différents
+destinataires. Ce mode de management autocratique et autoritaire est très démotivant pour le
+personnel, car il ne peut pas faire preuve de créativité ou innover de quelconque façon que ce
+soit, Il y a d’ailleurs plus d’achat d’outils que de développement, et cette centralisation est
+source de stress pour le directeur de la fonction qui ne peut pas tout faire.
+2.4. Pole satisfaction client de  NAFTAL :
+Figure N° 20 : Représentation graphique du taux de satisfaction des clients
+Source : élaborée par nous-mêmes
+Direction Managers chefs de
+projet utilisateurs
+taux de
+satisfaction
+Global
+Taux de satisfaction 42% 49% 42% 61% 48,60%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+Taux de satisfaction--- PAGE 74 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+67
+Cette analyse nous a permit de positionner le SI de NAFTAL dans le baromètre de taux de
+satisfaction client :
+Figure N° 21: Baromètre taux de satisfaction à NAFTAL
+Source : élaborée par nous-mêmes
+Le taux de satisfaction client est de 48%, selon le baromètre, le SI de NAFTAL est
+dans une approche d’amélioration client, les demandes ne sont pas toujours prises en compte,
+Les prestations d u système d’information ne sont pas toutes jugées pertinentes et les
+demandes des bénéficiaires ne sont pas systématiquement traitées en tant que telles.
+D’après les résultats, les clients les moins satisfaits sont les membres de la direction et
+les chefs de projet avec un taux de satisfaction en dessous de la moyenne et de 42% chacun.
+En ce qui concerne la direction, elle n’est pas satisfaite car les prestations livrées par le
+système d’information à la Direction générale correspondent globalement aux act ivités du
+pôle pilotage cités dans le pôle 1, et le système d’information de NAFTAL néglige ces
+activités, comme il a été démontré précédemment. Tout déploiement de stratégie nécessite un
+alignement du système d’information, compte tenu du rôle structurant de l’informatique pour
+toute activité.
+Pour ce qui est des chefs de projets, ce sont des clients importants du système
+d’information car ils participent à la construction des applications, outils et logiciels, ils ne
+sont satisfaits qu’à 42% car le SI de NAFTAL n’établit pas de cartographie pour lister par
+exemple l’ensemble des processus de l’entreprise et rechercher les applications qui les
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+67
+Cette analyse nous a permit de positionner le SI de NAFTAL dans le baromètre de taux de
+satisfaction client :
+Figure N° 21: Baromètre taux de satisfaction à NAFTAL
+Source : élaborée par nous-mêmes
+Le taux de satisfaction client est de 48%, selon le baromètre, le SI de NAFTAL est
+dans une approche d’amélioration client, les demandes ne sont pas toujours prises en compte,
+Les prestations d u système d’information ne sont pas toutes jugées pertinentes et les
+demandes des bénéficiaires ne sont pas systématiquement traitées en tant que telles.
+D’après les résultats, les clients les moins satisfaits sont les membres de la direction et
+les chefs de projet avec un taux de satisfaction en dessous de la moyenne et de 42% chacun.
+En ce qui concerne la direction, elle n’est pas satisfaite car les prestations livrées par le
+système d’information à la Direction générale correspondent globalement aux act ivités du
+pôle pilotage cités dans le pôle 1, et le système d’information de NAFTAL néglige ces
+activités, comme il a été démontré précédemment. Tout déploiement de stratégie nécessite un
+alignement du système d’information, compte tenu du rôle structurant de l’informatique pour
+toute activité.
+Pour ce qui est des chefs de projets, ce sont des clients importants du système
+d’information car ils participent à la construction des applications, outils et logiciels, ils ne
+sont satisfaits qu’à 42% car le SI de NAFTAL n’établit pas de cartographie pour lister par
+exemple l’ensemble des processus de l’entreprise et rechercher les applications qui les
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+67
+Cette analyse nous a permit de positionner le SI de NAFTAL dans le baromètre de taux de
+satisfaction client :
+Figure N° 21: Baromètre taux de satisfaction à NAFTAL
+Source : élaborée par nous-mêmes
+Le taux de satisfaction client est de 48%, selon le baromètre, le SI de NAFTAL est
+dans une approche d’amélioration client, les demandes ne sont pas toujours prises en compte,
+Les prestations d u système d’information ne sont pas toutes jugées pertinentes et les
+demandes des bénéficiaires ne sont pas systématiquement traitées en tant que telles.
+D’après les résultats, les clients les moins satisfaits sont les membres de la direction et
+les chefs de projet avec un taux de satisfaction en dessous de la moyenne et de 42% chacun.
+En ce qui concerne la direction, elle n’est pas satisfaite car les prestations livrées par le
+système d’information à la Direction générale correspondent globalement aux act ivités du
+pôle pilotage cités dans le pôle 1, et le système d’information de NAFTAL néglige ces
+activités, comme il a été démontré précédemment. Tout déploiement de stratégie nécessite un
+alignement du système d’information, compte tenu du rôle structurant de l’informatique pour
+toute activité.
+Pour ce qui est des chefs de projets, ce sont des clients importants du système
+d’information car ils participent à la construction des applications, outils et logiciels, ils ne
+sont satisfaits qu’à 42% car le SI de NAFTAL n’établit pas de cartographie pour lister par
+exemple l’ensemble des processus de l’entreprise et rechercher les applications qui les
+--- PAGE 75 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+68
+couvrent ou définir tous les liens de données et de traitements entre les applications pour
+cibler les processus qu i ont trop d’applications et inversement ceux qui en sont déficitaires.
+Les documents fournis par la DCSI ne sont pas assainis, ce qui oblige les chefs de projet à
+fournir des efforts supplémentaires pour avoir des informations claires et utiles, et Il n’y a pas
+d’accompagnement  qui leur permet de mieux avancer avec des outils adaptés.
+Les managers quant à eux, sont satisfaits à 49%, leur satisfaction se retrouve dans la
+gestion des anomalies et la gestion de la documentation, le déficit se trouve dans le suivi
+d’exploitation, car les indicateurs de performance comme le Retour sur Investissement ROI ne
+sont pas mesurés, cela est dû au manque d’effectif dans le département en à savoir le
+département Solutions Web & Systèmes Décisionnels, qui est comme nous l ’avons déjà
+mentionné un département rachitique et ce depuis 3ans. ( 1 salarié sur 10 prévus )
+Il n’y a pas non plus d’assurance qualité de la fonction ni de certification, ceci peut
+affecter la crédibilité de la fonction à long terme.
+Les utilisateurs sont satisfaits à 61%, le système d’information est opérationnel c'est -à-
+dire qu’il leur permet d’exercer leur activité,  leurs besoins se limitent à une bonne gestion de
+l’infrastructure, une assistance technique et une bonne maintenance, cela justifie le ta ux de
+satisfaction obtenu; mais les concepteurs des outils n’ont pourtant pas toujours à l’esprit la
+diversité des besoins des utilisateurs car ces derniers n’ont aucun m oyen d’exprimer leurs
+attentes. Ils sont souvent contraint de s’adapter de leur mieux à un système dont ils ont
+l’impression qu’il ne correspond que partiellement à leurs besoins. Et pour comprendre les
+usages des individus, il est donc nécessaire de réaliser des enquêtes régulières auprès des
+utilisateurs, ce qui n’est pas réalisé à NAFTAL.--- PAGE 76 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+69
+SECTION 3 : L’EVALUATION GLOBALE DE LA PERFORMANCE DE
+LA FONCTION SI DE NAFTAL
+3.1 Résultats de l’évaluation globale selon le MEF :
+L’analyse commune des quatre pôles traités indépendamment donne lieu à une
+évaluation globale de la performance de la fonction système d’information de NAFTAL ; les
+quatre taux déterminent un taux global de performance fonctionnelle permettant de donner
+une cotation de la fonction avec les critères explicatifs de cette même cotation.
+Le baromètre global, en tant que moyenne des quatre dimensions, nous synthétise
+l’évaluation de la performance de la fonction système d’information par une valeur
+quantitative comprise entre 0 et 100 et des indications qualitatives permettant de situer le
+niveau de la fonction analysée.
+Figure N° 22 : Baromètre du taux de performance de la fonction SI
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.166.
+- La fonction « Excellente » illustre une situation où le taux de performance est
+supérieur à 75 %, obtenu par des valeurs fortes et/ou moyennes sur les quatre
+dimensions. La fonction système d’information remplit pleinement ses objectifs et se
+positionne comme un service d’excellence pour l’entreprise.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+69
+SECTION 3 : L’EVALUATION GLOBALE DE LA PERFORMANCE DE
+LA FONCTION SI DE NAFTAL
+3.1 Résultats de l’évaluation globale selon le MEF :
+L’analyse commune des quatre pôles traités indépendamment donne lieu à une
+évaluation globale de la performance de la fonction système d’information de NAFTAL ; les
+quatre taux déterminent un taux global de performance fonctionnelle permettant de donner
+une cotation de la fonction avec les critères explicatifs de cette même cotation.
+Le baromètre global, en tant que moyenne des quatre dimensions, nous synthétise
+l’évaluation de la performance de la fonction système d’information par une valeur
+quantitative comprise entre 0 et 100 et des indications qualitatives permettant de situer le
+niveau de la fonction analysée.
+Figure N° 22 : Baromètre du taux de performance de la fonction SI
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.166.
+- La fonction « Excellente » illustre une situation où le taux de performance est
+supérieur à 75 %, obtenu par des valeurs fortes et/ou moyennes sur les quatre
+dimensions. La fonction système d’information remplit pleinement ses objectifs et se
+positionne comme un service d’excellence pour l’entreprise.
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+69
+SECTION 3 : L’EVALUATION GLOBALE DE LA PERFORMANCE DE
+LA FONCTION SI DE NAFTAL
+3.1 Résultats de l’évaluation globale selon le MEF :
+L’analyse commune des quatre pôles traités indépendamment donne lieu à une
+évaluation globale de la performance de la fonction système d’information de NAFTAL ; les
+quatre taux déterminent un taux global de performance fonctionnelle permettant de donner
+une cotation de la fonction avec les critères explicatifs de cette même cotation.
+Le baromètre global, en tant que moyenne des quatre dimensions, nous synthétise
+l’évaluation de la performance de la fonction système d’information par une valeur
+quantitative comprise entre 0 et 100 et des indications qualitatives permettant de situer le
+niveau de la fonction analysée.
+Figure N° 22 : Baromètre du taux de performance de la fonction SI
+Source : AUTISSIER, (D) et DELAYE, (V). Op cit, P.166.
+- La fonction « Excellente » illustre une situation où le taux de performance est
+supérieur à 75 %, obtenu par des valeurs fortes et/ou moyennes sur les quatre
+dimensions. La fonction système d’information remplit pleinement ses objectifs et se
+positionne comme un service d’excellence pour l’entreprise.
+--- PAGE 77 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+70
+- La fonction « Satisfaisante » est caractérisée par un taux de performance entre 50 %
+et 75 %. Ce qui est réalisé par la fonction système d’information l’est de manière
+acceptable.
+- La fonction « À améliorer » correspond à un taux de performance situé entre 25 % et
+50 %. Avec une telle évaluation, il n’y a pas de domaine d’excellence mais des valeurs
+moyennes et basses faisant état d’une situation où le système d’information répond de
+manière partielle à ses obligations et aux attentes de ses clients.
+- La fonction « À risques », est qualifiée par un taux de performance inférieur à 25 %.
+Cette situation fait état d’un fonctionnement très dégradé de la fonction système
+d’information qui ne lui permet plus de réaliser le minimum qui lui est demandé.
+Tableau N° 9 : Synthèse des évaluations fonctionnelles
+Thèmes d'évaluation %
+Activités pilotage 44
+Activités développement applicatif 66
+Activités maintenance applicative 74
+Activités gestion infrastructure 75
+Activités relations utilisateurs 79
+Taux de couverture des activités 68
+Savoirs techniques 61
+Savoirs comportementaux 76
+Savoirs prospectifs 56
+Taux de maîtrise des compétences 62
+Positionnement 40
+Fonctionnement 45--- PAGE 78 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+71
+Enjeux 50
+Ressources 60
+Taux de support structurel 49
+Direction 42
+Managers 49
+Chefs de projet 42
+Utilisateurs 61
+Taux de satisfaction clients 48,6
+Taux de performance global 56,9
+Source : élaboré par nous-mêmes
+Figure N° 23 : Radar des branches de l’évaluation fonctionnelle
+Source : élaborée par nous-mêmes
+68%
+62%
+49%
+48%
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+Taux de couverture des
+activités
+Taux de maîtrise des
+compétences
+Taux de support
+structurel
+Taux de satisfaction
+clients--- PAGE 79 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+72
+Cette analyse nous a permis de positionner le SI de NAFT AL dans le baromètre de taux de
+performance globale:
+Figure N° 24 : Baromètre taux de performance globale de la DCSI de NAFTAL
+Source : élaborée par nous-mêmes
+3.2 Synthèse globale :
+D’après les résultats obtenus, la fonction système d’information de NAFTAL a un
+taux de performance globale moyennement satisfaisant, même s’il reste des efforts à fournir
+du point de vue satisfaction client et support structurel, ce qui est réalisé par la fonction l’est
+de manière acceptable. Elle remplit son contrat sans plus. Il y a des lacunes à corriger, p our
+lesquelles il faut analyser en profondeur les causes et évaluer les chantiers d’amélioration  à
+moyen terme à avoir.
+Comme précisé dans le chapitre 1 de ce travail de recherche, l’existence d’un système
+d’information performant constitue un atout strat égique à l’entreprise. A travers la
+présentation des différents taux des quatre pôles ainsi que leurs baromètres,  nous pouvons
+répondre en particulier aux sous questions préalablement posées, en général à notre
+problématique.
+ Comme nous l’avons vu dans le premier et deuxième pôle de l’évaluation de la
+performance, le système d’information de NAFTAL réalise une grande partie des
+activités que devrait effectuer tout système d’information qui se respecte soit 68%, et
+les ressource s humaines de la fonction maitrise les activités SI à 62%, le système
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+72
+Cette analyse nous a permis de positionner le SI de NAFT AL dans le baromètre de taux de
+performance globale:
+Figure N° 24 : Baromètre taux de performance globale de la DCSI de NAFTAL
+Source : élaborée par nous-mêmes
+3.2 Synthèse globale :
+D’après les résultats obtenus, la fonction système d’information de NAFTAL a un
+taux de performance globale moyennement satisfaisant, même s’il reste des efforts à fournir
+du point de vue satisfaction client et support structurel, ce qui est réalisé par la fonction l’est
+de manière acceptable. Elle remplit son contrat sans plus. Il y a des lacunes à corriger, p our
+lesquelles il faut analyser en profondeur les causes et évaluer les chantiers d’amélioration  à
+moyen terme à avoir.
+Comme précisé dans le chapitre 1 de ce travail de recherche, l’existence d’un système
+d’information performant constitue un atout strat égique à l’entreprise. A travers la
+présentation des différents taux des quatre pôles ainsi que leurs baromètres,  nous pouvons
+répondre en particulier aux sous questions préalablement posées, en général à notre
+problématique.
+ Comme nous l’avons vu dans le premier et deuxième pôle de l’évaluation de la
+performance, le système d’information de NAFTAL réalise une grande partie des
+activités que devrait effectuer tout système d’information qui se respecte soit 68%, et
+les ressource s humaines de la fonction maitrise les activités SI à 62%, le système
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+72
+Cette analyse nous a permis de positionner le SI de NAFT AL dans le baromètre de taux de
+performance globale:
+Figure N° 24 : Baromètre taux de performance globale de la DCSI de NAFTAL
+Source : élaborée par nous-mêmes
+3.2 Synthèse globale :
+D’après les résultats obtenus, la fonction système d’information de NAFTAL a un
+taux de performance globale moyennement satisfaisant, même s’il reste des efforts à fournir
+du point de vue satisfaction client et support structurel, ce qui est réalisé par la fonction l’est
+de manière acceptable. Elle remplit son contrat sans plus. Il y a des lacunes à corriger, p our
+lesquelles il faut analyser en profondeur les causes et évaluer les chantiers d’amélioration  à
+moyen terme à avoir.
+Comme précisé dans le chapitre 1 de ce travail de recherche, l’existence d’un système
+d’information performant constitue un atout strat égique à l’entreprise. A travers la
+présentation des différents taux des quatre pôles ainsi que leurs baromètres,  nous pouvons
+répondre en particulier aux sous questions préalablement posées, en général à notre
+problématique.
+ Comme nous l’avons vu dans le premier et deuxième pôle de l’évaluation de la
+performance, le système d’information de NAFTAL réalise une grande partie des
+activités que devrait effectuer tout système d’information qui se respecte soit 68%, et
+les ressource s humaines de la fonction maitrise les activités SI à 62%, le système
+--- PAGE 80 ---
+CHAPITRE III : MESURE DE LA PERFORMANCE DE LA DCSI DE NAFTAL
+73
+d’information de NAFTAL est donc développé et détient un personnel spécialisé à un
+degré de maitrise fonctionnelle acceptable.
+ D’après les résultats obtenus, la structure de la fonction système d’information de
+NAFTAL est moyennement dimensionnée, son organisation ne correspond qu’à 49%
+aux attentes du personnel de la DCSI et ne permet pas une bonne coordination entre
+tous ces membres, d’autant plus qu’il n’y a pas de délégation de pouvo irs et que tout
+est centralisé.
+ Malgré que le système d’information de NAFTAL soit développé, il a des limites.
+D’après les résultats, il répond moyennement aux besoins de ses utilisateurs. Ces
+derniers, ne sont satisfaits qu’à 48%, et ce car leurs besoin s ne sont pas toujours pris
+en considération, et tout particulièrement les chefs de projet et les managers, et pour
+reprendre l’expression d’un des utilisateurs « les responsables de la DCSI adoptent
+parfois de grandes solutions pour des petits problèmes » et ceci est dû au manque
+d’outils pour le recueil des attentes et la mesure de la satisfaction de chacun.
+A travers ces résultats obtenus, nous avons confirmé la première hypothèse et infirmée
+les deux autres qui se suivent. L’action de NAFTAL consiste pour le moment à entreprendre
+une démarche d’amélioration de la fonction SI pour une meilleure performance.--- PAGE 81 ---
+CONCLUSION GENERALE--- PAGE 82 ---
+De nombreuses études ont montré que le niveau de développement de l’entreprise en
+matière de systèmes d’information variait selon qu’elle était ou non filiale d’un grand groupe,
+qu’elle avait une activité tournée vers l’export ou non, mais également en fonction du secteur
+d’activité. La problématique de mise en place de systèmes d’information per formants au sein
+d’une organisation est hautement stratégique. La fonction système d’information est
+aujourd’hui, plus que jamais, au centre des préoccupations de nombreux chefs d’entreprises,
+qui considèrent les systèmes d’information comme essentiels à accroitre la performance de
+l’entreprise.
+L’entreprise algérienne est à la croisée des chemins. Elle est amenée à procéder
+intelligemment afin d’assurer sa survie puis sa rentabilité tout en s’adaptant aux exigences de
+l’environnement. En ce sens, NAFTAL a toujours reçu tout l’appui de l’entreprise mère et elle
+continuera à en bénéficier. Désormais, satisfaire des clients devenus de plus en plus exigeants,
+se conformer à des normes de sécurité de plus en plus sévères, pérenniser l’entreprise, dans un
+contexte économique difficile, constituent les défis majeurs que NAFTAL doit
+impérativement relever.
+Afin d'améliorer la fonction de système d'information ainsi que sa performance,
+historiquement on s'est en premier lieu tourné vers les processus de production (optimisation
+du calcul des stocks, robotisation…). Désormais cet te démarche se tourne de plus en plus sur
+les autres fonctions support des industriels. Les questions d’ordres financiers se voient
+également confrontées à des questions d’ordres stratégiques. Des remises en questions sur
+l’intérêt d'externaliser apparaiss ent et le modèle MEF essaie d'y apporter une réponse. Son
+objectif est de réaliser une évaluation de la fonction système. Pour cela, en s'appuyant sur une
+structure simple, il se propose de juger à la fois les pôles activités, compétences, clients et
+organisation pour déterminer la performance globale de la fonction.
+Autant de défis auxquels fait face la fonction des systèmes d’information aujourd’hui
+imposent à la fonction systèmes d’information une évaluation permanente pour gagner
+davantage en efficacité et en efficience. Nous pensons que l’entreprise algérienne e ntre autres
+l’entreprise NAFTAL , sujet de notre cas d’étude, en regard du cadre actuel régissant
+l’environnement qui se veut en plein métamorphose, doit recentrer ses efforts sur
+l’amélioration de la fonction système d’informa tion, notamment les compétences et la
+structure.--- PAGE 83 ---
+En partant d’observations empiriques, nous constatons que la plupart des études
+portaient soit sur l’impact des technologies de l’information et de communication sur la
+performance de l’entreprise, soit sur l’évaluation du système d’information en tant que tel,
+plutôt que sur l’évaluation de la fonction elle-même.
+Les hypothèses de départ on été vérifiées par nos soins, la première étant confirmée,
+les autres infirmées. Il est à noter avec beaucoup d’intérêt que les efforts que déploie
+aujourd’hui l’entreprise NAFTAL en matière de fonctionnement de la fonction système
+d’information  demeurent insuffisants. Néanmoins, les résultats de l’étude réalisée au sein de
+l’entreprise NAFTAL démontrent une réelle volonté d’amélioration de la fonction système
+d’information, cette dernière est souvent conçue comme un moyen d’atteindre leurs objectifs
+et donc de réaliser leur stratégie.
+Le sujet de mesure de la performance de la fonction système d’information est un sujet
+vaste et délicat, il requiert une recherche approfondie sur la question tant sur le plan théorique
+que sur le plan pr atique. Il convient de noter qu’en fonction du modèle MEF, la population
+étudiée concerne essentielleme nt et principalement le personnel de la direction centrale des
+systèmes d’information, et quelques autres utilisateurs. Nous soulignons à la fin notre volonté
+de s’approfondir davantage dans l’application de ce modèle MEF sur les autres fonctions
+supports de l’entreprise,--- PAGE 84 ---
+BIBLIOGRAPHIE
+OUVRAGES :
+ AUTISSIER (D), DELAYE (V) : Mesurer la performance d’un système
+d’information, Eyrolles, édition d’organisation, Paris, 2008.
+ BALLAND, (S), BOUVIER (A) : Management des entreprises en 24 fiches, éd.
+DUNOD, Paris,  2009.
+ BOHNKE, (Sabine) : Moderniser son système d’information, Eyrolles, éditions
+d’organisation, Paris, 2010.
+ BELAID : Le management, concepts clés, Collectif EPBI, édition pages bleues,
+Algérie ; 2009.
+ BRASSEUR, (Christophe) : Data Management, qualité de donné es et compétitivité,
+édition Lavoisier, Paris, 2005.
+ DEYRIEUX, (André), Le système d'information nouvel outil de stratégie, ed maxima,
+Paris, 2004.
+ GILLET, (Michel) et GILLET, (Patrick) : Management  des systèmes d’informations,
+édition Dunod, Paris, 2008.
+ GILLET, (Michel) et GILLET, (Patrick) : Système d’information des ressources
+humaines, Ed Dunod, Paris, 2010.
+ JAMES, (A. O'BRIEN) : Les systèmes d'information de gestion, De Boeck Université,
+Canada, 1995
+ KAKAY, (H) : Contribution à la recherche qualitat ive-Cadre méthodologique de
+rédaction de mémoire, Université de Franche-Comté, 2008.
+ LAUDON, (Kenneth), LAUDON, (Jane) : Management des systèmes d’information,
+Adapté par FIMBEL Éric, 9ème éd Pearson Education, France, 2006.
+ LAUDON, (Kenneth), LAUDON, (Ja ne) : Les systèmes d’information  de gestion ;
+gérer l’E numérique, 3ème ed , CANADA , 2010.
+ MONACO, (Laurence) : Système d’information de gestion, 2 ème édition Lextenso,
+Paris, 2012.
+ MONGEAU, (Pierre) : Réaliser son mémoire, presse de l’université du Québ ec,
+Canada, 2008, P.31.
+ MORLEY, (Chantal) : Management d’un projet système d’information, 5 ème édition,
+Dunod, paris, 2006.
+ REGIS, (Messonier) : Externaliser le SI, édition economica, paris, 2006.--- PAGE 85 ---
+ REIX, (Robert) : Système d’information et management des organisations, Vuibert,
+3ème édition, Paris, 2000.
+ REIX, (R) et ROWE, (F) : Faire de la recherche en système d’information, ED Franz
+Rowe, Vuibert collection « FNEGE », Paris, 2002.
+ VIDAL, (Pascal), PLANEIX, (Philippe) et autres : les systèmes d’informatio ns
+organisationnels, Pearson Education, France, 2005.
+ VOLLE, (Michel) : De l’informatique (savoir vivre avec l’automate), éd. Economica,
+Paris, 2006.
+ VOLANT, (Christiane) : Le management de l’information dans l’entreprise vers une
+vision systémique, ADBS, Paris, 2003.
+WEBOGRAPHIE :
+ http://foad.refer.org/IMG/pdf/cours_MCSI.pdf, le 23/03/2014 à 19h35.
+ http://fr.wikipedia.org/wiki/Ma%C3%AEtrise_d%27ouvrage
+ http://www.naftal.dz/presentation.php?pageID=EN-CHIFFRE
+ http://www.naftal.dz
+ http://www.commentcamarche.net
+ http://www.forumtelecom.org
+ http://dfcg-blog.org
+ http://dialog.ac-reinis.fr
+ http://www.alain-bensoussan.com
+ http://www.piloter.org
+ARTICLES DE REVUES :
+ DURGERDIL, (Philippe) : Impact des décisions informatiques: introduction à
+l'informatique pour le décideur non informaticien, presses polytechniques et
+universitaires romandes, Lausanne, 2005.
+Equipe de rédaction : les 500 premières entreprises africaines, Jeune Afrique, N°29 Hors
+série, 2012--- PAGE 86 ---
+ANNEXES--- PAGE 87 ---
+Liste des annexes
+N° Annexes
+A Questionnaire n°1 : Pôle activités
+B Questionnaire n°2 : Pôle compétences
+C Questionnaire n°3 : Pôle organisation
+D Questionnaire n°4 : Pôle client--- PAGE 88 ---
+Activités pilotage
+Activités Activité
+réalisée
+Activité non
+réalisée
+1. Définir la stratégie SI et les objectifs à atteindre
+2. Décliner la stratégie de l'entreprise dans la DCSI
+3. Gérer les projets informatiques
+4. Assurer le pilotage stratégique
+5. Etablir un cahier des charges pour un appel d'offres
+6. Contractualiser avec un sous-traitant
+7. Organiser le suivi de la prestation
+8. Gérer une situation difficile avec un sous-traitant
+9. Gérer la performance
+10. Gérer les ressources humaines
+11. Gérer les coûts
+12. Gérer les risques
+13. Choisir des référentiels qualité pour le SI
+14. Mettre en place un audit régulier des SI
+15. Déployer un système de veille  informationnelle sur le secteur de
+l'informatique et des télécoms
+16. Mettre en œuvre une démarche de benchmarking I & T
+Activités relations utilisateurs
+17. Intégrer un lot conduite du changement dans les projets
+18. Construire un référentiel conduite du changement
+19. Professionnaliser les chefs de projets à la conduite du changement
+20. Piloter les projets de changement
+21. Avoir une hot line (assistance téléphonique)
+22. Résoudre des problèmes techniques à distance
+23. Avoir une équipe d'intervention
+24. Assister les utilisateurs pour l'évolution des applications
+25. Avoir un taux de couverture des compétences informatiques
+26. Organiser le permis informatique
+27. Prévoir les formations liées à des projets
+28. Avoir un dispositif de formation à la demande (catalogue de formation)
+29. Créer des clubs utilisateurs
+30. Avoir un forum utilisateurs
+31. Créer une foire aux questions
+Annexe A: Questionnaire Pôle activités
+Ce pôle détermine la fonction du SI, il s'agit de lister tout ce qui doit être fait théoriquement et le comparer
+aux activités réelles.
+Veuillez cocher svp la réponse la plus appropriée *--- PAGE 89 ---
+32. Faire une enquête de satisfaction
+Activités développement applicatif
+33. Réaliser une étude d'opportunité
+34. Réaliser une étude de faisabilité
+35. Organiser le lancement du projet
+36. Piloter le projet
+37. Réaliser la conception fonctionnelle
+38. Décrire les spécifications
+39. Modéliser et programmer l'outil
+40. Réaliser les différents tests et mettre en exploitation
+41. Etablir la cartographie applicative des processus
+42. Etablir la cartographie des liens inter applications
+43. Faire un diagnostic urbanisme SI
+45. Identifier la maitrise d'ouvrage MOA
+46. Former la MOA
+47. Construire les périmètres Maitrise d'ouvrage/ maitrise d'œuvre
+48. Disposer d'une MOA permanente
+Activités maintenance applicative
+49. Gérer les interfaces applicatives
+50. Optimiser la performance de l'application
+51. Gérer les montées de version des applications
+52. Mesurer les KPI et calculer le ROI
+53. Planifier les détections d'anomalies
+54. Détecter et analyser les anomalies
+55. Traiter les anomalies
+56. Piloter la gestion des anomalies
+57. Construire un plan de documentation
+58. Gérer la documentation
+59. Mettre à jour la documentation
+60. Diffuser la documentation
+61. Gérer la qualité des SI
+62. Certifier la maintenance applicative
+63. Définir des principes d'éthique des SI
+64. Gérer la confidentialité
+Activités gestion infrastructure
+65. Définir le poste de travail
+66. Définir une stratégie matériel hard
+67. Exploiter et optimiser le parc informatique
+68. Choisir et concevoir le matériel soft
+69. Définir et concevoir les technologies de stockage de données et ETL
+70. Concevoir les chaînes décisionnelles
+71. Définir le référentiel des données
+72. Administrer et exploiter les BDD--- PAGE 90 ---
+73. Définir et concevoir l'architecture réseaux et télécoms
+74. Exploiter et administrer les infrastructures de télécommunications
+75. Assurer la maintenance et la disponibilité des réseaux
+76. Gérer les situations multicanal
+77. Définir une politique sécurité
+78. Formaliser les procédures sécurité
+79. Faire faire des sauvegardes
+80. Gérer les habilitations
+Annexe B : Questionnaire pôle compétences
+Je suis étudiante de l’ école nationale supérieure de management et j’ai besoin de votre collaboration
+pour mener à bien l’évaluation de la performance du système d’information de NAFTAL, veuillez cocher
+les réponses qui vous correspondent le mieux, seule une réponse est possible par question. Un  lexique
+vous permettra de mieux comprendre les questions posées.
+Compétences techniques
+Activités pilotage
+Activités je maitrise je
+pratique je connais je ne
+connais pas
+Définir la stratégie SI et les objectifs à atteindre
+Décliner la stratégie de l'entreprise dans la DCSI
+Gérer les projets informatiques
+Assurer le pilotage stratégique1
+Etablir un cahier des charges pour un appel d'offres
+Contractualiser avec un sous-traitant
+Organiser le suivi de la prestation
+Gérer une situation difficile avec un sous-traitant
+Gérer la performance de la fonction SI2
+Gérer les ressources humaines de la fonction SI
+Gérer les coûts de la fonction3
+Gérer les risques de la fonction4
+Choisir des référentiels qualité5 pour le SI
+Mettre en place un audit régulier des SI
+Déployer un système de veille  informationnelle6 sur le
+secteur de l'informatique et des télécoms
+1 Piloter l’atteinte des objectifs stratégiques par la DCSI et la contribution de celle -ci à la réalisation des objectifs
+de l’entreprise.
+2 Définir les critères d’appréciation de la performance de la DCSI dans son fonctionnement et dans sa relation de
+service à l’entreprise.
+3 Définir les investissements à mettre en œuvre, les coûts de réalisation et de prestation, allouer les moyens
+4 Identifier les principaux risques en termes de gravité et de probabilité d’apparition avec les actions de
+couverture correspondantes.
+5 Choisir les normes à suivre.
+6 Surveillance de la parution de l’information pertinente à un sujet par des actions de re cherche, de traitement et
+de diffusion.--- PAGE 91 ---
+Mettre en œuvre une démarche de benchmarking7 I & T8
+Activités relations utilisateurs
+Intégrer un lot conduite du changement 9dans les projets ;
+Construire un référentiel conduite de changement
+Professionnaliser les chefs de projets à la conduite du
+changement
+Piloter les projets de changement
+Avoir une hot line (assistance téléphonique)
+Résoudre des problèmes techniques à distance
+Avoir une équipe d'intervention
+Assister les utilisateurs pour l'évolution des applications
+Avoir un taux de couverture des compétences informatiques10
+Organiser le permis informatique
+Prévoir les formations liées à des projets
+Avoir un dispositif de formation à la demande (catalogue de
+formation)
+Avoir des clubs utilisateurs
+Avoir un forum utilisateurs
+Créer une foire aux questions
+Faire une enquête de satisfaction
+Activités développement applicatif
+Réaliser une étude d'opportunité
+Réaliser une étude de faisabilité
+Organiser le lancement du projet
+Piloter le projet
+Réaliser la conception fonctionnelle
+Décrire les spécifications
+Modéliser et programmer l'outil
+Réaliser les différents tests et mettre en exploitation
+Etablir la cartographie applicative des processus11
+Etablir la cartographie des liens inter applications
+Faire un diagnostic urbanisme SI12
+reconfigurer les applications
+7C’est une technique  qui consiste à étudier et analyser les techniques de gestion, les modes d'organisation des
+autres entreprises afin de s'en inspirer et d'en retirer le meilleur.
+8 I&T= information et technologie
+9 Accompagnement des utilisateurs dans l’évolution des méthodes de travail et outils.
+10 En fonction des applications utilisées, déterminer si les utilisateurs ont le niveau de compétence requis.
+11 Lister l’ensemble des processus de l’entreprise et rechercher les applications qui les couvrent
+12 Cibler les processus qui ont trop d’applications et inversement ceux qui en sont déficitaires.--- PAGE 92 ---
+Identifier la maitrise d'ouvrage MOA 13
+Former le MOA
+Construire les périmètres Maitrise d'ouvrage/ maitrise
+d'œuvre14 (MOA/MOE)
+Disposer d’une MOA permanente
+Activités maintenance applicative
+Gérer les interfaces applicatives
+Optimiser la performance de l'application
+Gérer les montées de version des applications
+Mesurer les KPI et calculer le ROI15
+Planifier les détections d'anomalies
+Détecter et analyser les anomalies
+Traiter les anomalies
+Piloter la gestion des anomalies
+Construire un plan de documentation
+Gérer la documentation
+Mettre à jour la documentation
+Diffuser la documentation
+Gérer la qualité des SI
+Définir des principes d'éthique des SI
+Gérer la confidentialité
+Activités gestion infrastructure
+Définir le poste de travail
+Définir une stratégie matériel hard
+Exploiter et optimiser le parc informatique
+Choisir et concevoir le matériel soft
+Définir et concevoir les technologies de stockage de données
+et ETL
+Concevoir les chaînes décisionnelles16
+Définir le référentiel des données
+Administrer et exploiter les BDD
+Définir et concevoir l'architecture réseaux et télécoms
+Exploiter et administrer les infrastructures de
+télécommunications
+Assurer la maintenance et la disponibilité des réseaux
+13 Demandeur d’application, matériel, logiciels pour l’entreprise.
+14 Fournisseur de matériel, logiciels, services et solutions.
+15 Mesurer les indicateurs de performance ou KPI (Key process indicators). Choisir une méthode de calcul du
+ROI (Return on investment) retour sur investissement et le déterminer.
+16 Chaînes automatiques et/ou manuelles d’extraction des données des ba ses de données opérationnelles vers les
+entrepôts de données pour leur exploitation avec des outils d’extraction simple ou en multidimensionnelle.--- PAGE 93 ---
+Gérer les situations multicanal
+Définir une politique sécurité
+Formaliser les procédures sécurité
+Gérer les habilitations
+Compétences comportementales
+ça peut aller
+
+ 
+Rigueur dans le travail
+Organisation du travail
+Sens du service client
+Communication avec les parties prenantes
+Animation d'équipe
+Capacité de formalisation et de synthèse
+Capacité d'abstraction et de logique
+Capacité à convaincre et à négocier
+Intégrité
+Curiosité et créativité
+Compétences Métier
+je connais mais je
+n'en tiens pas
+compte
+systématiquement
+je connais et
+je l'utilise
+Je connais mais
+n’en tiens pas
+compte
+systématiquement
+je connais
+un peu
+je ne
+connais pas
+La stratégie de l'entreprise
+Les métiers de l'entreprise
+Le secteur de l'entreprise
+L'histoire,  la culture et du système, valeurs de
+l'entreprise
+Le business modèle de l'entreprise
+Les partenaires de l'entreprise
+L'organisation et le fonctionnement de
+l'entreprise
+L'environnement I & T de l'entreprise
+Les grands projets
+Le marché I&T
+- - ---- PAGE 94 ---
+Annexe C : Questionnaire pôle organisation
+Je suis étudiante de l’ école nationale supérieure de management, mon étude porte sur l’évaluation du
+système d’information de NAFTAL. Afin de mener à bien ma recherche, je vous demande de cocher les
+réponses que vous pensez les plus appropriées, il n’y a pas de bonnes ou mauvaises réponses, soyez
+simplement sincères.
+Toutes les informations que vous donnerez seront anonymes et traitées uniqu ement à des fins
+statistiques et dans le cadre de ma recherche.
+*Veuillez cocher une seule réponse pour chaque question posée.
+Positionnement de la DCSI
+Oui tout à fait Oui en partie Non Non et c'est très
+dommageable
+1.1. Le positionnement de la
+fonction SI vous paraît-il explicite ?
+1.2. Le positionnement de la
+fonction SI vous paraît-il le meilleur
+pour réaliser les activités dont elle à
+la charge ?
+1.3. Le positionnement de la
+fonction SI permet-il de bien
+dialoguer avec les autres services de
+l'entreprise ?
+1.4. Le positionnement de la
+fonction SI est-il en correspondance
+avec la culture de l'entreprise ?
+1.5. Le positionnement de la
+fonction SI permet-il l'obtention des
+informations facilement ?
+Fonctionnement de la DCSI
+Oui tout à
+fait
+Oui en
+partie
+Non Non et c’est très
+dommageable
+2.1. La répartition des tâches et des activités est elle
+suffisamment explicite ?
+2.2. Le mode de coordination est-il en adéquation
+avec les attentes et aspirations des collaborateurs de
+la fonction SI ?
+2.3. Le mode de management de la fonction SI vous
+satisfait-il ?
+2.4. Les fiches de postes de la fonction SI sont-elles
+formalisées ?
+2.5. Les processus de la fonction SI sont-ils explicites
+et communiqués ?
+Enjeux de la DCSI--- PAGE 95 ---
+3. 1. Les projets SI sont-ils réalisés dans le temps?
+3.2. Les projets SI sont-ils réalisés en tenant leur
+budget ?
+3.3. Les projets SI réalisent-ils tous les objectifs
+initiaux ?
+3.4. Le SI sait-il être réactif face aux évolutions
+d'activité et de stratégie ?
+3.5. Le SI améliore-il l'activité des salariés au
+quotidien ?
+Ressources de la DCSI
+4.1. L'effectif de la fonction est il dans la norme?
+4.2. le coût global de la fonction SI est-il dans la
+norme ?
+4.3. Le coût salarial de la fonction SI est-il dans la
+norme ?
+4.4. Le coût des prestations externes de la fonction SI
+est-il dans la norme ?
+4.5. Les achats de matériel de la fonction SI sont-ils
+dans la norme ?
+Annexe D : Questionnaires Pôle n°4
+Direction:
+Je suis étudiante de l’école nationale supérieure de management et j’ai besoin de votre collaboration
+pour mener à bien l’évaluation de la performance du système d’information de NAFTAL.
+La direction est très attentive au système d’information d’un point de vue stratégique, gestionnaire et
+opérationnel. Le SI est un outil de déploiement de la stratégie et, sans ce dernier, celle -ci peut se limiter à
+quelques souhaits et discours. Ce questionnaire vise à mesurer la satisfaction de la direction vis -à-vis des
+différentes activités de pilotage que le SI effectue ;
+Activités Très
+satisfait satisfait Peu
+satisfait
+Pas
+satisfait
+Définir la stratégie SI et les objectifs à atteindre
+Décliner la stratégie17 de l'entreprise dans la DCSI
+Gestion des projets informatiques
+Pilotage stratégique18
+Etablir un cahier des charges pour un appel d'offres
+Contractualiser avec un sous-traitant
+Organiser le suivi de la prestation
+17 Mettre en œuvre les orientations stratégiques et faire des choix et les conduire.
+18 Piloter l’atteinte des objectifs stratégiques par la DCSI et la contribution de celle -ci à la réalisation des
+objectifs de l’entreprise.--- PAGE 96 ---
+Gérer une situation difficile avec un sous-traitant
+Gérer la performance de la fonction SI19
+Gérer les ressources humaines de la fonction SI
+Gérer les coûts de la fonction20
+Gérer les risques de la fonction21
+Choisir des référentiels qualité22 pour le SI
+Mettre en place un audit régulier23 des SI
+Déployer un système de veille  informationnelle24 sur le secteur
+de l'informatique et des télécoms
+Mettre en œuvre une démarche de benchmarking25 I & T26
+Utilisateurs du SI
+Je suis étudiante de l’école nationale supérieure de management et j’ai besoin de votre collaboration pour
+mener à bien l’évaluation de la performance du système d’information de NAFTAL.
+Les utilisateurs sont la catégorie de clients regroupant le plus de personnes, avec les profils et les attentes
+les plus hétérogènes.
+Issus des différents métiers de l’entreprise, ils attendent du système d’information qu’il soit opérationnel
+(c’est-à-dire qu’il leur permette d’exercer leur activité), facile à utiliser (simple, ergonomique) et fiable (en
+ce qui concerne les données comme les applications)
+Activités Très
+satisfait
+satisfait peu
+satisfait
+Pas
+satisfait
+Intégrer un lot conduite du changement 27dans les projets ;
+Construire un référentiel conduite du changement28
+Professionnaliser les chefs de projets à la conduite du changement
+Piloter les projets de changement
+Avoir une hot line (assistance téléphonique)
+Résoudre des problèmes techniques à distance
+19 Définir les critères d’appréciation de la performance de la DCSI dans son fonctionnement et dans sa relation
+de service à l’entreprise.
+20 Définir les investissements à mettre en œuvre, les coûts de réalisation et de prestation, allouer les moyens
+21 Identifier les principaux risques en termes de gravité et de probabilité d’apparition avec les actions de
+couverture correspondantes.
+22 Choisir les normes à suivre.
+23 Choisir une démarche d’audit et de contrôle des SI
+24 Surveillance de la parution de l’information pertinente à un sujet par des actions de recherche, de traitement et
+de diffusion.
+25C’est une technique  qui consiste à étudier et analyser les techniques de gestion, les modes d'organisation des
+autres entreprises afin de s'en inspirer et d'en retirer le meilleur.
+26 I&T= information et technologie
+27 Accompagnement des utilisateurs dans l’évolution des méthodes de travail et outils.
+28 Définir les principales productions de conduite du changement et leur intérêt pour les différents types de
+projets.--- PAGE 97 ---
+Avoir une équipe d'intervention
+Assister les utilisateurs pour l'évolution des applications
+Avoir un taux de couverture des compétences informatiques29
+Organiser le permis informatique30
+Prévoir les formations liées à des projets
+Avoir un dispositif de formation à la demande (catalogue de
+formation)
+Création des clubs utilisateurs31
+Avoir un forum utilisateurs
+Créer une foire aux questions
+Faire une enquête de satisfaction32
+Chefs de projet
+Je suis étudiante de l’école nationale supérieure de management et j’ai besoin de votre collaboration pour
+mener à bien l’évaluation de la performance du système d’information de NAFTAL.
+Les chefs de projet sont des clients du système d’information parce que beaucoup de projets traitent du
+système d’information et, quand ce n ’est pas le cas, le système d’information sera de toute façon
+concerné.
+Activités Très
+satisfait
+satisfait Peu
+satisfait
+Pas
+satisfait
+Réaliser une étude d'opportunité33
+Réaliser une étude de faisabilité
+Organiser le lancement du projet
+Piloter le projet
+Réaliser la conception fonctionnelle34
+Décrire les spécifications
+Modéliser et programmer l'outil
+Réaliser les différents tests et mettre en exploitation
+cartographie applicative des processus35
+cartographie des liens interapplications
+29 En fonction des applications utilisées, déterminer si les utilisateurs ont le niveau de compétence requis.
+30 Pour les applications bureautiques, faire passer un test d’aptitude à tous les salariés utilisant un poste
+informatique.
+31 Prévoir des rencontres régulières avec les utilisateurs dans le cadre d’u n club afin d’avoir leur retour sur le SI.
+32 Administrer de manière globale, ou bien par application et/ou métier, des questionnaires permettant aux
+utilisateurs d’évaluer les prestations de la DCSI.
+33 Formaliser l’initiative de projet : montrer ses enjeux, ses avantages/inconvénients, la cohérence avec la
+stratégie de l’entreprise et le schéma directeur SI,
+34 Identifier les acteurs à rencontrer pour réaliser la conception fonctionnelle. En lien avec ces acteurs, collecter
+les informations permettant d’analyser les besoins.
+35 Lister l’ensemble des processus de l’entreprise et rechercher les applications qui les couvrent--- PAGE 98 ---
+Faire un diagnostic urbanisme SI36
+reconfiguration applicative
+Identifier la maitrise d'ouvrage MOA 37
+Former la MOA38
+Construire les périmètres Maitrise d'ouvrage/ maitrise
+d'œuvre39 (MOA/MOE)
+Disposer d’une MOA permanente40
+Managers :
+Je suis étudiante de l’école nationale supérieure de management et j’ai besoin de votre collaboration pour
+mener à bien l’évaluation de la performance du système d’information de NAFTAL.
+Les managers ont un rôle plus stratégique sur leur domaine d’intervention et participent beaucoup plus à
+la prise de décision que les autres instances hiérarchiques. Pour la  réalisation de cette mission, ils
+attendent du système d’information une relation de partenariat pour la coconstruction d’outils de
+production et/ou de gestion.
+A travers ce questionnaire, nous mesurons votre satisfaction par rapport à certaines activités du SI. Merci
+pour votre collaboration.
+Très
+satisfait
+satisfait Peu
+satisfait
+Pas
+satisfait
+Définition du poste de travail41
+Définition d’une stratégie matériel hard
+Exploitation et optimisation du parc informatique
+Choix et conception du matériel soft
+Définition et conception des technologies de stockage de données
+et ETL
+Concevoir les chaînes décisionnelles42
+Définir le référentiel des données
+Administrer et exploiter les Bases De Données
+Définir et concevoir l'architecture réseaux et télécoms
+36 Cibler les processus qui ont trop d’applications et inversement ceux qui en sont déficitaires.
+37 Demandeur d’application, matériel, logiciels pour l’entreprise.
+38 Former les personnes devant exercer le rôle de MOA dans le cadre des projets
+39 Fournisseur de matériel, logiciels, services et solutions.
+40 Doter la DCSI d’une entité dédiée aux activités de MOA pour disposer d’interlocuteurs avec les métiers, dans
+une logique de bonne compréhension mutuelle.
+41 Définition d’un ou plusieurs postes de travail standards en termes de machine, de système d’exploitation et
+d’équipement logiciel.
+42 chaînes automatiques et/ou manuelles d’extraction des données des bases de données opérationnelles vers les
+entrepôts de données pour leur exploitation avec des outils d’extraction simple ou en multidimensionnelle.--- PAGE 99 ---
+Exploiter et administrer les infrastructures de
+télécommunications
+Assurer la maintenance et la disponibilité des réseaux
+Définir une politique sécurité
+Formaliser les procédures sécurité
+Faire faire des sauvegardes
+Gérer les interfaces applicatives
+Optimiser la performance de l'application
+Gérer les montées de version des applications
+Mesurer les KPI et calculer le ROI43
+Planifier les détections d'anomalies
+Détecter et analyser les anomalies
+Traiter les anomalies
+Piloter la gestion des anomalies
+Construire un plan de documentation44
+Gérer la documentation
+Mise à jour de la documentation
+Diffusion de la documentation
+Gérer la qualité des SI45
+Certifier la maintenance applicative
+Définir des principes d'éthique des SI
+Gérer la confidentialité
+43 Mesurer les indicateurs de performance ou KPI (Key process indicators). Choisir une méthode de calcul du
+ROI (Return on investment) retour sur investissement et le déterminer.
+44 Pour l’ensemble des applications et pour chaque application, avoir une politique de documentation clairement
+formalisée et acceptée par tous les intervenants.
+45 S’assurer de la conformité du SI avec les normes qualité de l’entreprise et autres référentiels.

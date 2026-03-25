@@ -1,0 +1,29 @@
+\chapter{Annexe A — Glossaire technique et rappels}
+
+\section{Termes liés aux données et aux applications}
+\begin{description}
+    \item[CRUD] (\textit{Create, Read, Update, Delete}) — ensemble des opérations élémentaires
+    de persistance sur les enregistrements (création, lecture, mise à jour, suppression).
+    \item[Requête paramétrée] — requête SQL dans laquelle les valeurs utilisateur sont passées
+    via des paramètres liés (PDO), afin d'éviter les injections SQL.
+    \item[Hash de mot de passe] — empreinte à sens unique du mot de passe (ex.\
+    algorithme \texttt{password\_hash} en PHP), stockée en base à la place du mot de passe en clair.
+\end{description}
+
+\section{Exploitation Windows Server et IIS}
+\begin{description}
+    \item[Serveur web IIS] — composant Windows Server qui reçoit les requêtes HTTP, délègue
+    l'exécution de PHP via FastCGI et renvoie la réponse au navigateur.
+    \item[Compte \texttt{IIS\_IUSRS}] — identité sous laquelle le pool d'applications accède
+    aux fichiers ; des droits d'écriture ciblés (dossier \texttt{uploads/}) sont nécessaires pour
+    les pièces jointes.
+    \item[SQL Server Express] — édition allégée du SGBD Microsoft, adaptée à un périmètre
+    service interne ou à un prototype industrialisable ultérieurement.
+\end{description}
+
+\section{Qualité de service informatique (rappel)}
+Les référentiels ITIL distinguent notamment l'\textbf{incident} (interruption ou dégradation de
+service) du \textbf{problème} (cause sous-jacente pouvant générer plusieurs incidents). La
+plateforme GIA se concentre sur la \textbf{gestion opérationnelle des incidents applicatifs} :
+enregistrement, priorisation, traitement et historique — préalable utile à toute démarche de
+gestion des problèmes plus avancée.

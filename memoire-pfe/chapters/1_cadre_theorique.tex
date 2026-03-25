@@ -1,0 +1,327 @@
+\chapter{Cadre Théorique du Système d'Information}
+
+\section{Introduction}
+Avant d'exposer le contexte organisationnel de Naftal et la solution GIA, il convient de
+rappeler les notions qui fondent tout projet de système d'information (SI) en entreprise.
+Ce chapitre prolonge les développements classiques du management des SI — tels qu'on les
+retrouve notamment dans les travaux sur la fonction support et la DCSI au sein de
+Naftal~\cite{meghari2014,ssiouani2010} — et les transpose au périmètre d'un projet
+d'ingénierie logicielle (helpdesk applicatif). Nous y précisons : la nature de l'information, les
+définitions du SI, ses fonctions et composantes, la distinction SI\,/\,informatique, les rôles
+stratégiques, l'organisation de la fonction SI, puis des \textbf{repères} sur le modèle
+d'évaluation fonctionnelle (MEF)~\cite{autissier2008}, utiles pour comprendre pourquoi des
+outils de traçabilité et de pilotage du support s'inscrivent dans une logique de performance des
+fonctions transverses.
+
+\section{De la donnée à l'information, du système au système d'information}
+
+\subsection{Données et information}
+Les auteurs classiques du management des systèmes d'information distinguent habituellement
+la \textbf{donnée}, à l'état brut, de l'\textbf{information}, c'est-à-dire une donnée contextualisée,
+structurée et rendue exploitable pour un décideur ou un opérateur~\cite{reix1995}. Les données
+relèvent d'événements ou de mesures ; l'information naît lorsqu'elles sont organisées de sorte
+que les acteurs puissent les comprendre et agir. Le SI assure précisément cette transformation :
+collecte, mise en forme, stockage et diffusion. Pour l'organisation, la qualité de l'information
+(pertinence, fiabilité, disponibilité, coût maîtrisé) conditionne la qualité des décisions et la
+réactivité face aux incidents ou aux changements.
+
+\subsection{Le système au sens organisationnel}
+Le traitement des flux d'information internes et externes suppose des composantes reliées entre
+elles et orientées vers un objectif commun : on parle alors de \textbf{système}, avec des entrées,
+un traitement et des sorties. On peut modéliser l'entreprise comme un système ouvert : un
+\textbf{système opérant} produit les biens ou services, un \textbf{système de pilotage} fixe les
+objectifs et alloue les moyens, et le \textbf{système d'information} assure la circulation de
+l'information entre ces niveaux et avec l'environnement. Le pilotage transmet des directives à
+l'opérant via le SI ; l'opérant rend compte des réalisations via le même relais. Une défaillance
+du support applicatif ou réseau n'est donc pas un simple « problème technique » : elle rompt la
+chaîne d'information sur laquelle reposent coordination et contrôle.
+
+Dans le cadre du projet GIA, cette logique systémique se traduit par la nécessité de fiabiliser les
+flux d'information entre demandeurs, techniciens et administrateurs, afin de préserver la
+continuité opérationnelle.
+
+\section{Panorama des définitions du système d'information}
+La plupart des définitions mettent l'accent soit sur les \textbf{composantes} (matériel, logiciel,
+personnel, données, procédures), soit sur les \textbf{fonctions} (acquérir, traiter, stocker,
+communiquer). Le tableau~\ref{tab:defsi} en propose une synthèse indicative, sans exhaustivité
+bibliographique, afin de montrer la diversité des angles d'analyse retenus dans la littérature
+francophone (formulations adaptées et condensées).
+
+\begin{table}[H]
+\centering
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+\toprule
+\textbf{Auteurs (indicatif)} & \textbf{Propos central sur le SI} \\
+\midrule
+Vidal, Planeix et al. &
+Ensemble organisé de ressources (matériels, logiciels, personnels, données, procédures)
+permettant d'acquérir, de traiter, de stocker et de communiquer des informations sous
+formes variées (données, textes, images, sons) dans des organisations. \\
+\midrule
+Reix et Rowe (2002) &
+Ensemble d'acteurs sociaux qui mémorisent et transforment des représentations via des
+technologies de l'information et des modes opératoires. \\
+\midrule
+Laudon et Laudon &
+Ensemble de moyens humains, matériels et organisationnels permettant de recueillir, de
+traiter, de stocker et de transmettre l'information au sein d'une organisation. \\
+\midrule
+Kalika et collaborateurs &
+Système intégré utilisateur--machine produisant de l'information pour assister les
+fonctions d'exécution, de gestion et de décision, à l'aide d'équipements, logiciels, bases
+de données, procédures manuelles et modèles d'analyse. \\
+\midrule
+Ngang Bilonga, Jacques &
+Ensemble structuré de données et de moyens techniques pour générer, mémoriser, traiter,
+transférer et exploiter des informations dans un cadre d'objectifs définis. \\
+\midrule
+Le Moigne &
+Fonction consistant à produire et enregistrer les informations représentatives de
+l'activité de l'opération, puis à les mettre à disposition, de manière interactive lorsque
+possible, du système de décision. \\
+\bottomrule
+\end{tabularx}
+\caption{Illustration de définitions du système d'information (synthèse documentaire)}
+\label{tab:defsi}
+\end{table}
+
+À partir de ces approches, nous retenons une définition opérationnelle alignée sur Reix~\cite{reix1995}
+déjà citée en introduction : le SI est un ensemble hétérogène d'éléments humains et techniques,
+en interaction, qui transforme des entrées en sorties informationnelles au service de la gestion.
+Il se caractérise par son hétérogénéité (nature et forme de l'information), sa complexité (flux
+internes et externes) et son caractère évolutif (adaptation au contexte).
+
+Appliquée à GIA, cette définition rappelle que la plateforme ne se limite pas à un logiciel : elle
+structure une organisation du support, des procédures et des responsabilités autour de
+l'information d'incident.
+
+\section{Fonctions et composantes du système d'information}
+
+\subsection{Les quatre fonctions de base}
+On distingue classiquement quatre fonctions, présentes à l'échelle de la plateforme GIA :
+\begin{itemize}
+    \item \textbf{Acquisition :} collecte et saisie — formulaire de ticket, pièces jointes,
+    identification de l'auteur.
+    \item \textbf{Traitement :} application de règles — priorités, statuts, contrôle d'accès,
+    désassignation lors d'un retour en file d'attente.
+    \item \textbf{Stockage :} persistance — base SQL Server, journal d'audit.
+    \item \textbf{Communication / diffusion :} mise à disposition via l'intranet — listes,
+    tableaux de bord, historique chronologique.
+\end{itemize}
+L'objectif est de préserver, exploiter et échanger l'information pour automatiser des tâches
+répétables ou fournir aux utilisateurs les éléments nécessaires à une action rapide et éclairée.
+
+La plateforme GIA incarne précisément ces quatre fonctions : elle acquiert les données via le
+formulaire de ticket, les traite selon les règles métier (priorité, assignation, statut), les
+stocke dans SQL Server et les diffuse via l'intranet aux acteurs concernés.
+
+\subsection{Les composantes}
+Un SI mobilise des \textbf{ressources humaines} : utilisateurs et cadres qui consomment ou
+produisent l'information, et spécialistes (concepteurs, analystes, exploitants) qui conçoivent
+et font fonctionner le dispositif. Les \textbf{moyens matériels} couvrent postes, serveurs,
+réseaux et supports d'information. Les \textbf{moyens logiciels} regroupent programmes
+d'application et d'infrastructure ainsi que les \textbf{procédures} (saisie, contrôles,
+corrections). Les \textbf{données} constituent la matière première structurée (identités,
+tickets, journaux). Le SI ne résulte pas de la juxtaposition de ces briques : il suppose une
+construction visant explicitement les objectifs des utilisateurs futurs.
+
+\section{Système d'information, informatique, maîtrise d'ouvrage et maîtrise d'œuvre}
+L'\textbf{informatique} désigne souvent l'outil, le centre de coûts techniques, la maîtrise des
+langages et du paramétrage. Le \textbf{système d'information} renvoie à une vision plus globale :
+philosophie de gestion, chaîne de valeur informationnelle, processus et acteurs. La relation est
+fréquemment qualifiée de \emph{demande} / \emph{offre} ou de client / fournisseur. La
+\textbf{maîtrise d'ouvrage (MOA)} est responsable de l'efficacité organisationnelle et des méthodes
+de travail autour du SI ; elle s'appuie sur une \textbf{maîtrise d'œuvre (MŒ)} interne ou externe
+pour obtenir matériels, logiciels et services. Les informaticiens relèvent typiquement de la MŒ ;
+la définition des besoins métier et la valeur créée relèvent davantage de la MOA et des directions
+opérationnelles. Un helpdesk applicatif comme GIA matérialise cette articulation : les métiers
+expriment le besoin de traçabilité ; la réalisation technique en découle.
+
+\section{Déterminants de l'intensité d'usage des systèmes d'information}
+La littérature retient souvent trois familles de facteurs : (1) la \textbf{taille} de l'entreprise —
+plus elle est grande, plus le recours au SI est fréquent ; (2) le caractère \textbf{immatériel} de
+l'activité — davantage d'information à traiter ; (3) le degré d'\textbf{internationalisation} —
+SI plus élaboré pour coordonner des périmètres étendus. Naftal combine grande taille nationale,
+activités logistiques et commerciales fortement informatisées et enjeux de groupe : l'intensité
+d'usage du SI et les attentes en matière de support sont élevées.
+
+\section{Typologies des systèmes d'information}
+Les SI se classent selon plusieurs critères (niveau de décision, fonction métier, finalité).
+Le tableau~\ref{tab:typosi} en donne une grille classique, utile pour situer GIA : il s'agit
+principalement d'un système d'appui à l'\textbf{exploitation} et à la \textbf{gestion des anomalies}
+au sein de la fonction maintenance applicative / relation utilisateurs, avec des effets sur le
+pilotage (KPIs).
+
+\begingroup
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.15}
+\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.34\textwidth}>{\raggedright\arraybackslash}p{0.62\textwidth}@{}}
+\caption{Typologies usuelles des systèmes d'information (adaptation documentaire)\label{tab:typosi}} \\
+\toprule
+\textbf{Critère / type} & \textbf{Rôle attendu} \\
+\midrule
+\endfirsthead
+\multicolumn{2}{c}{\tablename\ \thetable{} — \textit{suite}} \\
+\toprule
+\textbf{Critère / type} & \textbf{Rôle attendu} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{2}{r}{\textit{Suite page suivante}} \\
+\endfoot
+\bottomrule
+\endlastfoot
+Systèmes du niveau \textbf{stratégique} &
+Aider les cadres supérieurs à traiter des questions de long terme et à réagir aux tendances
+de l'entreprise et de son environnement. \\
+Systèmes du niveau \textbf{gestion} &
+Soutenir les cadres intermédiaires dans le suivi, le contrôle, la décision non routinière et
+l'administration. \\
+Systèmes du niveau \textbf{opérations} &
+Aider les cadres opérationnels à suivre activités et transactions élémentaires (ventes, paie,
+etc.). \\
+Système d'information \textbf{marketing} &
+Produire un flux d'information structuré, interne et externe, au service des décisions
+marketing. \\
+Système d'information de \textbf{production} &
+Organiser les activités de production pour satisfaire les commandes. \\
+Système d'information \textbf{comptable / financier} &
+Formaliser la gouvernance financière et la traçabilité des flux monétaires. \\
+Système d'information des \textbf{RH} &
+Couvrir le domaine des ressources humaines (paie, compétences, formation, etc.). \\
+Système d'information pour \textbf{dirigeants} &
+Fournir une vision synthétique et actualisée des activités et opérations. \\
+Système d'information de \textbf{gestion du SI} &
+Identifier les activités liées au pilotage du SI lui-même et aux métiers associés. \\
+Système d'information d'\textbf{aide à la décision} &
+Suivi opérationnel, conservation de l'historique, production de statistiques et de rapports. \\
+Système de \textbf{traitement des transactions} &
+Garantir des propriétés informatiques fortes (cohérence, intégrité) sur les données
+transactionnelles. \\
+\end{longtable}
+\endgroup
+
+\section{Rôles stratégiques du système d'information}
+Au-delà de l'automatisation, le SI joue au moins trois rôles structurants.
+
+\subsection{Instrument de partage et de connexion}
+L'efficacité de la décision et la rapidité de réaction dépendent de la qualité du partage :
+rapidité de transmission, fiabilité (limitation des « bruits » et déformations), complétude
+(absence d'omissions qui biaiseraient la décision) et adéquation au besoin du destinataire selon
+sa fonction.
+
+\subsection{Mémoire de l'organisation}
+Une organisation qui perd sa mémoire perd une partie de son savoir et de son savoir-faire.
+Capitaliser les informations — et les restituer au bon moment — est une fonction explicitement
+assumée par les bases de données et, dans notre cas, par le journal \texttt{incident\_logs}.
+
+La table \texttt{incident\_logs} de GIA joue exactement ce rôle de mémoire organisationnelle :
+chaque action est horodatée et attribuée, constituant un historique permanent opposable lors d'un
+audit.
+
+\subsection{Instrument de mise en forme}
+Le SI doit fournir l'information sous une forme compréhensible et adaptée au niveau
+hiérarchique : tableaux de bord pour l'administrateur, vues filtrées pour le technicien, suivi
+personnel pour le déclarant.
+
+\section{Acteurs internes de la fonction système d'information}
+Les entreprises mobilisent une diversité de métiers : \textbf{programmeurs} (instructions
+logicielles), \textbf{analystes} (traduction des besoins métiers en exigences d'information),
+\textbf{gestionnaires de SI} (encadrement des équipes, projets, infrastructures,
+télécommunications, bases de données), \textbf{superviseurs} des opérations et de la saisie,
+\textbf{spécialistes externes} (constructeurs, éditeurs, consultants). Les \textbf{utilisateurs
+finaux}, hors service SI, participent de plus en plus à la conception. Dans les grandes
+structures, un \textbf{responsable du SI} de haut niveau peut piloter l'usage stratégique des
+technologies ; des rôles spécialisés (sécurité, connaissances, protection des données) complètent
+souvent l'organigramme. Le service SI agit aussi comme \textbf{agent de changement} : nouvelles
+stratégies, produits et services fondés sur l'information.
+
+\section{Formes d'organisation de la fonction SI}
+Trois schémas reviennent fréquemment dans la littérature. (1) Structure \textbf{décentralisée} :
+chaque grande fonction (marketing, production, etc.) possède son propre service SI — réactivité
+métier mais risque d'incompatibilités technologiques et de surcoûts. (2) Service SI
+\textbf{centralisé} : une direction unique arbitre les choix pour l'ensemble de l'entreprise —
+meilleure cohérence et plans de développement à long terme. (3) Modèle \textbf{hybride} :
+divisions autonomes mais soumises à un noyau central qui fixe normes, achats et orientations
+d'architecture. Naftal illustre une combinaison de \textbf{pilotage central} (DCSI) et de
+\textbf{réalités de terrain} par branches.
+
+\section{Missions usuelles de la direction des systèmes d'information}
+La direction des SI interagit avec la direction générale et les métiers. Elle assure en pratique
+la coordination transversale, le contrôle des acteurs internes et externes, la proposition
+d'évolutions alignées sur l'organisation, la cohérence stratégique et la rationalisation
+technico-budgétaire. Sur le plan organisationnel, on retrouve souvent une \textbf{cellule
+études / projets} (applications, maintenance applicative), une \textbf{cellule exploitation}
+(mise à disposition des services, support bureautique et applicatif) et une \textbf{cellule
+infrastructure et télécommunications} (réseaux, messagerie). La centralisation ou la
+décentralisation de ces cellules dépend de la taille et du modèle du groupe.
+
+\section{Profil du directeur des systèmes d'information}
+Le directeur des SI doit combiner compétences technologiques, communicationnelles et
+manageriales : fixer les orientations fonctionnelles et la stratégie SI, superviser conception,
+mise en œuvre et maintien en conditions opérationnelles (qualité, sécurité, coûts, délais),
+piloter des projets, gérer les budgets. L'activité s'exerce en lien avec prestataires, MOA, MŒ
+et direction générale, avec des variations selon la structure.
+
+\section{Le modèle d'évaluation fonctionnelle (MEF) : repères}
+La fonction SI est une \textbf{fonction support} : elle ne constitue pas un centre de profit mais
+contribue à la valeur par les services rendus aux métiers. Évaluer sa performance ne se réduit pas
+à des ratios financiers ; le \textbf{modèle d'évaluation fonctionnelle (MEF)}~\cite{autissier2008}
+propose une lecture en \textbf{quatre pôles} — activités, compétences, organisation, satisfaction
+des clients internes — permettant des diagnostics comparés à un référentiel et l'identification de
+pistes d'amélioration (questionnaires et baromètres dans les études de terrain).
+
+Le pôle \textbf{activités} s'appuie sur un référentiel décrivant ce que la fonction SI doit
+accomplir. Dans la version appliquée à la fonction SI, on distingue notamment cinq
+\textbf{rubriques métiers}~\cite{autissier2008,meghari2014} :
+\begin{enumerate}
+    \item \textbf{Pilotage du département SI} — stratégie, schéma directeur, veille, tableaux de
+    bord de la fonction, gestion de la sous-traitance, management de la performance SI.
+    \item \textbf{Gestion de la relation avec les utilisateurs} — accompagnement au changement,
+    support utilisateurs, communication, formation, gestion du niveau de service.
+    \item \textbf{Développement applicatif} — projets d'informatisation, intégration, évolution
+    des applications métiers.
+    \item \textbf{Maintenance applicative} — suivi d'exploitation, \textbf{gestion des anomalies},
+    documentation, qualité et éthique des traitements.
+    \item \textbf{Gestion de l'infrastructure technique} — postes, serveurs, stockage, réseaux,
+    télécoms, sécurité.
+\end{enumerate}
+
+Selon le référentiel MEF tel que présenté dans les travaux appliqués à la DCSI~\cite{meghari2014},
+chaque rubrique se décline en \textbf{pratiques} puis en \textbf{activités} élémentaires (l'ordre
+de grandeur usuel est de l'ordre de vingt pratiques et quatre-vingts activités pour le seul
+référentiel «\,fonction SI\,», selon la version du questionnaire). À titre illustratif, sans visée
+normative pour ce PFE, on retrouve notamment sous le \emph{pilotage} : stratégie et schéma
+directeur, gestion de la sous-traitance, management de la performance SI, veille et audit ; sous
+la \emph{relation utilisateurs} : accompagnement du changement, support utilisateurs, communication,
+formation ; sous le \emph{développement applicatif} : conduite de projets d'informatisation et
+intégration ; sous la \emph{maintenance applicative} : suivi d'exploitation, \textbf{gestion des
+anomalies}, documentation, qualité ; sous l'\emph{infrastructure} : postes et serveurs, stockage,
+réseaux et télécoms, sécurité. Cette granularité montre que la simple mise en place d'un outil de
+ticketing ne «\,résout\,» qu'une fraction explicite du référentiel — mais une fraction
+\textbf{structurante} pour la mesure et l'amélioration continue.
+
+\medskip
+\noindent\textbf{Lien avec le présent mémoire.} Le projet GIA ne constitue pas une application
+empirique du MEF (pas d'administration des questionnaires ni de baromètres dans le cadre de ce
+PFE). En revanche, le référentiel ci-dessus \textbf{justifie} la pertinence d'un outil dédié à la
+\textbf{gestion des incidents applicatifs} et à la \textbf{relation utilisateurs} : sans
+traçabilité ni indicateurs, le pôle «\,maintenance applicative\,» et la satisfaction des «\,clients
+internes\,» des branches restent difficiles à piloter. La plateforme GIA répond précisément à ce
+manque opérationnel identifié au sein du Groupe Informatique de la Branche Carburants.
+
+\section{Enjeux contemporains et gestion des incidents}
+La densification des applications, la dépendance aux réseaux et les référentiels de bonnes
+pratiques (ITIL, ISO~20000, etc., cités comme cadres conceptuels) recommandent la formalisation
+des incidents, la priorisation et le suivi des délais. GIA matérialise ces principes sur un
+périmètre ciblé : incidents applicatifs, cycle de vie explicite et journal d'audit.
+
+\section{Conclusion}
+Ce chapitre a posé les fondations conceptuelles — définitions, typologies, acteurs, organisation
+de la fonction SI — et a situé le projet dans la continuité des travaux sur Naftal et la DCSI.
+Les repères MEF rappellent que le support et la gestion des anomalies sont une composante à part
+entière de la performance du système d'information d'entreprise. Le chapitre suivant présente
+Naftal, son environnement, la DCSI au niveau opérationnel et l'étude de l'existant ayant motivé
+GIA.

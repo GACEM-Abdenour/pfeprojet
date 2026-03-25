@@ -1,6 +1,4 @@
-# Database Schema & Data Dictionary — GIA
-
-# Schéma de base de données & dictionnaire de données — GIA
+# Schéma de base de données et dictionnaire de données — GIA
 
 
 **Objectif :** Décrire le **squelette** du système : tables, colonnes, clés et liens entre elles. Utilisez les **tables Markdown** ci‑dessous dans la thèse ; utilisez le bloc **dbdiagram.io** à la fin pour générer un MCD/ERD visuel.
@@ -176,8 +174,9 @@ Table attachments {
 }
 ```
 
-> **Tip:** In dbdiagram.io you can tweak colors and export PNG/PDF for slides.
+> **Astuce :** sur [dbdiagram.io](https://dbdiagram.io), vous pouvez ajuster les couleurs et exporter un **PNG** ou **PDF** pour le mémoire ou les slides.
 
 ---
 
-*Derived from `database/schema.sql`.*
+*Document dérivé du schéma SQL du projet (`database/schema.sql` lorsqu’il est présent dans le dépôt).*
+
