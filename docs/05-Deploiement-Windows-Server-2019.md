@@ -15,6 +15,8 @@
 
 En **développement**, on peut utiliser **Windows 11** + PHP en local ; en **production**, le mémoire parle de **Windows Server 2019** + **IIS**.
 
+> **Alternative pour tester sans IIS :** le dépôt propose **Docker** (PHP + Apache + SQL Server Linux) — voir **`10-Comptes-demonstration-et-Docker.md`**. Ce n’est pas identique à la stack « Naftal » du mémoire, mais permet de faire tourner l’application rapidement.
+
 ---
 
 ## 2. Machine virtuelle (recommandé pour les tests)

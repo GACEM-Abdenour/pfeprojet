@@ -59,7 +59,7 @@
 ### Test 4: Admin Login
 **Test Data:**
 - Username: `admin`
-- Password: `admin123`
+- Password: `password`
 
 **Expected:**
 - Successful login
@@ -77,7 +77,7 @@
 ### Test 5: Technician Login
 **Test Data:**
 - Username: `tech1`
-- Password: `tech123`
+- Password: `password`
 
 **Expected:**
 - Successful login
@@ -93,7 +93,7 @@
 ### Test 6: Reporter Login
 **Test Data:**
 - Username: `reporter1`
-- Password: `user123`
+- Password: `password`
 
 **Expected:**
 - Successful login

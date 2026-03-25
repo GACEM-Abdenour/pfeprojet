@@ -23,9 +23,11 @@ http://localhost:8000/pages/login.php
 ```
 
 ### 5. Login
-- **Admin:** `admin` / `admin123`
-- **Technician:** `tech1` / `tech123`
-- **Reporter:** `reporter1` / `user123`
+All demo accounts use the same password: **`password`**.
+
+- **Admin:** `admin`
+- **Technicians:** `tech1`, `tech2`
+- **Reporters:** `reporter1`, `reporter2`
 
 ---
 
@@ -33,12 +35,11 @@ http://localhost:8000/pages/login.php
 
 | Username | Password | Role | Dashboard |
 |----------|----------|------|-----------|
-| admin | admin123 | Admin | admin_dashboard.php |
-| tech1 | tech123 | Technician | tech_dashboard.php |
-| tech2 | tech123 | Technician | tech_dashboard.php |
-| reporter1 | user123 | Reporter | create_ticket.php |
-| reporter2 | user123 | Reporter | create_ticket.php |
-| manager1 | manager123 | Admin | admin_dashboard.php |
+| admin | password | Admin | admin_dashboard.php |
+| tech1 | password | Technician | tech_dashboard.php |
+| tech2 | password | Technician | tech_dashboard.php |
+| reporter1 | password | Reporter | create_ticket.php |
+| reporter2 | password | Reporter | create_ticket.php |
 
 ---
 

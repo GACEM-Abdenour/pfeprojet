@@ -1797,9 +1797,7 @@ php -S localhost:8000
 See `TEST_DATA.md` for complete list.
 
 **Quick Reference:**
-- Admin: `admin` / `admin123`
-- Technician: `tech1` / `tech123`
-- Reporter: `reporter1` / `user123`
+- All demo users (`admin`, `tech1`, `tech2`, `reporter1`, `reporter2`): password `password`
 
 ### Key Files
 

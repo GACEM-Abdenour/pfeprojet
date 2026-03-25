@@ -4,6 +4,7 @@
 docs/DEVELOPER_DEPLOYMENT_GUIDE.md
 # Local config overrides
 includes/config.php
+.env
 # Uploaded files
 uploads/*
 !uploads/index.html

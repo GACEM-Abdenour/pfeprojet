@@ -202,7 +202,7 @@ Stop-Service "MSSQL$SQLEXPRESS"
 
 4. **Test login:**
    - Open: http://localhost:8000/pages/login.php
-   - Login with: `admin` / `admin123`
+   - Login with: `admin` / `password` (all demo users use password `password`)
 
 ---
 

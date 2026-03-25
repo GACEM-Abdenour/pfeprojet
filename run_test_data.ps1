@@ -95,9 +95,7 @@ if ($sqlcmd) {
 }
 
 Write-Host ""
-Write-Host "Test credentials:" -ForegroundColor Cyan
-Write-Host "  Admin: admin / admin123" -ForegroundColor White
-Write-Host "  Technician: tech1 / tech123" -ForegroundColor White
-Write-Host "  Reporter: reporter1 / user123" -ForegroundColor White
+Write-Host "Test credentials (all accounts):" -ForegroundColor Cyan
+Write-Host "  Password for admin, tech1, tech2, reporter1, reporter2: password" -ForegroundColor White
 Write-Host ""
-Write-Host "NOTE: Passwords use test hash. For production login, use PHP password_hash()" -ForegroundColor Yellow
+Write-Host "NOTE: Demo passwords are for local/testing only. Use PHP password_hash() in production." -ForegroundColor Yellow

@@ -12,11 +12,22 @@ Application web interne pour la **déclaration**, le **suivi** et la **résoluti
 
 | Document | Description |
 |----------|-------------|
+| **[Comptes de démonstration + Docker](docs/10-Comptes-demonstration-et-Docker.md)** | **Identifiants** (admin, technicien, reporter) et déploiement avec **Docker Compose** (PHP + SQL Server). |
 | **[Lire en premier](docs/00-LIRE-EN-PREMIER.md)** | Par où commencer (ordre de lecture). |
 | **[Index complet `docs/`](docs/README.md)** | Table des matières : architecture, cycle de vie, BDD, glossaire, **sécurité / règles métier**, alignement avec le **mémoire**. |
 | **[Architecture — soutenance (FR)](docs/THESIS_ARCHITECTURE.md)** | Synthèse unique : 3-tiers, pourquoi **Windows Server**, cycle de vie, schéma BDD — pour un **public non technique**. |
 | **[Déploiement Windows Server 2019 + IIS + PHP + SQL Server](docs/05-Deploiement-Windows-Server-2019.md)** | **Guide détaillé** d’installation serveur (correspond au chapitre *Réalisation* du mémoire). |
 | **`memoire-pfe/`** | Mémoire LaTeX / PDF — **référence académique** attendue par les enseignants. |
+
+### Docker (démarrage rapide)
+
+```bash
+cp .env.example .env
+# Éditer .env : définir MSSQL_SA_PASSWORD (mot de passe fort)
+docker compose up --build
+```
+
+Puis ouvrir **http://localhost:8080** et se connecter avec les comptes décrits dans **`docs/10-Comptes-demonstration-et-Docker.md`**.
 
 ---
 

@@ -9,23 +9,14 @@
 require_once __DIR__ . '/includes/db.php';
 
 // Database configuration (same as db.php but without DB_NAME for initial connection)
-$host = DB_SERVER;
 $dbName = DB_NAME;
-$user = DB_USER;
-$pass = DB_PASS;
 
 echo "=== GIA Incident Management Platform - Database Setup ===\n\n";
 
 try {
     // Step 1: Connect to SQL Server without specifying a database
     echo "Step 1: Connecting to SQL Server...\n";
-    $dsn = "sqlsrv:Server=" . $host . ";CharacterSet=UTF-8";
-    $options = [
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::SQLSRV_ATTR_ENCODING => PDO::SQLSRV_ENCODING_UTF8
-    ];
-    
-    $pdo = new PDO($dsn, $user, $pass, $options);
+    $pdo = gia_pdo_connect(null);
     echo "✓ Connected to SQL Server successfully\n\n";
     
     // Step 2: Create database if it doesn't exist
@@ -40,8 +31,7 @@ try {
     
     // Step 3: Connect to the specific database
     echo "Step 3: Connecting to database '{$dbName}'...\n";
-    $dsn = "sqlsrv:Server=" . $host . ";Database=" . $dbName . ";CharacterSet=UTF-8";
-    $pdo = new PDO($dsn, $user, $pass, $options);
+    $pdo = gia_pdo_connect($dbName);
     echo "✓ Connected to database '{$dbName}'\n\n";
     
     // Step 4: Read and execute schema.sql

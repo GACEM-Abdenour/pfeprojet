@@ -227,7 +227,7 @@ Full details are in `RUN_LOCALHOST.md` and `QUICK_START.md`. Very short version:
    - Visit `http://localhost:8000/pages/login.php`.
 
 4. **Use test accounts**
-   - Look at `TEST_DATA.md` or `QUICK_START.md` for usernames and passwords (e.g., `admin` / `admin123`, `tech1` / `tech123`, `reporter1` / `user123`).
+   - Look at `TEST_DATA.md` or `QUICK_START.md` for usernames; all listed accounts use the password `password`.
 
 ---
 

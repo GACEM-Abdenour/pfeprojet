@@ -26,49 +26,45 @@ try {
     // 1. Insert Test Users
     // ============================================
     echo "Step 1: Inserting test users...\n";
-    
+
+    /** Mot de passe unique pour tous les comptes de démonstration (à changer en production). */
+    $demoPassword = 'password';
+
     $users = [
         [
             'username' => 'admin',
             'email' => 'admin@naftal.dz',
-            'password' => 'admin123',
+            'password' => $demoPassword,
             'role' => 'Admin',
             'department' => 'Groupe Informatique'
         ],
         [
             'username' => 'tech1',
             'email' => 'tech1@naftal.dz',
-            'password' => 'tech123',
+            'password' => $demoPassword,
             'role' => 'Technician',
             'department' => 'Support IT'
         ],
         [
             'username' => 'tech2',
             'email' => 'tech2@naftal.dz',
-            'password' => 'tech123',
+            'password' => $demoPassword,
             'role' => 'Technician',
             'department' => 'Support IT'
         ],
         [
             'username' => 'reporter1',
             'email' => 'reporter1@naftal.dz',
-            'password' => 'user123',
+            'password' => $demoPassword,
             'role' => 'Reporter',
             'department' => 'Branche Carburants'
         ],
         [
             'username' => 'reporter2',
             'email' => 'reporter2@naftal.dz',
-            'password' => 'user123',
+            'password' => $demoPassword,
             'role' => 'Reporter',
             'department' => 'Branche Carburants'
-        ],
-        [
-            'username' => 'manager1',
-            'email' => 'manager1@naftal.dz',
-            'password' => 'manager123',
-            'role' => 'Admin',
-            'department' => 'Direction Générale'
         ]
     ];
     

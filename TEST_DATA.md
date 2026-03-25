@@ -17,7 +17,6 @@
 | Username | Password | Email | Role | Department |
 |----------|----------|-------|------|------------|
 | **admin** | `password` | admin@naftal.dz | Admin | Groupe Informatique |
-| **manager1** | `password` | manager1@naftal.dz | Admin | Direction Générale |
 
 ### Technician Users
 
@@ -178,19 +177,19 @@
 ## 🎯 Testing Scenarios
 
 ### Scenario 1: Admin Login
-1. Login as `admin` / `admin123`
+1. Login as `admin` / `password`
 2. Should redirect to `admin_dashboard.php`
 3. Can view all incidents and statistics
 
 ### Scenario 2: Technician Login
-1. Login as `tech1` / `tech123`
+1. Login as `tech1` / `password`
 2. Should redirect to `tech_dashboard.php`
 3. Can see assigned incidents (#1, #4, #7)
 4. Can see unassigned incidents (#2, #5)
 5. Can take tickets and update status
 
 ### Scenario 3: Reporter Login
-1. Login as `reporter1` / `user123`
+1. Login as `reporter1` / `password`
 2. Should redirect to `create_ticket.php`
 3. Can create new incidents
 4. Can view own incidents (#1, #3, #5, #7)

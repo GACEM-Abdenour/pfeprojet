@@ -9,8 +9,9 @@ Elle est **alignée** sur le mémoire LaTeX du dossier **`memoire-pfe/`** : ce q
 ## Par où commencer ?
 
 1. Lire **`00-LIRE-EN-PREMIER.md`** (orientation et ordre de lecture).
-2. Enchaîner avec **`07-Contexte-metier-et-alignement-memoire.md`** (lien mémoire ↔ code).
-3. Si vous déployez sur un serveur : **`05-Deploiement-Windows-Server-2019.md`** (IIS, PHP, SQL Server — **indispensable** pour correspondre au chapitre Réalisation du mémoire).
+2. **Pour vous connecter** (identifiants de démo) et **lancer Docker** : **`10-Comptes-demonstration-et-Docker.md`**.
+3. Enchaîner avec **`07-Contexte-metier-et-alignement-memoire.md`** (lien mémoire ↔ code).
+4. Déploiement **Windows Server / IIS** : **`05-Deploiement-Windows-Server-2019.md`** (chapitre Réalisation du mémoire).
 
 ---
 
@@ -28,6 +29,7 @@ Elle est **alignée** sur le mémoire LaTeX du dossier **`memoire-pfe/`** : ce q
 | **[06-Structure-du-projet-et-roles.md](./06-Structure-du-projet-et-roles.md)** | Dossiers **`pages/`**, **`actions/`**, **`includes/`**, rôles utilisateurs. |
 | **[05-Deploiement-Windows-Server-2019.md](./05-Deploiement-Windows-Server-2019.md)** | **Guide complet** : IIS, FastCGI, PHP NTS, SQL Server Express, extensions `sqlsrv`, droits **`uploads/`**, checklist. |
 | **[09-Connexion-base-de-donnees.md](./09-Connexion-base-de-donnees.md)** | Chaînes de connexion PHP / SQL Server (résumé pratique). |
+| **[10-Comptes-demonstration-et-Docker.md](./10-Comptes-demonstration-et-Docker.md)** | **Identifiants de connexion** (admin, tech, reporter) + **Docker Compose** (stack complète). |
 | **[04-Technical-Glossary.md](./04-Technical-Glossary.md)** | Glossaire (CRUD, session, PDO, PK/FK, etc.). |
 
 ---

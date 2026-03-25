@@ -1,0 +1,40 @@
+# GIA — stack de démonstration : application PHP + SQL Server 2022 (Linux)
+# Usage :
+#   cp .env.example .env
+#   # éditer .env : définir MSSQL_SA_PASSWORD (mot de passe fort obligatoire pour SQL Server)
+#   docker compose up --build
+# Puis ouvrir http://localhost:8080  (voir docs/10-Comptes-demonstration-et-Docker.md)
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: gia-sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:?Définir MSSQL_SA_PASSWORD dans le fichier .env}"
+    ports:
+      - "${SQL_PORT:-1433}:1433"
+    volumes:
+      - gia_mssql_data:/var/opt/mssql
+
+  web:
+    build: .
+    container_name: gia-web
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    environment:
+      DB_SERVER: db
+      DB_NAME: GIA_IncidentDB
+      DB_USER: sa
+      DB_PASS: "${MSSQL_SA_PASSWORD:?}"
+      MSSQL_SA_PASSWORD: "${MSSQL_SA_PASSWORD:?}"
+      DB_USE_WINDOWS_AUTH: "false"
+      DB_TRUST_SERVER_CERT: "true"
+    depends_on:
+      - db
+    volumes:
+      - gia_uploads:/var/www/html/uploads
+
+volumes:
+  gia_mssql_data:
+  gia_uploads:

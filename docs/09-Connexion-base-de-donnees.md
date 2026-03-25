@@ -2,6 +2,8 @@
 
 **Objectif :** expliquer **simplement** comment l’application se connecte à **Microsoft SQL Server**, en cohérence avec le mémoire et le fichier **`includes/db.php`**. Pour plus de détails techniques (PowerShell, SSMS, `sqlcmd`), voir aussi **`CONNECTION_STRINGS.md`** à la **racine** du dépôt.
 
+**Avec Docker :** serveur = `db`, utilisateur SQL = `sa`, mot de passe = variable **`MSSQL_SA_PASSWORD`** (voir **`10-Comptes-demonstration-et-Docker.md`**). Le fichier **`includes/config.docker.php`** active **`TrustServerCertificate`** pour le conteneur SQL Server.
+
 ---
 
 ## 1. Informations dont vous avez besoin

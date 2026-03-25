@@ -17,6 +17,7 @@ C’est ce qui est décrit dans le mémoire LaTeX du dossier **`memoire-pfe/`**.
 
 | Ordre | Document | À quoi ça sert |
 |------:|----------|----------------|
+| 0 | **[10-Comptes-demonstration-et-Docker.md](./10-Comptes-demonstration-et-Docker.md)** | **Se connecter** (login / mots de passe) + **Docker** |
 | 1 | **[00-LIRE-EN-PREMIER.md](./00-LIRE-EN-PREMIER.md)** (ce fichier) | Orientation |
 | 2 | **[README.md](./README.md)** | Table des matières et checklist soutenance |
 | 3 | **[07-Contexte-metier-et-alignement-memoire.md](./07-Contexte-metier-et-alignement-memoire.md)** | Lien entre le mémoire et le code |

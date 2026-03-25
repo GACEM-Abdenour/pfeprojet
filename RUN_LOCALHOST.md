@@ -164,9 +164,9 @@ See `TEST_DATA.md` for complete list. Quick reference:
 
 | Role | Username | Password | Redirects To |
 |------|----------|----------|--------------|
-| Admin | `admin` | `admin123` | `admin_dashboard.php` |
-| Technician | `tech1` | `tech123` | `tech_dashboard.php` |
-| Reporter | `reporter1` | `user123` | `create_ticket.php` |
+| Admin | `admin` | `password` | `admin_dashboard.php` |
+| Technician | `tech1`, `tech2` | `password` | `tech_dashboard.php` |
+| Reporter | `reporter1`, `reporter2` | `password` | `create_ticket.php` |
 
 ### 4.3 Expected Behavior
 

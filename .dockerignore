@@ -1,0 +1,14 @@
+.git
+.github
+.idea
+.env
+.env.*
+!.env.example
+includes/config.php
+memoire-pfe
+docs
+node_modules
+**/*.aux
+**/*.log
+**/*.out
+**/*.toc

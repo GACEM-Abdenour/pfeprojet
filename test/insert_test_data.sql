@@ -10,7 +10,7 @@ GO
 -- DELETE FROM incident_logs;
 -- DELETE FROM attachments;
 -- DELETE FROM incidents;
--- DELETE FROM users WHERE username IN ('admin', 'tech1', 'tech2', 'reporter1', 'reporter2', 'manager1');
+-- DELETE FROM users WHERE username IN ('admin', 'tech1', 'tech2', 'reporter1', 'reporter2');
 -- GO
 
 -- ============================================
@@ -31,15 +31,6 @@ BEGIN
 END
 ELSE
     PRINT 'User admin already exists';
-
-IF NOT EXISTS (SELECT 1 FROM users WHERE username = 'manager1')
-BEGIN
-    INSERT INTO users (username, email, password_hash, role, department, created_at)
-    VALUES ('manager1', 'manager1@naftal.dz', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Admin', 'Direction Générale', GETDATE());
-    PRINT 'Created user: manager1';
-END
-ELSE
-    PRINT 'User manager1 already exists';
 
 -- Technician Users
 IF NOT EXISTS (SELECT 1 FROM users WHERE username = 'tech1')
@@ -271,10 +262,8 @@ PRINT '- Incidents: Check with: SELECT COUNT(*) FROM incidents';
 PRINT '- Attachments: Check with: SELECT COUNT(*) FROM attachments';
 PRINT '- Logs: Check with: SELECT COUNT(*) FROM incident_logs';
 PRINT '';
-PRINT 'Test Credentials:';
-PRINT '  Admin: admin / admin123';
-PRINT '  Technician: tech1 / tech123';
-PRINT '  Reporter: reporter1 / user123';
+PRINT 'Test Credentials (all users): password';
+PRINT '  admin, tech1, tech2, reporter1, reporter2';
 PRINT '';
 PRINT 'NOTE: These passwords use a test hash. For production, use PHP password_hash()';
 PRINT '';
