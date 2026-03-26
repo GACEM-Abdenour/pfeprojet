@@ -31,6 +31,7 @@ Elle est **alignée** sur le mémoire LaTeX du dossier **`memoire-pfe/`** : ce q
 | **[09-Connexion-base-de-donnees.md](./09-Connexion-base-de-donnees.md)** | Chaînes de connexion PHP / SQL Server (résumé pratique). |
 | **[10-Comptes-demonstration-et-Docker.md](./10-Comptes-demonstration-et-Docker.md)** | **Identifiants de connexion** (admin, tech, reporter) + **Docker Compose** (stack complète). |
 | **[04-Technical-Glossary.md](./04-Technical-Glossary.md)** | Glossaire (CRUD, session, PDO, PK/FK, etc.). |
+| **[DOC_PUML_GIA.md](./DOC_PUML_GIA.md)** | Documentation des diagrammes PlantUML (`usecase_gia`, `sequence_gia`, `class_gia`). |
 
 ---
 
